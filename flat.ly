@@ -240,7 +240,7 @@ onceStem =
         \\{s2 cis' e' d'4 c'}
         >> | <<
           {fis'2 e' b cis'}
-        \\{b2 a g fis'}
+        \\{b2 a g fis}
         >> | <<
           {dis'2 fis' <fis fis'>1}
         \\{e2 s cis' b}         
