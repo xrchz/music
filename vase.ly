@@ -6,18 +6,8 @@
 	dedication="for Emma Walsh"
   subtitle="Embodying the wish of eternal pain for Delia Wang"
 	piece = "forget played accidentals"
-	mutopiatitle = "Vase"
-	mutopiacomposer = "KumarR"
-	mutopiainstrument = "Piano"
 	date = "2006"
-	source = "Original composition"
-	style = "Romantic"
 	copyright = "Creative Commons Attribution-ShareAlike 3.0"
-	maintainer = "Ramana Kumar"
-	maintainerEmail = "ramana.kumar@gmail.com"
-	lastupdated = "2008/January/13"
- footer = "Mutopia-2008/01/13-1267"
- tagline = ""
 }
 
 #(ly:set-option 'point-and-click #f)
