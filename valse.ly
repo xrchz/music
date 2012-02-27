@@ -1,4 +1,4 @@
-\version "2.6.5"
+\version "2.14.0"
 
 \header {
 	title = "Valse"
@@ -93,15 +93,15 @@
 			<< {
 				\partial 4*1 r4 |
 				s4 <fes aes>2 |
-				s4 <f aes> r\sustainUp |
+				s4 <f aes> r\sustainOff |
 				s4 <fes aes>2 |
-				s4 <f a> s\sustainUp |
+				s4 <f a> s\sustainOff |
 				s4 <c' e'>2 |
 				s4 <c' f'>2 |
 				s4 <b f'>2 |
-				s4 <e bes> r\sustainUp |
+				s4 <e bes> r\sustainOff |
 				s4 <fes aes>2 |
-				s4 <f aes> r\sustainUp |
+				s4 <f aes> r\sustainOff |
 				s4 <fes aes>2 |
 				s4 <f a>2 |
 				s4 <bes des'>2 |
@@ -110,7 +110,7 @@
 				s4 aes ces' |
 				s4 <aes c'>2 |
 				s4 f aes |
-				s4 aes ges\sustainUp |
+				s4 aes ges\sustainOff |
 				s4 <f aes> <ees a> |
 				s4 <des' f'> <bes des'> |
 				s4 <aes ees'> <g e'> |
@@ -125,13 +125,13 @@
 				s4 <ees' f'> <bes des'> |
 				s4 <c bes> r |
 				s4 <fes aes>2 |
-				s4 <f aes> r\sustainUp |
+				s4 <f aes> r\sustainOff |
 				s4 <fes aes>2 |
-				s4 <f a> s\sustainUp |
+				s4 <f a> s\sustainOff |
 				s4 <c' e'>2 |
 				s4 <c' f'>2 |
 				s4 <b f'>2 |
-				s4 <e bes> r\sustainUp |
+				s4 <e bes> r\sustainOff |
 				s4 <f aes>2 |
 				s4 <bes c'> <bes c'> |
 				s4 <c' f'>2 |
@@ -143,9 +143,9 @@
 				s4 c' bes |
 				s4 <aes c'>2 |
 				s4 <fes aes>2 |
-				s4 <f aes> r\sustainUp |
+				s4 <f aes> r\sustainOff |
 				s4 <fes aes>2 |
-				s4 <f a> s\sustainUp |
+				s4 <f a> s\sustainOff |
 				s4 <bes des'> <bes des'> |
 				s4 bes des' |
 				s4 <aes c'> <ges c'> |
@@ -162,71 +162,71 @@
 			{
 				\partial 4*1 s4 |
 				f,4 s2 |
-				f,2\sustainDown r4 |
+				f,2\sustainOn r4 |
 				f,4 s2 |
-				f,2\sustainDown ees,4 |
-				<bes,, bes,>2.\sustainDown |
-				aes,2.\sustainDown |
-				g,2.\sustainDown |
-				c2\sustainDown r4 |
+				f,2\sustainOn ees,4 |
+				<bes,, bes,>2.\sustainOn |
+				aes,2.\sustainOn |
+				g,2.\sustainOn |
+				c2\sustainOn r4 |
 				f,4 s2 |
-				f,2\sustainDown r4 |
+				f,2\sustainOn r4 |
 				f,4 s2 |
-				f,2.\sustainDown |
-				bes,2.\sustainDown |
-				ees,2.\sustainDown |
-				aes,2.\sustainDown |
-				des,2.\sustainDown |
-				ges,2.\sustainDown |
-				f,2.\sustainDown |
-				aes,2.\sustainDown |
-				des,2\sustainDown r4 |
-				bes,2.\sustainDown |
-				ees2.\sustainDown |
-				c2.\sustainDown |
-				f2.\sustainDown |
-				a2.\sustainDown |
-				bes2.\sustainDown |
-				g2.\sustainDown |
-				aes2.\sustainDown |
-				c'2.\sustainDown |
-				des2.\sustainDown |
-				f2.\sustainDown |
+				f,2.\sustainOn |
+				bes,2.\sustainOn |
+				ees,2.\sustainOn |
+				aes,2.\sustainOn |
+				des,2.\sustainOn |
+				ges,2.\sustainOn |
+				f,2.\sustainOn |
+				aes,2.\sustainOn |
+				des,2\sustainOn r4 |
+				bes,2.\sustainOn |
+				ees2.\sustainOn |
+				c2.\sustainOn |
+				f2.\sustainOn |
+				a2.\sustainOn |
+				bes2.\sustainOn |
+				g2.\sustainOn |
+				aes2.\sustainOn |
+				c'2.\sustainOn |
+				des2.\sustainOn |
+				f2.\sustainOn |
 				e4 s2 |
 				f,4 s2 |
-				f,2\sustainDown r4 |
+				f,2\sustainOn r4 |
 				f,4 s2 |
-				f,2\sustainDown ees,4 |
-				<bes,, bes,>2.\sustainDown |
-				aes,2.\sustainDown |
-				g,2.\sustainDown |
-				c2\sustainDown r4 |
-				f,2.\sustainDown |
-				g,2.\sustainDown |
-				aes,2.\sustainDown |
-				bes,2.\sustainDown |
-				ees,2.\sustainDown |
-				ees2.\sustainDown |
-				<aes, aes>2.\sustainDown |
-				bes,2.\sustainDown |
-				c2.\sustainDown |
-				f2.\sustainDown |
+				f,2\sustainOn ees,4 |
+				<bes,, bes,>2.\sustainOn |
+				aes,2.\sustainOn |
+				g,2.\sustainOn |
+				c2\sustainOn r4 |
+				f,2.\sustainOn |
+				g,2.\sustainOn |
+				aes,2.\sustainOn |
+				bes,2.\sustainOn |
+				ees,2.\sustainOn |
+				ees2.\sustainOn |
+				<aes, aes>2.\sustainOn |
+				bes,2.\sustainOn |
+				c2.\sustainOn |
+				f2.\sustainOn |
 				f,4 s2 |
-				f,2\sustainDown r4 |
+				f,2\sustainOn r4 |
 				f,4 s2 |
-				f,2\sustainDown ees,4 |
-				<bes,, bes,>2.\sustainDown |
-				ees,2.\sustainDown |
-				aes,2.\sustainDown |
-				des,2.\sustainDown |
-				ges,2.\sustainDown |
-				f,2.\sustainDown |
-				aes,2.\sustainDown |
+				f,2\sustainOn ees,4 |
+				<bes,, bes,>2.\sustainOn |
+				ees,2.\sustainOn |
+				aes,2.\sustainOn |
+				des,2.\sustainOn |
+				ges,2.\sustainOn |
+				f,2.\sustainOn |
+				aes,2.\sustainOn |
 				des,4 s2 |
-				ges,2.\sustainDown
-				f,2.\sustainDown |
+				ges,2.\sustainOn
+				f,2.\sustainOn |
 				aes,2 s4
-				\partial 4*2 f2\sustainDown \bar "|."
+				\partial 4*2 f2\sustainOn \bar "|."
 			} >>
 		>>
 	>>

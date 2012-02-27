@@ -1,4 +1,4 @@
-\version "2.10.30"
+\version "2.14.0"
 
 \header {
   title             = "Flat"
@@ -67,12 +67,12 @@ onceStem =
           {<fis' fis''>4 <a' a''> a''2}
         \\{<b' d''>2 a'4 b'}
         >> | \time 8/4 <<
-          {<gis' gis''>4 <b' b''> <b' b''> <cis'' cis'''> #(set-octavation 1) <cis'' cis'''> <e'' e'''> <eis'' gis'' cis''' eis'''> <gis'' gis'''>}
+          {<gis' gis''>4 <b' b''> <b' b''> <cis'' cis'''> \ottava #1 <cis'' cis'''> <e'' e'''> <eis'' gis'' cis''' eis'''> <gis'' gis'''>}
         \\{e''2 fis'' <f'' a''> s}
         >> | 
           <gis'' e''' gis'''>2 <fis'' dis''' fis'''> <cis'' gis'' cis'''> <dis'' fis'' dis'''>
            |                                               %--15
-          <eis'' cis''' eis'''>2 <gis'' b'' gis'''> #(set-octavation 0) <e' cis'' e''> <gis' e'' gis''>
+          <eis'' cis''' eis'''>2 <gis'' b'' gis'''> \ottava #0 <e' cis'' e''> <gis' e'' gis''>
            |
           <gis' e'' gis''>2 <fis' dis'' fis''> <cis' gis' cis''> <dis' fis' dis''>
            |

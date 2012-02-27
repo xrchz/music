@@ -1,4 +1,4 @@
-\version "2.7.30"
+\version "2.14.0"
 
 \header {
 	title = "Jumelle qui joue"
@@ -20,7 +20,7 @@
 				\override DynamicLineSpanner #'padding = #2.5 d'4\p bes des'2 ~ des'4\fermata |
 				c'2. d'2\fermata |
 				ees'4 c' d'2 ~ d'4\fermata |
-				\time 6/4 f'4 des' e'2 \cresc g'4 ees' |
+				\time 6/4 f'4 des' e'2 \deprecatedcresc g'4 ees' |
 				f'1 aes'4 f' |
 				g'2. bes'2 \! ges'4 |
 				\time 5/4 b'2.\pp bes'4\ppp\fermata ~ bes'\fermata |
@@ -36,7 +36,7 @@
 				aes'1 ges'4 ees' | \once \override DynamicLineSpanner #'padding = #3.5
 				ges'2.\f ees'4. des' |
 				\time 4/4 ees'1 |
-				\key a \major \time 6/4 dis'2.\rest \cresc dis'4. b |
+				\key a \major \time 6/4 dis'2.\rest \deprecatedcresc dis'4. b |
 				d'2. a'4. fis' |
 				gis'2. d''4. b' |
 				cis''2. ~ cis''4. a' \! |
