@@ -177,14 +177,4 @@
 			}
 		>>
 	>>
-	\layout {
-	}
-	\midi {
-		\tempo 4=72
-		\context {
-			\Voice
-			\remove "Dynamic_performer"
-			\remove "Span_dynamic_performer"
-		}
-	}
 }

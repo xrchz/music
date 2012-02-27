@@ -477,8 +477,4 @@ onceStem =
       } >>
     >>
   >>
-  \layout {
-  }
-  \midi {
-  }
 }

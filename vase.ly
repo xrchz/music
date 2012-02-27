@@ -157,8 +157,4 @@ g,8[ d b g] b,[ fis d' b] c[ g e' c'] e[ b g' e'] \bar ":|"
 			}
 		>>
 	>>
-	\layout {
-	}
-  \midi {
-  }
 }

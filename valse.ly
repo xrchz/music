@@ -230,16 +230,4 @@
 			} >>
 		>>
 	>>
-	\layout {
-	}
-	\midi {
-		\tempo 4=92
-		\context {
-			\Voice
-			\remove "Dynamic_performer"
-			\remove "Span_dynamic_performer"
-			\remove "Piano_pedal_performer"
-		}
-	}
 }
-

@@ -128,8 +128,4 @@ pushUp = #(define-music-function (parser location padding) (number?)
 			} >>
 		>>
 	>>
-	\layout {
-	}
-  \midi {
-  }
 }

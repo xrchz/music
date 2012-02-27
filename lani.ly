@@ -374,15 +374,4 @@
 			} >>
 		>>
 	>>
-	\layout {
-	}
-  \midi {
-    \context {
-      \Voice
-      \remove "Dynamic_performer"
-    }
-  }
 }
-
-
-
