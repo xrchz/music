@@ -15,11 +15,6 @@
 md = \change Staff=right
 mg = \change Staff=left
 
-extraSpace =
-#(define-music-function (parser location number music) (number? ly:music?) #{
-	\once \override Score.SeparationItem #'padding = $number
-	$music #}
-)
 
 \paper {
   blank-last-page-force = 10
@@ -34,9 +29,9 @@ extraSpace =
 			\clef treble
 			\time 8/4
 			{
-<< {a'4 c'' bes' aes' \extraSpace #1 f''\arpeggio c'' ees'' des''} \\ {g'2 ges' aes'1\arpeggio} >> |
+<< {a'4 c'' bes' aes' f''\arpeggio c'' ees'' des''} \\ {g'2 ges' aes'1\arpeggio} >> |
 <e' fis'>4 <d' a'> <ees' g'> <f' bes'> << {aes'2 ees'4 f'} \\ {ees'4 d' c' bes} >> |
-<< {<g g'>4 <bes bes'>} \\ {des'2} >> <aes c' aes'>4 <ges bes ees' ges'> << {\extraSpace #1 <ees' ees''>4\arpeggio <bes bes'> <des' des''> <ces' ces''>} \\ {<f aes des' f'>2\arpeggio <ges' aes'>} >> |
+<< {<g g'>4 <bes bes'>} \\ {des'2} >> <aes c' aes'>4 <ges bes ees' ges'> << {<ees' ees''>4\arpeggio <bes bes'> <des' des''> <ces' ces''>} \\ {<f aes des' f'>2\arpeggio <ges' aes'>} >> |
 <bes f' a' bes'>4 d' <g des' f' g'> <aes c' e' aes'> <g b ees' g'> << {<bes d'>} \\ {\mg ges} >> <a cis'> << {<aes c'>} \\ {\mg <ees ges>} >> |
 <f g des' f'>4 <aes ees' aes'> <des' fes' des''> <ees' ges' ees''> <e' aes' e''> << {<g' bes'> <ges' ees''> <a' cis''>} \\ { \mg ees' des' e' } >> |
 << {<a' b'>2 cis''4} \\ {<dis' eis'>4 <e' fis'> ~ <e' gis'>} >> <fis' a' cis''>4 <g' b' cis''> <d' d''> <f' bes'> <fis' b'> |
@@ -53,7 +48,7 @@ extraSpace =
 << {aes'2} \\ {ees'4 d'} >> <d' fis'>4 <cis' eis'> <cis' fis'>2 <a' a''> |
 <gis' e'' g''>2 <d'' f''> ~ <d'' f'' d'''>4. ~ <d'' f'' a''>8[ ~ <d'' f'' c'''>] ~ <d'' f'' bes''>4. |
 << {<des'' aes''>4. g'' ges''4} \\ {fes''2 d''\rest} >> <dis'' eis''>4 <cis'' fis''> <b' e''> <a' d''> |
-\extraSpace #0.3 <g' d'' b''>4\arpeggio <cis'' fis''> <c'' a''> <b' d'' g''> <bes' f'' ges''> <a' e'' f''> <aes' ees''> <g' d'' g''> |
+<g' d'' b''>4\arpeggio <cis'' fis''> <c'' a''> <b' d'' g''> <bes' f'' ges''> <a' e'' f''> <aes' ees''> <g' d'' g''> |
 <bes' f'' bes''>4 <c'' e'' aes''> <b' dis'' gis''> <bes' d'' fis''> <a' cis'' f''> <e' gis' e''> <dis' aes' c'' d''> <g' bes' c''> |
 <bes' g'' a''>4 <b' d'' e''> <d'' f'' g''> <c'' ees'' f''> <aes' b' f''> <g' c''> <ges' bes' ees''> <f' a' des''> |
 <e' aes' d''>4 <ees' g' a'> <d' ges' c''> <des' f' bes'> <c' e' bes'> des'' c'' bes' |
