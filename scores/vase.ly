@@ -78,8 +78,8 @@ mg = \change Staff=left
 <gis' cis'' gis''>4 <b' e'' b''> <a' d'' a''> <g' c'' g''> <a' e'' a''> <e' b' e''> <g' d'' g''> <f' c'' f''> |
 <d' bes' d''>4 <f' a' f''> <bes' g'' bes''> <c'' f'' c'''> <d'' g'' d'''> <a' a''> <c'' c'''> <des'' bes''> |
 <cis'' dis''>4 <b' fis''> <c'' e''> <bes' d''> <b' b''> <a' fis''> <bes' a''> <aes' g''> |
-<< {a'4 c'' bes' aes' dis'' ais' cis'' b'} \\ {g'2 ges' g'4 f' fis' e'} >> |
-<c' eis' gis'>4 <ees' b'> <e' a'> <d' g'> <fis' e''> <e' b'> d'' c'' \bar ":|"
+<a' g'>4 <g' bes'> aes' ges' <g' dis''> <f' ais'> <fis' cis''> <e' b'> |
+<c' eis' gis'>4 <ees' b'> <e' a'> <d' g'> <fis' e''> <e' b'> <a' d''> c'' \bar ":|"
 			}
 		>>
 		\context Staff=left <<
