@@ -54,7 +54,7 @@ mg = \change Staff=left
 <e' aes' d''>4 <ees' g' a'> <d' ges' c''> <des' f' bes'> <c' e' bes'> des'' c'' bes' |
 <g' a'>4 <f' c'' f''> <ges' bes' f''> <aes' c'' ees''> <ges' bes' f''> <f' aes' c''> <ees' ges' b' ees''> <des' f' bes' des''> |
 <c' e' a' c''>4 <cis' ais' cis''> <dis' gis' dis''> <e' fis' cis'' e''> <fis' e'' fis''> <a' d'' a''> <g' c'' ees'' g''> <a' c'' ees'' a''> |
-\override Score.RehearsalMark #'padding = #2 \mark \markup {\small {\note #"2." #1 = \note #"2" #1 }} \time 12/4 <d'' fis'' a'' d'''>4 <a' des'' f'' a''> <aes' des'' f'' aes''> <des'' ees'' g'' c'''> <b' b''> <bes' des'' ees'' bes''> <c'' e'' bes'' c'''> <g' g''> <ges' ges''> <bes' ees'' bes''> <a' cis'' fis'' a''> <aes' b' ees'' aes''> |
+\time 12/4 <d'' fis'' a'' d'''>4 <a' des'' f'' a''> <aes' des'' f'' aes''> <des'' ees'' g'' c'''> <b' b''> <bes' des'' ees'' bes''> <c'' e'' bes'' c'''> <g' g''> <ges' ges''> <bes' ees'' bes''> <a' cis'' fis'' a''> <aes' b' ees'' aes''> |
 <gis' b' e'' gis''>4. <b' dis'' e'' b''> <b' d'' e'' a''> <g' g''> <e'' gis'' c''' e'''>2 <b' e'' b''>4 <d'' f'' aes'' d'''> ~ <c'' f'' aes'' c'''> <a' des'' f'' a''> |
 <g' des'' f'' g''>4 <f' des'' f''> <des' bes' des''> <dis' gis' dis''> <cis' fis' cis''> <a e' a'> <bes ees' bes'>4. <des' ges' des''> <b e' b'> <a d' a'> |
 \time 3/4 <fis' a' fis''>2. ~ |
