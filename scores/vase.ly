@@ -1,24 +1,18 @@
 \version "2.14.0"
 
 \header {
-	title="Vase"
-	composer="Ramana Kumar"
-	dedication="for Emma Walsh"
-  subtitle="Embodying the wish of eternal pain for Delia Wang"
-	piece = "forget played accidentals"
-	date = "2006"
-	copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  title="Vase"
+  composer="Ramana Kumar"
+  dedication="for Emma Walsh"
+  piece = "forget played accidentals"
+  date = "2006"
+  copyright = "Creative Commons Attribution-ShareAlike 3.0"
 }
 
 #(ly:set-option 'point-and-click #f)
 
 md = \change Staff=right
 mg = \change Staff=left
-
-
-\paper {
-  blank-last-page-force = 10
-}
 
 \score {
 	\context PianoStaff <<
