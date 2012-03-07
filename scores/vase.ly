@@ -77,9 +77,9 @@ mg = \change Staff=left
 <dis' gis' dis''>4 <fis' fis''> <b' gis'' b''> <cis'' fis'' cis'''> <dis'' gis'' dis'''> <ais' fis'' ais''> <cis'' e'' cis'''> <b' dis'' b''> |
 <gis' cis'' gis''>4 <b' e'' b''> <a' d'' a''> <g' c'' g''> <a' e'' a''> <e' b' e''> <g' d'' g''> <f' c'' f''> |
 <d' bes' d''>4 <f' a' f''> <bes' g'' bes''> <c'' f'' c'''> <d'' g'' d'''> <a' a''> <c'' c'''> <des'' bes''> |
-<cis'' dis''>4 <b' fis''> <c'' e''> <bes' d''> <b' b''> <a' fis''> <bes' a''> <aes' g''> |
-<a' g'>4 <g' bes'> aes' ges' <g' dis''> <f' ais'> <fis' cis''> <e' b'> |
-<c' eis' gis'>4 <ees' b'> <e' a'> <d' g'> <fis' e''> <e' b'> <a' d''> c'' \bar ":|"
+<< {dis''4 fis'' e'' d'' b'' fis'' a'' g''} \\ {cis''4 b' c'' bes' b' a' bes' aes'} >> |
+<< {g'4 bes' aes' ges' dis'' ais' cis'' b'} \\ {a'4 g' aes' ges' g' f' fis' e'} >> |
+<< {<c' gis'>4 b' a' g' e'' b' d'' c''} \\ {eis'4 ees' e' d' fis' e' a' g'} >> \bar ":|"
 			}
 		>>
 		\context Staff=left <<
