@@ -83,6 +83,7 @@ mg = \change Staff=left
 << {a'4 c'' f'' g'' a'' e'' g'' f''} \\ {g'4 f' bes' a' d'' c'' g'' f''} >> |
 << {e''4 g'' c''' d''' e''' b'' d''' c'''} \\ {d''4 bes' f'' des'' bes'' ges'' c''' aes''} >> |
 << {g''4 bes'' ees''' f''' g''' d''' f''' ees'''} \\ {d'''4 bes'' a'' f'' c''' aes'' bes'' ges''} >> |
+<< {c''4 ees'' des'' ces'' aes'' ees'' ges'' fes''} \\ {e''4 b' a' g' e'' b' d'' c''} >> |
 			}
 		>>
 		\context Staff=left <<
@@ -149,6 +150,7 @@ g,8[ d b g] b,[ fis d' b] c[ g e' c'] e[ b g' e'] \bar ":|"
 f8[ c' \parenthesize f' a] g[ c' g' e'] \clef treble bes[ f' bes' g'] d'[ f' d'' a'] |
 \clef bass bes,8[ f d' bes] des[ aes f' des'] \clef treble ges[ des' bes' ges'] bes[ f' d'' bes'] |
 \clef bass aes,8[ ees bes aes] c[ g d' c'] \clef treble f[ c' g' f'] aes[ ees' bes' aes'] |
+\clef bass des,8[ aes, ges ees] e,[ b, a fis] a,[ e cis' a] cis[ gis e' cis'] |
 			}
 		>>
 	>>
