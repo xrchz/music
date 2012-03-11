@@ -87,6 +87,10 @@ mg = \change Staff=left
 <b' dis''>4 <a' cis''> <gis' b'> <fisis' ais'> <fis' a'> <eis' gis'> <e' g'> <dis' fis'> |
 <b d' fis'>4 <cis' e' a'> <c' ees' g'> <bes d' f'> <c' ees' c''> <d' g'> <ees' bes'> aes'8 g' |
 <ees' f'>4 <des' aes'> <b cis' fis'> <gis b e'> <e' fis' cis''> <d' fis' gis'> <e' b'> << {a'8. a'16} \\ {f'4} >> |
+<< {a'2 g' f' ees'4 d'} \\ {<cis' e'>4 d' cis' c' c' b b bes} >> |
+<bes ees' bes'>2 <ges' ees''> <e' cis''> <d' b'> |
+<b' gis''>2 <fis' dis''> <a' fis''> << {e''4. e''8} \\ g'2 >> |
+<< e''2 \\ a'4 >>
 			}
 		>>
 		\context Staff=left <<
@@ -149,7 +153,7 @@ a,8[ e cis' g] c[ g e' bes] f,[ c a e] a,[ e c' g] |
 bes,8[ f d' a] d[ a f' d'] ees[ bes g' des'] ges[ des' bes' e'] |
 b,8[ fis dis' a] d[ a fis' c'] g,[ d b f] bes,[ f d' aes] |
 ees,8[ bes, g des'] ges,[ des bes fes'] b,[ fis dis' a] d[ a e' c'] |
-g,8[ d b g] b,[ fis \parenthesize d' b] c[ g e' c'] e[ b g' e'] \bar ":|"
+g,8[ d b g] b,[ fis \parenthesize d' b] c[ g \parenthesize e' c'] e[ b \parenthesize g' e'] \bar ":|"
 f8[ c' \parenthesize f' a] g[ c' g' e'] \clef treble bes[ f' bes' g'] d'[ f' d'' a'] |
 \clef bass bes,8[ f d' bes] des[ aes f' des'] \clef treble ges[ des' bes' ges'] bes[ f' d'' bes'] |
 \clef bass aes,8[ ees bes aes] c[ g d' c'] \clef treble f[ c' g' f'] aes[ ees' bes' aes'] |
@@ -157,6 +161,10 @@ f8[ c' \parenthesize f' a] g[ c' g' e'] \clef treble bes[ f' bes' g'] d'[ f' d''
 fis8[ cis' gis' e'] b,[ fis dis' a] e,[ b, b e] g,[ d b fis] |
 c,8[ g, e a,] ees,[ c g bes,] aes,[ ees bes g] c[ aes c' bes] |
 des,8[ aes, f bes,] e,[ b, fis e] a,[ e b gis] cis[ e cis' a] |
+bes,,8[ f, d e g f d f,] des,[ aes, f g bes aes f aes,] |
+ges,8[ des bes c' ees' des' bes des] a,[ e cis' dis' fis' e' b e] |
+d8[ a \clef treble fis' gis' b' a' fis' b] \clef bass e[ b \clef treble fis' gis' c'' b' g' c'] |
+\clef bass f8
 			}
 		>>
 	>>
