@@ -4,7 +4,7 @@
 	title = "Lace"
 	composer = "Ramana Kumar"
 	piece = \markup{\large "Vivo " \note #"2" #1 \large "=69 molto rubato"}
-	dedication = "for Freya Franzen"
+	dedication = "for Freya Franzen inspired by Samuel Barber"
 	date = "2003"
 	copyright = "Creative Commons Attribution-ShareAlike 3.0"
 }
@@ -13,8 +13,8 @@
 	\context PianoStaff <<
 		\set PianoStaff.followVoice = ##t
 		\set PianoStaff.explicitKeySignatureVisibility = #end-of-line-invisible
+    #(set-accidental-style 'forget 'Score)
 		\context Staff = right <<
-      #(set-accidental-style 'forget)
 			\clef treble
 			\time 4/2
 			<< {
@@ -35,7 +35,7 @@
 				b'4\( gis' <a fis'> <b e'>\) e'\( cis' e' cis' |
 				e'4 cis' gis' fis'\) \override DynamicLineSpanner #'padding = #2 fis'2.\<\( <gis' b'>4\) |
 				<gis' e'' gis''>2\!\( r4 fis''\) fis''\( dis'' fis'' dis'' |
-				fis''4\mp \revert DynamicLineSpanner #'padding dis''\) ais'' gis'' gis''\( dis'' cis'' <gis' b'>\) |
+				fis''4\mp \revert DynamicLineSpanner #'padding s \) ais'' gis'' gis''\( dis'' cis'' <gis' b'>\) |
 				<e' b'>2 <fis' b'> <fis' b'> <eis' b'> |
 				<d' b'>2 <cis' b'> cis' fis' |
 				bes'4\( ges' bes' f' bes' ees' ges' aes'\) |
@@ -61,11 +61,11 @@
 				bes''4\( <bes' ees'' g''> <bes' d'' ges'' bes''> <g' b' ees'' g''> |
 				<bes' des'' ges'' bes''>4 <bes' ees'' g''> <ges'' bes'' f'''> <g'' bes'' ees'''>\) |
 				<e'' gis'' dis'''>4\( ais'' <cis'' ais''> ~ <cis'' gis''> |
-				<eis'' gis''>4 ~ <eis'' fisis''> ~ <d'' eis'' fisis''> ~ <cis'' eis'' gis''>\) |
+				gis''4 fisis'' ~ <d'' fisis''> <cis'' gis''>\) |
 				<des'' f'' bes''>4\( <bes' ees'' g''> <bes' d'' ges'' bes''> <g' b' ees'' g''> |
 				<bes' des'' ges'' bes''>4 <bes' ees'' g''> <ges'' bes'' f'''> <g'' bes'' ees'''>\) |
 				<e'' gis'' dis'''>4\( ~ <e'' gis'' ais''> <cis'' eis'' ais''> ~ <cis'' eis'' gis''> |
-				<cis'' eis'' gis''>4 ~ <cis'' eis'' g''> cis'' c'' |
+				gis''4 g''? cis'' c''? |
 				c''4 b' f' e'\) |
 				\time 4/2 \stemUp \phrasingSlurUp gis''4\( ais''2 b''4\)^\markup{\italic {meno mosso}} gis''\( ais''2 b''4\) |
 				cis'''4^\markup{\italic legere}\( a'' cis''' a'' cis''' a'' fis''' e'''\) |
@@ -94,7 +94,7 @@
 				gis'4 fis' gis' eis' a' fis' gis' dis' |
 				<d' fis'>2 d' <a cis'> b |
 				ais2 gis4\( ais <a cis'> <b dis'> <a cis'> b\) |
-				r4 <e' a' cis''>( <e' fis' b'> ~ <fis' b'>) <a' cis''>2 <gis' bis'> |
+				r4 <e' a' cis''>( <fis' b'> ~ <fis' b'>) <a' cis''>2 <gis' bis'> |
 				<fis' fis''>4 ~ <fis' b' dis'' fis''> ~ <b' dis''>2 a' <dis' a'> |
 				gis'4\> gis' gis' gis' gis' gis' gis' gis' |
 				gis'4 gis' gis' gis' gis' gis' gis' gis'\! |
@@ -106,7 +106,7 @@
 				ees''4\( f''2 ges''4\) s1 |
 				s1 s1 |
 				s1 ais'2 bis'4\< cis'' |
-				\tieDown <bes' d''>2 <d' aes'>8. ~ \once \override Score.Tie #'y-offset = #0 \tieNeutral <d' ges'> ~ <d' ges'>8 <d' f'>2\! d''^\( |
+				\tieDown <bes' d''>2 <d' aes'>8. ~ \tieNeutral <d' ges'> ~ <d' ges'>8 <d' f'>2\! d''^\( |
 				e'''2 f''\) s1 |
 				s\breve |
 				s1 r2 aes' |
@@ -121,11 +121,11 @@
 				s1 |
 				s1 |
 				s1 |
+				eis''1 |
 				s1 |
 				s1 |
 				s1 |
-				s1 |
-				s1 |
+        <cis'' eis''>2 s |
 				s1 |
 				\time 4/2 cis''2\( dis'' e'' fis''\) |
 				gis''4\( a'' e'' cis'' e''1\) |
@@ -219,7 +219,7 @@
 				s\breve |
 				s\breve |
 				s\breve |
-				cis'4\rest cis' b ~ b s1 |
+        cis'4\rest cis' <b e'> ~ b s1 |
 				s\breve |
 				s1 cis |
 				fis,1 s1 |
