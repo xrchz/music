@@ -1,9 +1,9 @@
 \version "2.14.0"
 
 \header {
-	title = \markup{\concat{\small{\raise #1.0 "1"}"5673"\small{\raise #1.0 "1"}"214"}}
-	date = "2006"
-	copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  title = \markup{\concat{\small{\raise #1.0 "1"}"5673"\small{\raise #1.0 "1"}"214"}}
+  date = "2006"
+  copyright = "Creative Commons Attribution-ShareAlike 3.0"
 }
 
 #(ly:set-option 'point-and-click #f)
@@ -14,15 +14,15 @@ pushUp = #(define-music-function (parser location padding) (number?)
   #})
 
 \score {
-	\context PianoStaff <<
+  \context PianoStaff <<
     \override PianoStaff.TextScript #'font-size = #5.0
-		\context Staff = right <<
+    \context Staff = right <<
       \override Staff.TimeSignature #'style = #'()
       \autoBeamOff
-			\clef treble
-			\time 8/8
+      \clef treble
+      \time 8/8
       \key fis \major
-			<< {
+      << {
         <<{ais'8 ais' ais' bis' bis' \pushUp #3.2 eis''_\markup{\hspace #0.8 u} eis''4}
         \\{<cis' fis'>4 <cis' fis'> <cis' gis'>2}>>
         |
@@ -81,12 +81,12 @@ pushUp = #(define-music-function (parser location padding) (number?)
         \\{<e' g'>4 <e' g'> <dis' fis'>2}>>
         \bar "|."
       } >>
-		>>
-		\context Staff = left <<
+    >>
+    \context Staff = left <<
       \override Staff.TimeSignature #'style = #'()
-			\clef bass
+      \clef bass
       \key fis \major
-			<< {
+      << {
          r4 fis cis2
         |
          r4 fis cis'2
@@ -125,7 +125,7 @@ pushUp = #(define-music-function (parser location padding) (number?)
         |
          r4 e b2
         \bar "|."
-			} >>
-		>>
-	>>
+      } >>
+    >>
+  >>
 }

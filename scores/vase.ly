@@ -15,14 +15,14 @@ md = \change Staff=right
 mg = \change Staff=left
 
 \score {
-	\context PianoStaff <<
-		\set PianoStaff.connectArpeggios = ##t
-		\override PianoStaff.TimeSignature #'style = #'()
-		#(set-accidental-style 'forget 'Score)
-		\context Staff=right <<
-			\clef treble
-			\time 8/4
-			{
+  \context PianoStaff <<
+    \set PianoStaff.connectArpeggios = ##t
+    \override PianoStaff.TimeSignature #'style = #'()
+    #(set-accidental-style 'forget 'Score)
+    \context Staff=right <<
+      \clef treble
+      \time 8/4
+      {
 << {a'4 c'' bes' aes' f''\arpeggio c'' ees'' des''} \\ {g'2 ges' aes'1\arpeggio} >> |
 <e' fis'>4 <d' a'> <ees' g'> <f' bes'> << {aes'2 ees'4 f'} \\ {ees'4 d' c' bes} >> |
 << {<g g'>4 <bes bes'>} \\ {des'2} >> <aes c' aes'>4 <ges bes ees' ges'> << {<ees' ees''>4\arpeggio <bes bes'> <des' des''> <ces' ces''>} \\ {<f aes des' f'>2\arpeggio <ges' aes'>} >> |
@@ -94,12 +94,12 @@ mg = \change Staff=left
 << {bes'2 des'' ces'' beses'} \\ {<d' ges'>4 f' ees' des' bes' f' aes' ges'} >> |
 <fis' b' fis''>2 <e' a' cis''> <d' g' e''> <c' f' d''> |
 << {e''2 g'' f'' ees''} \\ {d''1 des''} >> |
-			}
-		>>
-		\context Staff=left <<
-			\clef bass
-			\time 8/4
-			{
+      }
+    >>
+    \context Staff=left <<
+      \clef bass
+      \time 8/4
+      {
 <f c'>2 <aes ees'> <des aes>1\arpeggio |
 <d a>2 <f c'> <bes, f>1 |
 <ees, ees>2 <ges, ges> <ces, ces>2\arpeggio <d, d> |
@@ -171,7 +171,7 @@ d8[ a \clef treble fis' gis' b' a' fis' b] \clef bass e[ b \clef treble fis' gis
 ees,8[ bes, f des ees bes, ees, bes,,] aes,,[ ees bes ges a d a, d,] |
 g,,8[ d b g a e a, e,] c,[ g, a f g d g, <g,, d,>] |
 << { c,,1 s} \\ { c8\rest g [f' d' g' d' e' g] } >>
-			}
-		>>
-	>>
+      }
+    >>
+  >>
 }
