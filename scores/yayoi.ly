@@ -25,7 +25,8 @@
         \\ {<f' a'>4 <g' b'> <a' cis''>2  <a' cis''>4 ais' <fis' b'>2} >> \breathe
       | <dis' cis''>4 <fis' b'> << {<fis' ais'>4 <e' gis'>} \\ gis2 >> \breathe
         <g b fis'>4 <a cis' e'> << <a dis'>2 \\ {cis'4 b} >>
-      |
+      | << {gis'4 gis' ais' gis' fisis' ais' ais' gis'}
+      \\ { <a cis'>4 <b dis'> <cis' eis'>2 <ais d'?>4 <bis dis'> <d' fis'>2 }>>
       } >>
     >>
     \context Staff = left <<
@@ -35,7 +36,7 @@
       | fis4 gis a dis fis, gis a b
       | c'4 a << {r4 eis' fisis' cis' e' b} \\ {<b, dis>2 ais gis} >> \breathe
       | <b, ais>4 <dis b> <e, e> ~ <e, b, e> \breathe <g, d>4 <a, e> <b, fis>2
-      |
+      | e4 fis << gis2 \\ {r4 ais,} >> dis, fis e ~ <e b>
       } >>
     >>
   >>
