@@ -28,7 +28,8 @@
       | << {gis'4 gis' ais' gis' fisis' ais' ais' gis'}
       \\ { <a cis'>4 <b dis'> <cis' eis'>2 <ais d'>4 <bis e'> <d' fis'>2 }>>
       | \time 4/4 <e' a' cis''>4 b' <ais dis' gis'> <bis fis'>
-      | \time 8/4 << {a'4 a' b' ais'} \\ { <bes d'>4 <c' e'> <d' fis'>2 } >>
+      | \time 8/4 << {a'4 a' b' bes' g' bes' bes'2} \\ { <bes d'>4 <c' e'> <d' fis'>2 <bes des'>4 <c' ees'> <d' f'> <e' g'>} >>
+      | \time 4/4 << {d''4 c'' ees'' d''} \\ {<ees' a'>4 g' g' a'} >>
       } >>
     >>
     \context Staff = left <<
@@ -40,7 +41,8 @@
       | <b, ais>4 <dis b> <e, e> ~ <e, b, e> \breathe <g, d>4 <a, e> <b, fis>2
       | e4 fis << gis2 \\ {r4 ais,} >> dis, fis e ~ <e b>
       | \time 4/4 << {fis,2 gis,} \\ {e4\rest cis' f\rest fis} >>
-      | \time 8/4 e4 fis << gis2 \\ {r4 ais,} >>
+      | \time 8/4 e4 fis << gis2 \\ {r4 bes,} >> ees, ges aes bes
+      | \time 4/4 << {c2 f,} \\ {g4\rest bes a\rest c'} >>
       } >>
     >>
   >>
