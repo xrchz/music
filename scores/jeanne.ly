@@ -6,7 +6,7 @@
   piece = \markup{\large {"Lente\n"} "très libre bien que tentative"}
   dedication = "pour Jeanne Masle-Farquhar"
   date = "2004"
-  copyright = "Creative Commons Attribution-ShareAlike 2.5"
+  copyright = "Creative Commons Attribution-ShareAlike 3.0"
 }
 
 \score {
