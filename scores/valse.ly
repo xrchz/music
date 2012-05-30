@@ -7,7 +7,11 @@
   date = "2002"
   piece = "Allegretto"
   dedication = "pour Stephanie Walls"
-  copyright = "Creative Commons Attribution-ShareAlike 2.5"
+  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+}
+
+\paper{
+  ragged-last-bottom = ##f
 }
 
 \score {
@@ -83,7 +87,7 @@
         << {bes'2 aes'4} \\ {s2.} >> |
         << {\override DynamicLineSpanner #'padding = #2 aes'4\< des''4 f''} \\ {s4 des'2} >> |
         << {c''4\!\> f'4( e')} \\ {s4 c' s} >> |
-        \partial 4*2 << {e'4( f')\!\) \bar "|."} \\ {s2} >>
+        << {e'4( f')\!\) \bar "|."} \\ {s2} >>
       }
     >>
     \context Staff = left <<
@@ -157,7 +161,7 @@
         s4 <c' ees'>2 |
         s4 bes aes |
         s4 aes c
-        \partial 4*2 s4 <aes c'> \bar "|."
+        s4 <aes c'> \bar "|."
       } \\
       {
         \partial 4*1 s4 |
@@ -226,7 +230,7 @@
         ges,2.\sustainOn
         f,2.\sustainOn |
         aes,2 s4
-        \partial 4*2 f2\sustainOn \bar "|."
+        f2\sustainOn \bar "|."
       } >>
     >>
   >>
