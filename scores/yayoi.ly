@@ -31,6 +31,8 @@
       | \time 8/4 << {a'4 a' b' bes' g' bes' bes'2} \\ { <bes d'>4 <c' e'> <d' fis'>2 <bes des'>4 <c' ees'> <d' f'> <e' g'>} >>
       | \time 4/4 << {d''4 c'' ees'' d''} \\ {<ees' a'>4 g' g' a'} >>
       | << {f''4 g'' c''' a''} \\ {<aes' c''>4 <bes' d''> <c'' ees''>2} >>
+      | <bes' des'' ges''>4 <c'' ees'' aes''> <e'' aes'' ees'''> <g'' bes''>
+      | \time 8/4 <a' cis'' gis''> <b' fis''> <f' aes' c'' ees''> <bes' f''>
       } >>
     >>
     \context Staff = left <<
@@ -45,6 +47,8 @@
       | \time 8/4 e4 fis << gis2 \\ {r4 bes,} >> ees, ges aes bes
       | \time 4/4 << {c2 f,} \\ {g4\rest bes a\rest c'} >>
       | \clef treble bes4 e' a' g'
+      | ges' bes' ees'' des''
+      | \time 8/4 \clef bass <dis cis'>4 dis' <bes, aes> d'
       } >>
     >>
   >>
