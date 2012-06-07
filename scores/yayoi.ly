@@ -29,9 +29,10 @@
       \\ { <a cis'>4 <b dis'> <cis' eis'>2 <ais d'>4 <bis e'?> <d' fis'>2 }>>
       | \time 4/4 <e' a' cis''>4 b' <ais dis' gis'> <bis fis'>
       | \time 8/4 << {a'4 a' b' bes' g' bes' bes'2} \\ { <bes d'>4 <c' e'> <d' fis'>2 <bes des'>4 <c' ees'> <d' f'> <e' g'>} >>
-      | \time 4/4 << {d''4 c'' ees'' d''} \\ {<ees' a'>4 g' g' a'} >>
+      | \time 4/4 << {d''4 c'' ees'' d''} \\ {<ees' a'>4 g' <f' bes'> a'} >>
       | << {f''4 g'' c''' a''} \\ {<aes' c''>4 <bes' d''> <c'' ees''>2} >>
       | <bes' des'' ges''>4 <c'' ees'' aes''> <e'' aes'' ees'''> <g'' bes''>
+      | <cis'' a'' cis'''> <dis'' gis'' dis'''> <fis'' b'' fis'''> <gis'' cis''' gis'''>
       | \time 8/4 <a' cis'' gis''> <b' fis''> <f' aes' c'' ees''> <bes' f''>
       } >>
     >>
@@ -48,7 +49,8 @@
       | \time 4/4 << {c2 f,} \\ {g4\rest bes a\rest c'} >>
       | \clef treble bes4 e' a' g'
       | ges' bes' ees'' des''
-      | \time 8/4 \clef bass <dis cis'>4 dis' <bes, aes> d'
+      | b'? a'? g'? f'?
+      | \time 8/4 \clef bass <dis cis' e'>4 dis' <bes, aes> d'?
       } >>
     >>
   >>
