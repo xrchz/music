@@ -33,7 +33,12 @@
       | << {f''4 g'' c''' a''} \\ {<aes' c''>4 <bes' d''> <c'' ees''>2} >>
       | <bes' des'' ges''>4 <c'' ees'' aes''> <e'' aes'' ees'''> <g'' bes''>
       | <cis'' a'' cis'''> <dis'' gis'' dis'''> <fis'' b'' fis'''> <gis'' cis''' gis'''>
-      | \time 8/4 <a' cis'' gis''> <b' fis''> <f' aes' c'' ees''> <bes' f''> <a' cis'' e'' gis''> <bes' c'' des'' fis''> <gis' cis'' eis''> <fis' ais' dis''>
+      | \time 8/4 <a' cis'' gis''> <b' fis''> <f' aes' c'' ees''> <bes' f''>
+        <a' cis'' e'' gis''> <bes' c'' des'' fis''>
+        <gis' cis'' eis''> <fis' ais' dis''>
+      | <dis' cis''> <fis' b'> << { <dis' ais'>  gis' } \\ { b c'8 d' } >>
+      <b e' gis'>4 <bes ees' ges'> <a cis' eis'> <b dis'>
+      | <dis' eis'> fis' cis''
       } >>
     >>
     \context Staff = left <<
@@ -51,6 +56,10 @@
       | ges' bes' ees'' des''
       | b' a' g' f'
       | \time 8/4 \clef bass <fis cis' e'>4 dis' <bes, aes> d' <ees des'> ges' <b, ais> <b f'>
+        \set beatStructure = #'(2 2 2 2)
+      | gis,8 fis cis' b << { s4 aes8 bes } \\ { eis, dis bes,4 } >>
+        dis,8 e [ ges aes ] b,, fis, [ dis e ]
+      | eis fis dis b, fis,
       } >>
     >>
   >>
