@@ -33,7 +33,7 @@
       | << {f''4 g'' c''' a''} \\ {<aes' c''>4 <bes' d''> <c'' ees''>2} >>
       | <bes' des'' ges''>4 <c'' ees'' aes''> <e'' aes'' ees'''> <g'' bes''>
       | <cis'' a'' cis'''> <dis'' gis'' dis'''> <fis'' b'' fis'''> <gis'' cis''' gis'''>
-      | \time 8/4 <a' cis'' gis''> <b' fis''> <f' aes' c'' ees''> <bes' f''>
+      | \time 8/4 <a' cis'' gis''> <b' fis''> <f' aes' c'' ees''> <bes' f''> <a' cis'' e'' gis''> <bes' c'' des'' fis''> <gis' cis'' eis''> <fis' ais' dis''>
       } >>
     >>
     \context Staff = left <<
@@ -50,7 +50,7 @@
       | \clef treble bes4 e' a' g'
       | ges' bes' ees'' des''
       | b' a' g' f'
-      | \time 8/4 \clef bass <dis cis' e'>4 dis' <bes, aes> d'
+      | \time 8/4 \clef bass <fis cis' e'>4 dis' <bes, aes> d' <ees des'> ges' <b, ais> <b f'>
       } >>
     >>
   >>
