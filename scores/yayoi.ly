@@ -29,7 +29,7 @@
       \\ { <a cis'>4 <b dis'> <cis' eis'>2 <ais d'>4 <bis e'> <d' fis'>2 }>>
       | \time 4/4 <e' a' cis''>4 b' <ais dis' gis'> <bis fis'>
       | \time 8/4 << {a'4 a' b' bes' g' bes' bes'2} \\ { <bes d'>4 <c' e'> <d' fis'>2 <bes des'>4 <c' ees'> <d' f'> <e' g'>} >>
-      | \time 4/4 << {d''4 c'' ees'' d''} \\ {<ees' a'>4 g' <f' bes'> a'} >>
+      | \time 4/4 << {d''4 ees'' ees'' d''} \\ {<ees' a'>4 g' <f' bes'> <ees' a'>} >>
       | << {f''4 g'' c''' a''} \\ {<aes' c''>4 <bes' d''> <c'' ees''>2} >>
       | <bes' des'' ges''>4 <c'' ees'' aes''> <e'' a'' ees'''> <f'' bes''>
       | <cis'' g'' cis'''> <dis'' gis'' dis'''> <fis'' b'' fis'''> <gis'' cis''' gis'''>
@@ -52,10 +52,10 @@
       | \time 4/4 << {fis,2 gis,} \\ {e4\rest cis' f\rest fis} >>
       | \time 8/4 e4 fis << gis2 \\ {r4 bes,} >> ees, ges aes bes
       | \time 4/4 << {c2 f,} \\ {g4\rest bes a\rest c'} >>
-      | \clef treble bes4 e' a' g'
+      | \clef treble <bes d'>4 e' a' g'
       | ges' bes' ees'' des''
       | b' a' g' f'
-      | \time 8/4 \clef bass <fis cis' e'>4 dis' <bes, aes> d' <ees aes des'> ges' <b, eis ais> <b dis' f'>
+      | \time 8/4 \clef bass <fis cis' e'>4 dis' <bes, aes> d' <ees aes des'> ges' <b, eis ais> <b dis' eis'>
         \set beatStructure = #'(2 2 2 2)
       | gis,8 fis cis' b << { s4 aes8 bes } \\ { eis, dis bes,4 } >>
         dis,8 e [ ges aes ] b,, fis, [ dis e ]
