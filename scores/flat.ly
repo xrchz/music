@@ -1,4 +1,4 @@
-\version "2.14.0"
+\version "2.15.39"
 
 \header {
   title             = "Flat"
@@ -18,8 +18,8 @@ onceStem =
 \score {
   \context PianoStaff <<
     \context Staff = right <<
-      #(set-accidental-style 'forget)
-      \override Staff.TimeSignature #'style = #'()
+      \accidentalStyle #'Score "dodecaphonic"
+      \override Score.TimeSignature #'style = #'()
       \clef treble
       \time 8/4
       << {
@@ -263,8 +263,6 @@ onceStem =
       } >>
     >>
     \context Staff = left <<
-      #(set-accidental-style 'forget)
-      \override Staff.TimeSignature #'style = #'()
       \clef bass
       << {
         <<
