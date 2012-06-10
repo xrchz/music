@@ -38,7 +38,7 @@
         <gis' cis'' eis''> <fis' ais' dis''>
       | <dis' fis' cis''> <gis' b'> << { <dis' ais'>  gis' } \\ { b c'8 d' } >>
       <b e' gis'>4 <bes ees' ges'> <a cis' eis'> <b dis'>
-      | <dis' eis'> fis' <fis' cis''> <gis' b' dis''>
+      | <dis' eis'> fis' <fis' cis''> <gis' b' dis''> <a' cis'' eis''> fis'' <b' dis''> <fis' b'>
       } >>
     >>
     \context Staff = left <<
@@ -60,7 +60,7 @@
         \set beatStructure = #'(2 2 2 2)
       | gis,8 fis cis' b << { s4 aes8 bes } \\ { eis, dis bes,4 } >>
         dis,8 e [ ges aes ] b,, fis, [ dis e ]
-      | eis fis dis b, fis, b, fis, b,,
+      | eis fis dis b, fis, b, fis, b,, e, cis a cis' dis' e' b e
       } >>
     >>
   >>
