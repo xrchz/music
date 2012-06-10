@@ -55,7 +55,8 @@
       | \clef treble <bes d'>4 e' a' g'
       | ges' bes' ees'' des''
       | b' a' g' f'
-      | \time 8/4 \clef bass <fis cis' e'>4 dis' <bes, aes> d' <ees aes des'> ges' <b, eis ais> <b dis' eis'>
+      | \time 8/4 \clef bass <fis cis' e'>4 dis' <bes, aes> d'
+         <ees, bes, ees aes des'>\arpeggio ges' <b, eis ais> <b dis' eis'>
         \set beatStructure = #'(2 2 2 2)
       | gis,8 fis cis' b << { s4 aes8 bes } \\ { eis, dis bes,4 } >>
         dis,8 e [ ges aes ] b,, fis, [ dis e ]
