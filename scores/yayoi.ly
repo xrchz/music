@@ -52,8 +52,9 @@
         <b e' gis'>4 <bes ees' ges'> <a cis' eis'> <b dis'>
       | << { eis' fis' } \\ { dis' ~ dis' } >> <fis' cis''>
         <gis' b' dis''>
-        << { eis'' fis'' } \\ { <a' cis''> ~ <a' cis''> } >>
+        << { eis'' fis'' } \\ { <a' cis''> ~ cis'' } >>
         <b' dis''> <fis' b'>
+      | <cis' e' b'> <dis' fis' cis''> <eis' a'> <fis' gis'>
     }
     \new Staff {
       \clef bass
@@ -71,9 +72,10 @@
       | \clef bass <fis cis' e'>4 dis' <bes, aes> d'
          <ees, bes, ees aes des'>\arpeggio ges' <b, eis ais> <b dis' eis'>
         \set beatStructure = #'(2 2 2 2)
-      | gis,8 fis cis' b << { s4 aes8 bes } \\ { eis, dis bes,4 } >>
+      | <gis, gis>8 fis cis' b << { s4 aes8 bes } \\ { eis, dis bes,4 } >>
         dis,8 e [ ges aes ] b,, fis, [ dis e ]
-      | eis fis dis b, fis, b, fis, b,, e, cis a cis' dis' e' b e
+      | eis fis dis b, fis, b, fis, b,, e, cis ais cis' dis' e' b e
+      | a, fis cis' gis b, a dis fis,
     }
   >>
 }
