@@ -82,7 +82,7 @@
       | eis fis dis b, fis, b, fis, b,, e, cis ais cis' dis' e' b e
       | a, fis cis' gis c b dis fis,
         \set tupletSpannerDuration = #(ly:make-moment 2 4)
-        \times 2/3 { e,4 b, dis cis gis, dis, }
+        \times 2/3 { cis,4 bis, fis cis gis b, }
       | \times 2/3 { a, e b \clef treble r a' e'' \clef bass fis, dis b cis' fis' r}
       | c'4 d' << e'2 \\ {e4\rest fis} >> gis cis' c'2
     }
