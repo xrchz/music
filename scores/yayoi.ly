@@ -92,7 +92,7 @@
       | \times 2/3 { a, e b \clef treble r a' e'' \clef bass fis, dis b cis' fis' r}
       | c'4 d' << e'2 \\ {e4\rest fis} >> gis cis' c'2
       | g4 a <fis b> gis, <g, e> <fis, fis> <e, d> e
-      | <a, fis> <g, eis> <fis, e> <b, gis> g a <cis gis> <a, g>
+      | <a, fis> <g, eis> <fis, e> <b, gis> <e g> <fis a> <cis gis> <a, g>
     }
   >>
 }
