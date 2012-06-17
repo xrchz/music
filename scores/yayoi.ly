@@ -60,6 +60,12 @@
         << { gis'' a'' e'' } \\ { <a' dis''>2 \times 2/3 { b'2 cis''4 } } >>
       | << {e''4 e'' fis'' e'' cis'' e'' e''2}
         \\ {<f' a'>4 <g' b'> <a' cis''>2 <dis' eis'>4  <e' b'> <f' a'>2} >>
+      | << { b'4  b' cis'' b' a' g' fis' e' }
+        \\ { <cis' f'> <d' g'> <dis' a'> e'
+             <b cis'> <a dis'> <gis ais> b } >>
+      | << { c' e' a' gis'8 g' b'4 gis' e' ~ <cis' e'> }
+        \\ { g <a b> <b cis'> <a dis'>
+             <cis' fis'> <bis eis'> <b dis'> ~ <b cis'> } >>
     }
     \new Staff {
       \clef bass
@@ -85,6 +91,8 @@
         \times 2/3 { cis,4 bis, fis cis gis b, }
       | \times 2/3 { a, e b \clef treble r a' e'' \clef bass fis, dis b cis' fis' r}
       | c'4 d' << e'2 \\ {e4\rest fis} >> gis cis' c'2
+      | g4 a <fis b> gis, <g, e> <fis, fis> <e, d> e
+      | <a, fis> <g, eis> <fis, e> <b, gis> g a <cis gis> <a, g>
     }
   >>
 }
