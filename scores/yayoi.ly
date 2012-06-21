@@ -55,7 +55,7 @@
         << { eis'' fis'' } \\ { <a' cis''> ~ cis'' } >>
         <b' dis''> <fis' b'>
       | <cis' e' b'> <dis' fis' cis''> <eis' a'> <bis fis' gis'>
-        << { gis' a' e' cis' } \\ { dis'2 ~ dis'4 cis' } >>
+        << { gis' a' e' cis' } \\ { <dis' fis'>2 ~ <dis' e'>4 cis' } >>
       | << { dis'4 e' cis'2 } \\ { \times 2/3 { a2 r4 } } >>
         << { gis'' a'' e'' } \\ { <a' dis''>2 \times 2/3 { b'2 cis''4 } } >>
       | << {e''4 e'' fis'' e'' cis'' e'' e''2}
@@ -87,8 +87,9 @@
         dis,8 e [ ges aes ] b,, fis, [ dis e ]
       | eis fis dis b, fis, b, fis, b,, e, cis ais cis' dis' e' b e
       | a, fis cis' gis c b dis fis,
+        cis, bis, fis b ~
         \set tupletSpannerDuration = #(ly:make-moment 2 4)
-        \times 2/3 { cis,4 bis, fis cis gis b, }
+        \times 2/3 { <cis b>4 gis b, }
       | \times 2/3 { a, e b \clef treble r a' e'' \clef bass fis, dis b cis' fis' r}
       | c'4 d' << e'2 \\ {e4\rest fis} >> gis cis' c'2
       | g4 a <fis b> gis, <g, e> <fis, fis> <e, d> e
