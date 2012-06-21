@@ -66,6 +66,12 @@
       | << { c' e' a' gis'8 g' b'4 gis' e' ~ <cis' e'> }
         \\ { g <a b> <b cis'> <a dis'>
              <cis' fis'> <bis eis'> <b dis'> ~ <b cis'> } >>
+      | \time 4/4
+        << { dis'4 e' cis' dis' }
+        \\ { a2 b4 bes } >>
+      | \time 8/4
+        <ais b>4 <gis b> cis' b ais b b2
+      | cis'4 dis' fis' e'
     }
     \new Staff {
       \clef bass
@@ -94,6 +100,10 @@
       | c'4 d' << e'2 \\ {e4\rest fis} >> gis cis' c'2
       | g4 a <fis b> gis, <g, e> <fis, fis> <e, d> e
       | <a, fis> <g, eis> <fis, e> <b, gis> <e g> <fis a> <cis gis> <a, g>
+      | << {e4 fis a g} \\ {fis,2 b,} >>
+      | \times 2/3 { e,4 b, fis } e4*2/3 ais, gis,
+        fis, e gis fis cis ais,
+      | a, fis bis ais cis <ais, gis>
     }
   >>
 }
