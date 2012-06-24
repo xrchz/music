@@ -101,9 +101,9 @@
       | g4 a <fis b> gis, <g, e> <fis, fis> <e, d> e
       | <a, fis> <g, eis> <fis, e> <b, gis> <e g> <fis a> <cis gis> <a, g>
       | << {e4 fis a g} \\ {fis,2 b,} >>
-      | \times 2/3 { e,4 b, fis } e4*2/3 ais, gis,
-        fis, e gis fis cis ais,
-      | a, fis bis ais cis <ais, gis>
+      | \times 2/3 { e,4 b, fis } e4*2/3 ais, b,
+        <fis, cis> e gis fis ais, b,
+      | a, gis bis ais cis <ais, gis>
     }
   >>
 }
