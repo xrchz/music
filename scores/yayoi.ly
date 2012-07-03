@@ -101,9 +101,9 @@
         dis,8 e [ ges aes ] b,, fis, [ dis e ]
       | eis fis dis b, fis, b, fis, b,, e, cis ais cis' dis' e' b e
       | a, fis cis' gis c b dis fis,
-        cis, bis, fis b ~
+        cis, bis, fis b
         \set tupletSpannerDuration = #(ly:make-moment 2 4)
-        \times 2/3 { <cis b>4 gis b, }
+        \times 2/3 { cis'4 gis b, }
       | \times 2/3 { a, e b \clef treble r a' e'' \clef bass fis, dis b cis' fis' r}
       | c'4 d' << e'2 \\ {e4\rest fis} >> gis cis' c'2
       | g4 a <fis b> gis, <g, e> <fis, fis> <e, d> e
