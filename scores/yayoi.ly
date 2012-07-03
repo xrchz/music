@@ -50,9 +50,9 @@
         <gis' cis'' eis''> <fis' ais' dis''>
       | <dis' fis' cis''> <gis' b'> << { <dis' ais'>  gis' } \\ { b c'8 d' } >>
         <b e' gis'>4 <bes ees' ges'> <a cis' eis'> <b dis'>
-      | << { eis' fis' } \\ { dis' ~ dis' } >> <fis' cis''>
-        <gis' b' dis''>
-        << { eis'' fis'' } \\ { <a' cis''> ~ cis'' } >>
+      | << { eis' fis' } \\ { dis' ~ dis' } >> <gis' cis''>
+        <ais' b' dis''>
+        << { eis'' fis'' } \\ { cis'' ~ cis'' } >>
         <b' dis''> <fis' b'>
       | <cis' e' b'> <dis' fis' cis''> <eis' a'> <bis fis' gis'>
         << { gis' a' e' cis' } \\ { <dis' fis'>2 ~ <dis' e'>4 cis' } >>
