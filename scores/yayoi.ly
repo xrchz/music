@@ -71,7 +71,10 @@
         \\ { a2 b4 bes } >>
       | \time 8/4
         <ais b>4 <gis b> cis' b ais b b2
-      | cis'4 dis' fis' e'
+      | cis'4 dis' fis' e' 
+        << { dis' cis' b ~ b }
+        \\ { g4 ~ g ais gis } >>
+
     }
     \new Staff {
       \clef bass
@@ -103,7 +106,7 @@
       | << {e4 fis a g} \\ {fis,2 b,} >>
       | \times 2/3 { e,4 b, fis } e4*2/3 ais, b,
         <fis, cis> e gis fis ais, b,
-      | a, gis bis ais cis <ais, gis>
+      | a, gis bis ais cis <ais, gis> dis, e bes aes, ges ees
     }
   >>
 }
