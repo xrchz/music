@@ -70,15 +70,15 @@
         << { dis'4 e' cis' dis' }
         \\ { a2 b4 bes } >>
       | \time 8/4
-        <ais b>4 <gis b> cis' b ais b b2
-      | cis'4 dis' fis' e' 
+        <ais b>4 <gis b> cis' b ais cis' <b cis'>2
+      | <a cis'>4 dis' fis' e' 
         << { dis' cis' b ~ b }
         \\ { g4 ~ g ais gis } >>
       | \time 4/4
         << { bes b aes bes }
         \\ { f2 e } >>
       | \time 8/4
-        <e g>4 g a g <e fis> a a2
+        <c g>4 g a g <e fis> a a2
       | << { b4 cis' e' d' }
         \\ { fis2 gis } >>
     }
@@ -112,9 +112,9 @@
       | << {e4 fis a g} \\ {fis,2 b,} >>
       | \times 2/3 { e,4 b, fis } e4*2/3 ais, b,
         <fis, cis> e gis fis ais, b,
-      | a, gis bis ais cis <ais, gis> dis, e bes aes, ges ees
+      | a, gis bis ais cis <ais, gis> dis, e bes aes, ees ges
       | g, d aes c, g, g
-      | f, c f d bes, c d, a, d c a, bes,
+      | f, e f d bes, c d, a, d c f, aes,
       | g, d a b, e fis'
     }
   >>
