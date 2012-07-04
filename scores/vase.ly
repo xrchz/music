@@ -1,10 +1,9 @@
-\version "2.14.0"
+\version "2.15.39"
 
 \header {
   title="Vase"
   composer="Ramana Kumar"
   dedication="for Emma Walsh"
-  piece = "forget played accidentals"
   date = "2006"
   copyright = "Creative Commons Attribution-ShareAlike 3.0"
 }
@@ -18,7 +17,7 @@ mg = \change Staff=left
   \context PianoStaff <<
     \set PianoStaff.connectArpeggios = ##t
     \override PianoStaff.TimeSignature #'style = #'()
-    #(set-accidental-style 'forget 'Score)
+    \accidentalStyle #'Score "dodecaphonic"
     \context Staff=right <<
       \clef treble
       \time 8/4
