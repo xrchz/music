@@ -79,8 +79,8 @@
         \\ { f2 e } >>
       | \time 8/4
         <c g>4 g a g <e fis> a a2
-      | << { b4 cis' e' d' }
-        \\ { fis2 gis } >>
+      | << { b4 cis' e' d' ais' gis' fis' dis' }
+        \\ { fis2 gis <cis' eis'> <a cis'> } >>
     }
     \new Staff {
       \clef bass
@@ -115,7 +115,7 @@
       | a, gis bis ais cis <ais, gis> dis, e bes aes, ees ges
       | g, d aes c, g, g
       | f, e f d bes, c d, a, d c f, aes,
-      | g, d a b, e fis'
+      | g, d a b, e fis' cis gis b dis b c'
     }
   >>
 }
