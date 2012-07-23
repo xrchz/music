@@ -83,6 +83,10 @@
         \\ { fis2 gis <cis' eis'> <ais cis'>4 s } >>
       | << { eis'4 fis' gis' fis' dis' fis' fis' e' }
         \\ { <b dis'>2 a gis g } >>
+      | << { dis''4 e'' e'' dis'' gis'' fis'' fis'' e'' }
+        \\ { <g' ais'>2 <a' b'> <gis' d''> <a' cis''> } >>
+      | << { cis''4 e'' e'' d'' cis'' b' b' cis'' }
+        \\ { <e' gis'>2 <f' b'> d'4 fis' a' gis' } >>
     }
     \new Staff {
       \clef bass
@@ -119,6 +123,8 @@
       | f, e f d c, ees, d, a, d c f, aes,
       | g, d a b, e <fis' b'> dis gis <cis b> <f, e> bis cis'
       | fis b, fis, b,, fis, b, e b, e, a,, e, a,
+      | cis' dis' e' fis' b b, e, e <b fis'> e' a cis
+      | fis, fis cis' d' gis b, e, b cis' eis' dis' e'
     }
   >>
 }
