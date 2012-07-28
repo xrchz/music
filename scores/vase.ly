@@ -169,7 +169,7 @@ d8[ a \clef treble fis' gis' b' a' fis' b] \clef bass e[ b \clef treble fis' gis
 \clef bass f8[ c' \clef treble b' g' \clef bass d' g d g,] aes,[ ees d' bes c' f c f,] |
 ees,8[ bes, f des ees bes, ees, bes,,] aes,,[ ees bes ges a d a, d,] |
 g,,8[ d b g a e a, e,] c,[ g, a f g d g, <g,, d,>] |
-<< { c,,1 s} \\ { c8\rest g [f' d' g' d' e' g] } >>
+<< { c,,1 g } \\ { c8\rest g [f' d' g' d' e' g] } >>
       }
     >>
   >>
