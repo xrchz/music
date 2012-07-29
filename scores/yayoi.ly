@@ -79,8 +79,8 @@
         \\ { f2 e } >>
       | \time 8/4
         <c g>4 g a g <e fis> a a2
-      | << { b4 cis' e' d' ais' gis' fis' dis' }
-        \\ { fis2 gis <cis' eis'> <ais cis'>4 s } >>
+      | << { b4 cis' e' d' <fis' ais'> <eis' gis'> fis' dis' }
+        \\ { fis2 gis cis' <ais cis'>4 s } >>
       | << { eis'4 fis' gis' fis' dis' fis' fis' e' }
         \\ { <b dis'>2 a gis g } >>
       | << { dis''4 e'' e'' dis'' gis'' fis'' fis'' e'' }
