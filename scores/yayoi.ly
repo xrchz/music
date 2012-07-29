@@ -86,7 +86,7 @@
       | << { dis''4 e'' e'' dis'' gis'' fis'' fis'' e'' }
         \\ { <g' ais'>2 <a' b'> <gis' d''> <a' cis''> } >>
       | << { cis''4 e'' e'' d'' cis'' b' b' cis'' }
-        \\ { <e' gis'>2 <f' b'> d'4 fis' a' gis' } >>
+        \\ { <e' gis'>2 <f' b'> <ais' d'>4 fis' a' gis' } >>
     }
     \new Staff {
       \clef bass
