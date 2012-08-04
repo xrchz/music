@@ -88,7 +88,7 @@
       | << { cis''4 e'' e'' d'' cis'' b' b' cis'' }
         \\ { <e' gis'>2 <f' b'> <ais' d'>4 fis' a' gis' } >>
       | <e' a' e''>4 <e' b' e''> <fis' cis'' fis''> e''
-        <cis' fis' cis''> <e' gis' e''> <e' a' e''>
+        <cis' fis' cis''> <e' gis' e''> <e' b' e''>
         << {d'' ~} \\ {<f' a'> ~} >>
       | << {d''4 e'' fis'' e'' cis'' e'' e''2}
         \\ {<f' a'>4 <g' b'> <a' cis''>2 <dis' eis'>4  <e' b'> <f' a'>2} >>
