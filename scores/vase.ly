@@ -93,6 +93,8 @@ mg = \change Staff=left
 << {bes'2 des'' ces'' beses'} \\ {<d' ges'>4 f' ees' des' bes' f' aes' ges'} >> |
 <fis' b' fis''>2 <e' a' cis''> <d' g' e''> <c' f' d''> |
 << {e''2 g'' f'' ees''} \\ {d''1 des''} >> |
+<< {c'''2 g'' bes'' aes''} \\ {ees''1 e''} >> |
+<f'' g''>2
       }
     >>
     \context Staff=left <<
@@ -169,7 +171,9 @@ d8[ a \clef treble fis' gis' b' a' fis' b] \clef bass e[ b \clef treble fis' gis
 \clef bass f8[ c' \clef treble b' g' \clef bass d' g d g,] aes,[ ees d' bes c' f c f,] |
 ees,8[ bes, f des ees bes, ees, bes,,] aes,,[ ees bes ges a d a, d,] |
 g,,8[ d b g a e a, e,] c,[ g, a f g d g, <g,, d,>] |
-<< { c,,1 g } \\ { c8\rest g [f' d' g' d' e' g] } >>
+<< { c,,1 c } \\ { c8\rest g [f' d' g' d' e' g] g\rest g [ g' e' a' f' c' g] } >> |
+<< { f1 s } \\ { c'8\rest c' [g' f' c'' a' f' c'] c' [g' c'' g']  c' [f' c'' f'] } >> |
+aes
       }
     >>
   >>
