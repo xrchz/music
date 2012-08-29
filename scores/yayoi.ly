@@ -96,7 +96,7 @@
         <gis' cis'' gis''> <b' dis'' ais''> <a' d'' fis''> <ais' dis''> % <b' dis''>
       | << { <dis' eis'> <e' fis'> <fis' gis'>2 eis'4 fis' dis'2 }
         \\ { \times 2/3 {cis''4 cis'' cis''} dis'' cis'' ais' cis'' cis'' b' } >>
-      | << { <d' eis'> ~ <d' fis'> dis' e' <b fis'> ~ <b e'> dis' cis' }
+      | << { <d' eis'> <cis' fis'> dis' e' <b fis'> ~ <b e'> dis' cis' }
         \\ { \times 2/3 {ais'4 ais' ais'} cis'' b' gis' b' b' a' } >>
     }
     \new Staff {
