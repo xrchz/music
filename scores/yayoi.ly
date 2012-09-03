@@ -94,10 +94,10 @@
         \\ {<f' a'>4 <g' b'> <a' cis''>2 <dis' eis'>4  <e' b'> <f' a'>2} >>
       | <a' d'' a''>4 <c'' e'' a''> <b' dis'' b''> ~ <ais' dis'' ais''>
         <gis' cis'' gis''> <b' dis'' ais''> <a' d'' fis''> <ais' dis''> % <b' dis''>
-      | << { <dis' eis'> <e' fis'> <fis' gis'>2 eis'4 fis' dis'2 }
-        \\ { \times 2/3 {cis''4 cis'' cis''} dis'' cis'' ais' cis'' cis'' b' } >>
-      | << { <d' eis'> <cis' fis'> dis' e' <b fis'> ~ <b e'> dis' cis' }
-        \\ { \times 2/3 {ais'4 ais' ais'} cis'' b' gis' b' b' a' } >>
+      | << { \times 2/3 {cis''4 cis'' cis''} dis'' cis'' ais' cis'' cis'' b' }
+        \\ { <dis' eis'> <e' fis'> <fis' gis'>2 eis'4 fis' dis'2 } >>
+      | << { \times 2/3 {ais'4 ais' ais'} cis'' b' gis' b' b' a' }
+        \\ { <d' eis'> <cis' fis'> dis' e' <b fis'> ~ <b e'> dis' cis' } >>
       | << { \times 2/3 {gis'4 gis' gis'} e' gis' \times 2/3 {b' b' b'} gis' ais' }
         \\ { <ais cis'>4 <bis dis'> <cis' e'> <bis dis'> <d' fis'>2 <dis' eis'> } >>
     }
@@ -144,7 +144,7 @@
       | <gis b> % gis
         a b dis' cis' ais <b, b> ~ <b, fis b>
       | <cis b> <dis gis> <e a> <fis cis'> gis ~ <b, gis> <a, a> ~ <a, e a>
-      | <fis, e> <gis, fis> <a, gis> <b, a> << {d2 cis} \\ {gis4 ais b cis'} >>
+      | <fis, e> <gis, fis> <a, gis> <b, a> << {gis4 ais b cis'} \\ {d2 cis} >>
     }
   >>
 }
