@@ -98,6 +98,8 @@
         \\ { \times 2/3 {cis''4 cis'' cis''} dis'' cis'' ais' cis'' cis'' b' } >>
       | << { <d' eis'> <cis' fis'> dis' e' <b fis'> ~ <b e'> dis' cis' }
         \\ { \times 2/3 {ais'4 ais' ais'} cis'' b' gis' b' b' a' } >>
+      | << { \times 2/3 {gis'4 gis' gis'} e' gis' \times 2/3 {b' b' b'} gis' ais' }
+        \\ { <ais cis'>4 <bis dis'> <cis' e'> <bis dis'> <d' fis'>2 <dis' eis'> } >>
     }
     \new Staff {
       \clef bass
@@ -142,6 +144,7 @@
       | <gis b> % gis
         a b dis' cis' ais <b, b> ~ <b, fis b>
       | <cis b> <dis gis> <e a> <fis cis'> gis ~ <b, gis> <a, a> ~ <a, e a>
+      | <fis, e> <gis, fis> <a, gis> <b, a> << {d2 cis} \\ {gis4 ais b cis'} >>
     }
   >>
 }
