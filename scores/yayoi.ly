@@ -47,7 +47,7 @@
       | \time 8/4
         <a' cis'' gis''> <b' fis''> <f' aes' c'' ees''> <bes' f''>
         <a' cis'' e'' gis''> <bes' c'' des'' fis''>
-        <gis' cis'' eis''> <fis' ais' dis''>
+        <gis' cis'' eis''> <fis' b' dis''>
       | <dis' fis' cis''> <gis' b'> << { <dis' ais'>  gis' } \\ { b c'8 d' } >>
         <b e' gis'>4 <bes ees' ges'> <a cis' eis'> <b dis'>
       | << { eis' fis' } \\ { dis' ~ dis' } >> <gis' cis''>
