@@ -153,7 +153,7 @@
       | <fis, e> <gis, fis> <a, gis> <b, a> << {gis4 ais b cis'} \\ {d2 cis} >>
       | <e gis>4 <dis a> <cis gis> <fis, e> <b,, fis,> ~ <b,, fis, b,> ~ <e, b,> ~ <e, b, e>
       | << { cis4 dis e2 fisis gis } \\ { fis,1 dis } >>
-      | dis,8 ais, gis eis ais4 gis b,,8 fis, dis b, e4 dis
+      | dis,8 ais, gis eis ais4 gis b,,8 fis, cis b, e4 dis
     }
   >>
 }
