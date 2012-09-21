@@ -1,4 +1,4 @@
-\version "2.14.0"
+\version "2.16.0"
 
 \header {
   title = "Prelude"
@@ -10,7 +10,7 @@
 \score {
   \context PianoStaff <<
     \context Staff = right <<
-      #(set-accidental-style 'forget)
+      \accidentalStyle #'PianoStaff "dodecaphonic"
       \clef treble
       \time 6/4
       << {
@@ -61,7 +61,6 @@
     \context Staff = left <<
       \clef bass
       \time 6/4
-      #(set-accidental-style 'forget)
       << {
       bes4 ges des ges,2. |
       bes4 aes ees <<{des,2.}\\{s2 f4}>> |
