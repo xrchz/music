@@ -110,6 +110,10 @@
       | \time 4/4
         <cis' cis''>2 <dis'' gis'' dis'''>4 <eis'' ais'' eis'''>
       | \time 8/4
+        \times 2/3 {<fisis'' bis'' fisis'''> <eis'' cis''' eis'''> <fisis'' dis''' fisis'''>} <bis' gis'' bis''> <d'' g'' d'''>
+        \times 2/3 {<ees'' ges'' ees'''> <des'' aes'' des'''> <ees'' bes'' ees'''>} <ges' des'' ges''> <ges' ces'' ges''>8 ~ <aes' ces'' aes''>
+      |
+
     }
     \new Staff {
       \clef bass
@@ -160,6 +164,8 @@
       | dis,8 ais, gis eis ais4 gis b,,8 fis, cis b, e4 dis
       | <fis, cis>8 <gis, dis> <a, fis> ~ <a, e> <b, fis>2 e,8 b, e b \parenthesize ais gis fis e
       | dis ais dis' ais' gis' fisis' eis' dis'
+      | gis dis' cis'' ais' dis''4 r b,8 fis cis' b e'4 dis'
+      |
     }
   >>
 }
