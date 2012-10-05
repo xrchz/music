@@ -113,7 +113,8 @@
         \times 2/3 {<fisis'' bis'' fisis'''> <eis'' cis''' eis'''> <fisis'' dis''' fisis'''>} <bis' gis'' bis''> <d'' g'' d'''>
         \times 2/3 {<ees'' ges'' ees'''> <des'' aes'' des'''> <ees'' bes'' ees'''>} <ges' des'' ges''> <ges' ces'' ges''>8 ~ <aes' ces'' aes''>
       | <a' cis'' a''> <b' e'' b''> <b' gis'' b''> <cis'' fis'' cis'''> <e'' a'' e'''>4 <dis'' b'' dis'''>8 ~ <dis'' fis'' dis'''> <gis' fis'' gis''>4 ~ <gis' e'' gis''> dis'' cis''
-      | <fis' gis' fis''> <e' b' e''> <dis' g' dis''>8 ~ <cis' g' cis''> <b b'> ~ <cis' b' cis''> <dis' fis' dis''>
+      | <fis' gis' fis''> <e' b' e''> <dis' g' dis''>8 ~ <cis' g' cis''> <b b'> ~ <cis' b' cis''> <dis' fis' dis''>4 <fis' b' fis''> <ais' d'' ais''> <gis' f'' gis''>
+      | <b' e'' b''>2.
     }
     \new Staff {
       \clef bass
@@ -166,7 +167,8 @@
       | dis ais dis' ais' gis' fisis' eis' dis'
       | gis dis' cis'' ais' dis''4 r b,8 fis cis' b e'4 dis'
       | cis' b a16 fis' a' cis'' \times 4/6 { b, fis a cis' fis' b' } e,8 b, e b e' a' \parenthesize cis'' b'
-      | gis,,8 e, b, e
+      | gis,,8 e, b, e b g cis eis, fis, dis fis dis' eis' b gis d
+      | cis
     }
   >>
 }
