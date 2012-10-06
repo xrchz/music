@@ -166,7 +166,7 @@
       | <fis, cis>8 <gis, dis> <a, fis> ~ <a, e> <b, fis>2 e,8 b, e b \parenthesize ais gis fis e
       | dis ais dis' ais' gis' fisis' eis' dis'
       | gis dis' cis'' ais' dis''4 r b,8 fis cis' b e'4 dis'
-      | cis' b a16 fis' a' cis'' \times 4/6 { b, fis a cis' fis' b' } e,8 b, e b e' a' \parenthesize cis'' b'
+      | cis' b a16 fis' a' cis'' \times 4/6 { b, fis a cis' fis' b' } e,8 b, e b e' fis' ais' b'
       | gis,,8 e, b, e b g cis eis, fis, dis fis dis' eis' b gis d
       | cis
     }
