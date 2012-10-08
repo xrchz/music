@@ -222,7 +222,8 @@
       <dis' fis' dis''>4 <fis' b' fis''> <ais' d'' ais''> <gis' f'' gis''>
       |
 
-      <b' e'' b''>2.
+      << { <b' e'' b''>2. } \\ { s2 cis'4 } >> <ais' fis'' ais''>4
+      <cis'' dis'' cis'''>2
     }
     \new Staff {
       \clef bass
@@ -370,7 +371,7 @@
       gis,,8 e, b, e b g cis eis, fis, dis fis dis' eis' b gis d
       |
 
-      cis
+      cis gis dis' e' fis, e cis' dis' a, fis b fis' e' dis' cis' b
     }
   >>
 }
