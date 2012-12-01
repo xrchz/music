@@ -239,8 +239,13 @@
       \\ { cis''4 dis'' b' cis'' <fis' a'> <gis' b'> <a' cis''> <g' c''> } >>
       |
 
-      << { cis''4 e'' dis''8 e'' ~ e'' }
-      \\ { <dis' eis'>4  <fis' a'> b' <a' cis''> } >>
+      << { cis''4 e'' dis''8 e'' ~ e''4 b'' b'2 b'4 }
+      \\ { <dis' eis'>4  <fis' a'> b' <a' cis''> b'4 s2 } >>
+      |
+
+      << { b'4 a' d'' c'' b'1 }
+      \\ { <c' e'>1 <d' fis'>2 ~ <d' gis'> } >>
+      |
 
     }
     \new Staff {
@@ -404,7 +409,11 @@
       b, fis cis' fis' dis' a eis cis fis, e dis' e' cis' a dis bis,
       |
 
-      b, a cis cis' e e' a fis'
+      b, a cis cis' e e' a fis' b1
+      |
+
+      f1 e
+      |
     }
   >>
 }
