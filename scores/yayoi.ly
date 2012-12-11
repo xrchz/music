@@ -247,6 +247,17 @@
       \\ { <c' e'>1 <d' fis'>2 ~ <d' gis'> } >>
       |
 
+      << { e''4 e'' fis'' e'' cis'' e'' e'' d'' }
+      \\ { <f' a'>4 <g' b'> <a' cis''>2 <gis' b'>4 <fis' a'> <e' ais'>4 ~ <f' ais'> } >>
+      |
+
+      <d' cis''>4 <e' b'> <f' a'> <g' b'>
+      << { a'2 } \\ { e'4 f' } >> <dis' g' bes'>4 <e' gis' c''>
+      |
+
+      \time 8/8
+      <cis' fis' a'>1
+      \bar "|."
     }
     \new Staff {
       \clef bass
@@ -412,8 +423,18 @@
       b, a cis cis' e e' a fis' b1
       |
 
-      f1 e
+      f1 e2 ~ <e b>
       |
+
+      c'4 d' << e'2 \\ { e4\rest gis } >> fis cis' d'2
+      |
+
+      b,8 a cis' fis c' d e d' f c' a d c b c' a
+      |
+
+      \set beatStructure = #'(4 4)
+      d fis b e' b'2
+      \bar "|."
     }
   >>
 }
