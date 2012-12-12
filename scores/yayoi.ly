@@ -167,11 +167,11 @@
       |
 
       << { \times 2/3 { cis''4 cis'' cis'' } dis'' cis'' ais' cis'' cis'' b' }
-      \\ { <dis' eis'> <e' fis'> <fis' gis'>2 eis'4 fis' dis'2 } >>
+      \\ { <dis' eis'> <e' fis'> <fis' gis'>2 eis'4 fis' dis'2 } >> \breathe
       |
 
-      << { \times 2/3 { ais'4 ais' ais' } cis'' b' gis' b' b' a' }
-      \\ { <d' eis'> <cis' fis'> dis' e' <b fis'> ~ <b e'> dis' cis' } >>
+      << { \times 2/3 { ais'4 -\markup{\italic "with great care"} ais' ais' } cis'' b' gis' b' b' a' }
+      \\ { <d' eis'> <cis' fis'> dis' e' <b fis'> ~ <b e'> dis' cis' } >> \breathe
       |
 
       << {
@@ -434,7 +434,7 @@
       |
 
       \set beatStructure = #'(4 4)
-      d fis b e' b'2
+      d\laissezVibrer fis\laissezVibrer b\laissezVibrer e'\laissezVibrer b'2
       \bar "|."
     }
   >>
