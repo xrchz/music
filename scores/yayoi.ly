@@ -5,6 +5,7 @@
   composer = "Ramana Kumar"
   date = "2012"
   copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  dedication = "for 鈴木藍さん"
 }
 
 #(ly:set-option 'point-and-click #f)
