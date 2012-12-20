@@ -92,8 +92,8 @@
       << { gis' a' e' cis' } \\ { <dis' fis'>2 ~ <dis' e'>4 cis' } >>
       |
 
-      << { dis'4 e' cis'2 } \\ { \times 2/3 { a2 r4 } } >>
-      << { gis'' a'' e'' } \\ { <a' dis''>2 \times 2/3 { b'2 cis''4 } } >>
+      << { dis'4 e' cis'2\laissezVibrer } \\ { \times 2/3 { a2 r4 } } >>
+      << { gis'' a'' e'' } \\ { <a' dis''>2 \times 2/3 { b'2 cis''4\laissezVibrer } } >>
       |
 
       << { e''4 e'' fis'' e'' cis'' e'' e''2 }
@@ -163,7 +163,7 @@
       |
 
       <a' d'' a''>4 <c'' e'' a''> <b' dis'' b''> ~ <ais' dis'' ais''>
-      <gis' cis'' gis''> <b' dis'' ais''> <a' d'' fis''> <ais' dis''> % <b' dis''>
+      <gis' cis'' gis''>\laissezVibrer <b' dis'' ais''> <a' d'' fis''> <ais' dis''>
       |
 
       << { \times 2/3 { cis''4 cis'' cis'' } dis'' cis'' ais' cis'' cis'' b' }
@@ -303,28 +303,29 @@
       |
 
       \set beatStructure = #'(2 2 2 2)
-      <gis, gis>8 fis cis' b << { s4 aes8 bes } \\ { eis, dis bes,4 } >>
-      dis,8 e [ ges aes ] b,, fis, [ dis e ]
+      << { gis8 fis cis' b r dis aes bes } \\ { gis,4 r eis, bes, } >>
+      dis,8\laissezVibrer e [ ges aes ] b,,\laissezVibrer fis, [ dis e ]
       |
 
-      eis fis dis b, fis, b, fis, b,, e, cis ais cis' dis' e' b e
+      eis ( fis dis b, fis, b, fis, b,, ) e, ( cis ais cis' ) dis' ( e' b e )
       |
 
-      a, fis cis' gis c b dis fis,
-      cis, bis, fis b
+      a, ( fis cis' gis ) c ( b ) dis ( fis, )
+      cis, ( bis, fis b )
       \set tupletSpannerDuration = #(ly:make-moment 2 4)
       \times 2/3 { cis'4 gis b, }
       |
 
       \times 2/3 {
-        a, e b \clef treble r a' e'' \clef bass fis, dis b cis' fis' r
+        a,\laissezVibrer e\laissezVibrer b\laissezVibrer \clef treble r a'\laissezVibrer e''\laissezVibrer
+        \clef bass fis,\laissezVibrer dis\laissezVibrer b\laissezVibrer cis'\laissezVibrer fis'\laissezVibrer r
       }
       |
 
       c'4 d' << e'2 \\ { e4\rest fis } >> gis cis' c'2
       |
 
-      g4 a <fis b> gis, <g, e> <fis, fis> <e, d> e
+      g4 a <fis b> gis, <g, e> <fis, fis> <e, d> ~ <e, e>
       |
 
       <a, fis> <g, eis> <fis, e> <b, gis> <e g> <fis a> <cis gis> <a, g>
@@ -365,7 +366,7 @@
       |
 
       <b fis'>4 <a g'> <gis fis'> ~ <gis dis'>
-      <cis b> eis' <d' gis'> <c' fis'> % <dis' fis'>
+      <cis b>\laissezVibrer eis' <d' gis'> <c' fis'>
       |
 
       <gis b> % gis
@@ -427,7 +428,7 @@
       f1 e2 ~ <e b>
       |
 
-      c'4 d' << e'2 \\ { e4\rest gis } >> fis cis' d'2
+      c'4 d' << e'2 \\ { e4\rest gis } >> fis ~ <fis cis'> d'2
       |
 
       b,8 a cis' fis c' d e d' f c' a d c b c' a
