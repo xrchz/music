@@ -22,7 +22,7 @@
       r4
       |
 
-      r a fis' ~ <fis' a> c' e' << { dis' cis' } \\ b2 >>
+      r a fis' ~ <fis' a> c' ~ <c' e'> << { dis' cis' } \\ b2 >>
       |
 
       r4 a' fis'' ~ <fis'' a'> << { e''4 d'' cis'' b' } \\ { <f' bes'>2 <d' gis'> } >>
@@ -35,7 +35,7 @@
       << { c'4. a8 b4 c' e'4.. d'16 } \\ { g2 fis  <f a> } >> b4 a
       |
 
-      r ees' c'' ~ <ees' c''> fis' bes' << { a' gis' } \\ <b f'>2 >>
+      r ees' c'' ~ <ees' c''> fis' ~ <fis' bes'> << { a' gis' } \\ <b f'>2 >>
       |
 
       << { g'4 ees' fis' d' f' ees' d' <cis' cis''> }
@@ -72,7 +72,8 @@
       |
 
       \time 8/4
-      r g' e'' ~ <g' e''>
+      r g' e'' ~ <g' e''> ais' ~ <ais' d''> << { cis'' b' } \\ a'2 >>
+      |
     }
     \new Staff {
       \clef bass
@@ -121,7 +122,8 @@
       g,4 a, b, r
       |
       
-      e r fis' r
+      e r fis' r e'2 <b dis'>
+      |
     }
   >>
 }
