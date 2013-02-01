@@ -74,6 +74,14 @@
       \time 8/4
       r g' e'' ~ <g' e''> ais' ~ <ais' d''> << { cis'' b' } \\ a'2 >>
       |
+
+      r4 g'' e''' ~ <gis'' e'''>
+      <d'' f'' a'' d'''> <c'' e'' a'' c'''> <c'' e'' a'' b''> <b' dis'' fis'' a''>
+      |
+
+      <ais' dis'' gis''>4.. <b b'>16 <b b'>4 <gis' b' e'' gis''>
+      <b' dis'' e'' b''>4. <a' a''>8 <gis' bis' dis'' gis''>4 <e' gis' cis'' e''>
+      |
     }
     \new Staff {
       \clef bass
@@ -123,6 +131,14 @@
       |
       
       e r fis' r e'2 <b dis'>
+      |
+
+      \clef treble e'4 r fis'' r
+      <c' f' a'> <a e' g'> \clef bass <fis c' e'> <b, fis a>
+      |
+
+      <e, e> <e e'> <fis, fis> <gis, gis>
+      <cis, cis> <cis cis'> <dis, dis> <e, e>
       |
     }
   >>
