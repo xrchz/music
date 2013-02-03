@@ -6,6 +6,10 @@
   copyright = "Creative Commons Attribution-ShareAlike 3.0"
 }
 
+\paper {
+  ragged-last = ##t
+}
+
 #(ly:set-option 'point-and-click #f)
 
 pushUp = #(define-music-function (parser location padding) (number?)
