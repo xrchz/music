@@ -13,7 +13,7 @@
   \context PianoStaff <<
     \set PianoStaff.followVoice = ##t
     \set PianoStaff.explicitKeySignatureVisibility = #end-of-line-invisible
-    #(set-accidental-style 'forget 'Score)
+    #(set-accidental-style 'dodecaphonic 'Score)
     \context Staff = right <<
       \clef treble
       \time 4/2
