@@ -1,4 +1,4 @@
-\version "2.14.0"
+\version "2.16.0"
 
 \header {
   title = \markup{\concat{\small{\raise #1.0 "1"}"5673"\small{\raise #1.0 "1"}"214"}}
@@ -10,7 +10,7 @@
 
 pushUp = #(define-music-function (parser location padding) (number?)
   #{
-    \once \override TextScript #'extra-offset = #( cons 0.0 $padding )
+    \once \override TextScript #'extra-offset = #( cons 0.0 padding )
   #})
 
 \score {
