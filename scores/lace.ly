@@ -159,7 +159,7 @@
         d,4*2/3 a\( d' cis' gis cis\) d, b\(d' cis' b a\) |
         gis2 <e, e> <a, e> <gis, cis eis> |
         <fis, cis fis>2 <fis, cis e> b,,1 |
-        e,2. dis4 a2 gis |
+        e,2. dis4 a2 gis ~ |
         <cis gis>1 <fis a cis'>2 <b, b> |
         e2 dis s2 b\( |
         r2 a gis fis\) |
