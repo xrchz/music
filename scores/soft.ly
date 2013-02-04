@@ -87,6 +87,10 @@
       << { <e' e''>8 <dis' dis''> <dis' dis''> <e' e''> } \\ { <a' cis''>4 gis' } >>
       <gis' b' e'' gis''>4. <fis' fis''>8 <fis' b' dis'' fis''>4. <b' b''>8
       |
+
+      <b' e'' gis'' b''>4. <e' e''>8 <dis' dis''> <e' e''> <gis' gis''> <b' b''>
+      <e'' fis'' a'' dis'''>4. <cis'' cis'''>8 \times 2/3 { <cis'' e'' a'' cis'''>4 <a' a''>  <e' gis' cis'' e''> }
+      |
     }
     \new Staff {
       \clef bass
@@ -147,6 +151,9 @@
       |
 
       <a,, a,> <e e'> <fis, fis> <c c'> <b, b> <b,, b,> <a, a> <b,, b,>
+      |
+
+      <gis,, gis,> <d d'> <c c'> <b, b> <a, a> <g g'> \times 2/3 { <fis fis'>2 <ais, ais>4 }
       |
     }
   >>
