@@ -98,7 +98,12 @@
       \times 2/3 { <b' dis'' ais''> <ais' cis'' gis''> <fis' bis' fis''> } <gis' b' dis'' gis''>4. <eis'' cis'''>8
       |
 
-      cis'''4. fis''8 eis'' fis'' ais'' cis''' eis'''4. dis'''8 dis'''2
+      cis'''4. fis''8 eis'' fis'' ais'' cis''' eis'''4. dis'''8 dis'''8. fis''16 fis''8 gis''
+      |
+
+      ais''4. <fis'' ais''>8  <gis'' bis''> <dis'' ais''> <ais' fis''> <eis' dis''>
+      <a' d'' fis''>4. gis''8 <g' b' dis'' eis''>8. cis'16 cis'8 dis'
+      |
     }
     \new Staff {
       \clef bass
@@ -167,7 +172,11 @@
       <b, b> <f f'> <dis dis'> <g, g> <gis, gis> <d d'> <cis cis'> <cis, cis>
       |
 
-      ais,8 fis cis' fis' cis''4 ais' b,8 fis dis' fis' dis''2
+      ais,8 fis cis' fis' cis''4 ais' b,8 fis dis' fis' dis''4 b'
+      |
+
+      cis8 ais fis' cis'' dis'' fis' dis' ais c' a fis dis cis gis b g,
+      |
     }
   >>
 }
