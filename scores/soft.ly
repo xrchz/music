@@ -104,6 +104,14 @@
       ais''4. <fis'' ais''>8  <gis'' bis''> <dis'' ais''> <ais' fis''> <eis' dis''>
       <a' d'' fis''>4. gis''8 <g' b' dis'' eis''>8. cis'16 cis'8 dis'
       |
+
+      <ais eis'>4. <cis' eis'>8 << {e' fis' a' cis'' eis''4. dis''8} \\ {a4. \parenthesize cis'8 a'4 s} >>
+      dis''8. fis'16 fis'8 gis'
+      |
+
+      << { ais'2. cis''4 gis'4. cis''8 gis'4. cis''8 }
+      \\ { cis'4. fis'8 dis' s gis' fis' fis'2 eis'4. cis'8 } >>
+      |
     }
     \new Staff {
       \clef bass
@@ -176,6 +184,12 @@
       |
 
       cis8 ais fis' cis'' dis'' fis' dis' ais c' a fis dis cis gis b g,
+      |
+
+      fis, cis gis fis fis, cis fis cis' b, fis \clef treble gis' fis' eis' cisis' dis' fis'
+      |
+
+      \clef bass cis ais dis' s s cis' ais fis cis gis b dis' cis, gis, dis cis
       |
     }
   >>
