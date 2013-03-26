@@ -112,6 +112,20 @@
       << { ais'2. cis''4 gis'4. cis''8 gis'4. cis''8 }
       \\ { cis'4. fis'8 dis' s gis' fis' fis'2 eis'4. cis'8 } >>
       |
+
+      r4 a fis' ~ <fis' a> c' ~ <c' e'> << { dis' cis' } \\ b2 >>
+      |
+
+      <cis' b>4 ~ <cis' ais> <a fis'> <c' e'> <e ais dis'>8 r r <dis gis cis'>8 ~ <dis gis cis'>2
+      |
+
+      r4 <g' b'>8 <gis' c''>8 ~ <gis' c''>4 ~ <gis' b'>
+      r4 <dis'' fis''>8 <d'' e'' a''>8 ~ <d'' e'' a''>4 ~ <e'' g''>
+      |
+
+      \times 2/3 { <g' c'' fis''>2 <fis' cis'' e''>4 } \times 2/3 { <fis' b' d''>2 <f' ais' cis''>4 }
+      <e' a' c''>4. <dis' g' b'>8 r4 fis'
+      |
     }
     \new Staff {
       \clef bass
@@ -190,6 +204,20 @@
       |
 
       \clef bass cis ais dis' s s cis' ais fis cis gis b dis' cis, gis, dis cis
+      |
+
+      fis,4 r gis r fis2 <cis eis>
+      |
+
+      <fis, cis>4 ~ <fis, dis> ~ <fis, e> <fis gis> cis, dis, e, fis,
+      |
+
+      g,4 \clef treble <des' ees'>8 <d' e'>8 ~ <d' e'>2
+      \clef bass ees4 \clef treble <a' c''>8 bes'8 ~ bes'4 ~ <bes' cis''>
+      |
+
+      \clef bass \times 2/3 { a,4 dis' e' } \times 2/3 { c, ais b }
+      cis'8. g16 g,8 fis,8 r2
       |
     }
   >>
