@@ -131,7 +131,11 @@
       |
 
       <fis dis'> <ais dis'> <b e'> <a d' fis'> <a b dis'> ~ <a b d'> <g a d'> ~ <g a cis'>
-      <a e' a'> ~ <a d' fis'> <gis cis' e'> <a b d'>
+      <a e' a'> ~ <a d' fis'> <gis cis' e'> <a b d'> <gis a cis'> ~ <fis a e'> <fis cis' dis'> <g c' dis'>
+      |
+
+      <aes bes des'> bes' <bes ees' aes'> <b e' g'> <bes c' aes'> <ees' f' c''> <des' ees' bes'> <c' f' aes'>
+      <c' d' f'> <ees' g' d''> <f' a' ees''> <g' b' d''> <g' bes' c''>
     }
     \new Staff {
       \clef bass
@@ -230,7 +234,11 @@
       |
 
       <fis, e> <g, f> <gis, fis> <d, c> <g, f> ~ <gis, f> <a, e> ~ <ais, e>
-      <b, fis> ~ <b, gis> <e, d>  <f, e>
+      <b, fis> ~ <b, gis> <e, d>  <f, e> <fis, e> ~ <c e> <gis, dis> ~ <a, dis>
+      |
+
+      <bes, f> e, ees, ~ <ees, des> <f, ees> <aes, f> <aes, ges> <ees a>
+      <d a> aes, g, <f ees'> <e d'>
     }
   >>
 }
