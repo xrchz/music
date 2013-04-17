@@ -130,12 +130,32 @@
       dis'4. b8 ais b dis' fis' ais'4. gis'8 gis'8. b16 b8 cis'
       |
 
+      \time 3/2
       <fis dis'> <ais dis'> <b e'> <a d' fis'> <a b dis'> ~ <a b d'> <g a d'> ~ <g a cis'>
-      <a e' a'> ~ <a d' fis'> <gis cis' e'> <a b d'> <gis a cis'> ~ <fis a e'> <fis cis' dis'> <g c' dis'>
+      <a e' a'> ~ <a d' fis'> <gis cis' e'> <a b d'>
       |
 
-      <aes bes des'> bes' <bes ees' aes'> <b e' g'> <bes c' aes'> <ees' f' c''> <des' ees' bes'> <c' f' aes'>
-      <c' d' f'> <ees' g' d''> <f' a' ees''> <g' b' d''> <g' bes' c''>
+      \time 4/2
+      <gis a cis'> ~ <fis a e'> <fis cis' dis'> <g c' dis'> <aes bes des'> bes' <bes ees' aes'> <b e' g'>
+      <bes c' aes'> <ees' f' c''> <des' ees' bes'> <c' f' aes'> <c' d' f'> <ees' g' d''> <f' a' ees''> <g' b' d''>
+      |
+
+      <g' bes' c''> c' g' e' d' <e a c'> <b e' a'> <c' f' gis'>
+      <b e' b'> ~ <b e' a'> <gis d' g'> ~ <gis d' f'> <a d' e'>4 <g b cis' e'>
+      |
+
+      \time 8/4
+      r4 d' <cis' b'> ~ <b d' b'> <a e' f'> ~ <a d' a'> <ais bis gis'> ~ <ais cis' fis'>
+      |
+
+      b dis' <fis' b'> ~ <cis' b'> <b e' a'>\laissezVibrer <ees' g'> <a d' fis'> <g c' e'>
+      |
+
+      <f ais dis'>4.. fis16 fis4 <e g bes dis'> <gis b fis'>4. e'8 <gis ais dis'>4  <g bis dis'>
+      |
+
+      <fis b> <f cis'> <e dis'> ~ <e ais e'> <gis b dis'>4. cis'8 <g bes cis'>2
+      |
     }
     \new Staff {
       \clef bass
@@ -234,11 +254,28 @@
       |
 
       <fis, e> <g, f> <gis, fis> <d, c> <g, f> ~ <gis, f> <a, e> ~ <ais, e>
-      <b, fis> ~ <b, gis> <e, d>  <f, e> <fis, e> ~ <c e> <gis, dis> ~ <a, dis>
+      <b, fis> ~ <b, gis> <e, d>  <f, e>
       |
 
+      <fis, e> ~ <c e> <gis, dis> ~ <a, dis>
       <bes, f> e, ees, ~ <ees, des> <f, ees> <aes, f> <aes, ges> <ees a>
-      <d a> aes, g, <f ees'> <e d'>
+      <d a> aes, g, <f ees'>
+      |
+
+      <e d'> a, d g, c f, e, ~ <e, d> c ~ <c fis> b, ees, a,, e a, fis,
+      |
+
+      b,,4 fis g ~ <d g> ~ <g, d> ~ <g, d f> <fis, e> <g, dis> ~
+      |
+
+      <gis, dis> fis ais <gis b> <g, d f>\laissezVibrer bes ais,, ~ <ais,, fis,>
+      |
+
+      b,, fis, r c, cis, cis <fis, e> <g, e>
+      |
+
+      <gis, dis> d, cis, c, f, ais, e a,
+      |
     }
   >>
 }
