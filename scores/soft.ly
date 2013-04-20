@@ -151,11 +151,19 @@
       b dis' <fis' b'> ~ <cis' b'> <b e' a'>\laissezVibrer <ees' g'> <a d' fis'> <g c' e'>
       |
 
-      <f ais dis'>4.. fis16 fis4 <e g bes dis'> <gis b fis'>4. e'8 <gis ais dis'>4  <g bis dis'>
+      <f b dis'>4.. fis16 fis4 <e g bes dis'> <gis b fis'>4. e'8 <ais bis dis'>4  <a cis' dis'>
       |
 
-      <fis b> <f cis'> <e dis'> ~ <e ais e'> <gis b dis'>4. cis'8 <g bes cis'>2
+      <fis b> <f cis'> <e dis'> ~ <e ais e'> <gis bis dis'>4. cis'8 <g b cis'>2
       |
+
+      << { b4. cis'8 d' ees' f' ges' } \\ { ais4 gis g fis } >> <ees' b' ees''>4. <des' bes' des''>8 <des' aes' ces''>8. b16 b8 cis'
+      |
+
+      <fis dis'>8 ais b gis' fis' e' cis' <dis' cis''> <e' b'>4 ~ <dis' b'>8 ~ <dis' ais'> <cis' gis'>4 ais'8 b'
+      |
+
+      <e' dis''>4. cis''8
     }
     \new Staff {
       \clef bass
@@ -271,11 +279,19 @@
       <gis, dis> fis ais <gis b> <g, d f>\laissezVibrer bes ais,, ~ <ais,, fis,>
       |
 
-      b,, fis, r c, cis, cis <fis, e> <g, e>
+      b,, fis, r c, cis, cis <fis, e> <g, f>
       |
 
-      <gis, dis> d, cis, c, f, ais, e a,
+      <gis, dis> d, cis, c, eis, ais, e a,
       |
+
+      aes, f ees bes, e,, g f g,
+      |
+
+      fis,8 cis dis e fis gis ais g, gis, fis gis ais b gis cis f,
+      |
+
+      fis, cis gis dis'
     }
   >>
 }
