@@ -13,7 +13,7 @@
 
 \score {
   \new PianoStaff <<
-    \new Staff {
+    \new Staff = "up" {
       \accidentalStyle #'PianoStaff "dodecaphonic"
       \override PianoStaff.TimeSignature #'style = #'numbered
       \clef treble
@@ -160,12 +160,20 @@
       << { b4. cis'8 d' ees' f' ges' } \\ { ais4 gis g fis } >> <ees' b' ees''>4. <des' bes' des''>8 <des' aes' ces''>8. b16 b8 cis'
       |
 
+      \time 2/1
       <fis dis'>8 ais b gis' fis' e' cis' <dis' cis''> <e' b'>4 ~ <dis' b'>8 ~ <dis' ais'> <cis' gis'>4 ais'8 b'
       |
 
-      <e' dis''>4. cis''8
+      <e' dis''>4. cis''8 gis'4 <d' ais'>8 ~ <d' b'> <e' b'>4 <fis' cis''> <dis' gis'>4. <b ais'>8
+      |
+
+      <d' fis'>4. ~ <d' gis'>8  <e' a'>4 ~ <d' a'>8 ~ <d' gis'> <cis' gis'>2 <b d' fis'>
+      |
+
+      <g d' e'>4. <a fis'>8 <b g'>4. <cis' fis'>8 <fis cis' fis'>2 <fis c' fis'>
+      |
     }
-    \new Staff {
+    \new Staff = "down" {
       \clef bass
       cis4
       |
@@ -291,7 +299,14 @@
       fis,8 cis dis e fis gis ais g, gis, fis gis ais b gis cis f,
       |
 
-      fis, cis gis dis'
+      fis, cis gis dis' cis' b eis gis, g, e b g' eis' cis' gis cis
+      |
+
+      b, fis a cis' d' a <e b> bes, a, e b \change Staff = "up" b \change Staff = "down" a fis cis gis,
+      |
+
+      e, b, d fis <a, g> d e a d, a, e \change Staff = "up" e \change Staff = "down" <a, e> d a e'
+      |
     }
   >>
 }
