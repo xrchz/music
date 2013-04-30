@@ -151,7 +151,8 @@
       b dis' <fis' b'> ~ <cis' b'> <b e' a'>\laissezVibrer <ees' g'> <a d' fis'> <g c' e'>
       |
 
-      <f b dis'>4.. fis16 fis4 <e g bes dis'> <gis b fis'>4. e'8 <ais bis dis'>4  <a cis' dis'>
+      \showStaffSwitch
+      <f b dis'>4.. \change Staff = "down" fis16 \change Staff = "up" fis4 <e g bes dis'> <gis b fis'>4. e'8 <ais bis dis'>4  <a cis' dis'>
       |
 
       <fis b> <f cis'> <e dis'> ~ <e ais e'> <gis bis dis'>4. cis'8 <g b cis'>2
@@ -170,7 +171,13 @@
       <d' fis'>4. ~ <d' gis'>8  <e' a'>4 ~ <d' a'>8 ~ <d' gis'> <cis' gis'>2 <b d' fis'>
       |
 
-      <g d' e'>4. <a fis'>8 <b g'>4. <cis' fis'>8 <fis cis' fis'>2 <fis c' fis'>
+      <g d' e'>4. <a fis'>8 <b g'>4. <cis' fis'>8 <fis cis' fis'>2 <fis c' fis'>4. <bes des' ees'>8
+      |
+
+      <b d' e'>4. fis'8 g' c'' f'' bes'' <a' e'' a''>2 <fis' cis'' fis''>4 ~ <fis' b' fis''>
+      |
+
+      <e' bes' e''> ~ <e' c'' e''> d''8 bes' ees'' aes'' <g' d'' g''>2 ~ <fis' d'' fis''>
       |
     }
     \new Staff = "down" {
@@ -305,7 +312,13 @@
       b, fis a cis' d' a <e b> bes, a, e b \change Staff = "up" b \change Staff = "down" a fis cis gis,
       |
 
-      e, b, d fis <a, g> d e a d, a, e \change Staff = "up" e \change Staff = "down" <a, e> d a e'
+      e, b, d fis <a, g> d e a d, a, e \change Staff = "up" e \change Staff = "down" <a, e> d a s
+      |
+
+      g, e a d' \parenthesize g' s s s fis, cis a e' dis' b fis cis
+      |
+
+      g, d g c' f' s s s d, a, d a d' ais fis cis
       |
     }
   >>
