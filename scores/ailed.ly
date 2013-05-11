@@ -2,10 +2,13 @@
 
 \header {
   title = "Prelude"
+  subtitle = "que je ne comprends pas"
   composer = "Ramana Kumar"
   date = "2005"
+  dedication = "Delia Wang"
   copyright = "Creative Commons Attribution-ShareAlike 3.0"
 }
+%#(set-default-paper-size "a4" 'landscape)
 
 \score {
   \context PianoStaff <<
