@@ -171,7 +171,7 @@
       <d' fis'>4. ~ <d' gis'>8  <e' a'>4 ~ <d' a'>8 ~ <d' gis'> <cis' gis'>2 <b d' fis'>
       |
 
-      <g d' e'>4. <a fis'>8 <b g'>4. <cis' fis'>8 <fis cis' fis'>2 <fis c' fis'>4. <bes des' fes'>8
+      <g d' e'>4. <a fis'>8 <b g'>4. <cis' fis'>8 <fis cis' fis'>2 <fis c' fis'>4. <bes des' f'>8
       |
 
       <b d' e'>4. fis'8 g' c'' f'' bes'' <a' e'' a''>2 <fis' cis'' fis''>4 ~ <fis' b' fis''>
