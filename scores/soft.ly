@@ -179,6 +179,27 @@
 
       <e' bes' e''> ~ <e' c'' e''> d''8 bes' ees'' aes'' <g' d'' g''>2 ~ <fis' d'' fis''>
       |
+
+      \time 4/2
+      r4 a fis' ~ <fis' a> c' ~ <c' e'> << { dis' cis' } \\ b2 >>
+      |
+
+      <b cis' e'>2 <ais dis' gis'>4 <gis d' fis'> <g cis' eis'>2 <bis dis'>4. d'8
+      |
+
+      <ges b ees'>4. <des' f'>8 <bes ees' ges'>4. f'8 <b ees' bes'>4. aes'8 <des' f'>4. <d' e'>8
+      |
+
+      dis'4. eis'8 <cis' fis'>4. <dis' gis'>8 <b dis' eis'>8. <bes d' e'>16 ~ <bes  d' e'>4 <ais dis' gis'>2
+      |
+
+      <dis' eis' ais'>8. <c' e' a'>16 ~ <c' e' a'>4 <ais dis' gis'>2
+      <b dis' g'>8. <ais d' fis'>16 ~ <ais d' fis'>4 <b e' a'>4.. ~ <b dis' b'>16
+      |
+
+      <d' gis' cis''>4 ~ <d' gis' cis''>16 <cis' g' ais'>8. ~ <cis' g' ais'>8. <b dis' gis'>16 ~ <b dis' gis'>8 r16 <b dis' gis'>
+      eis'8. e'16 ~ e'8 r ais8. a16 ~ a8 r
+      |
     }
     \new Staff = "down" {
       \clef bass
@@ -319,6 +340,25 @@
       |
 
       g, d g c' f' s s s d, a, d a d' ais fis cis
+      |
+
+      fis,4 r gis r fis2 <cis eis>
+      |
+
+      fis,8 g, gis, a, <ais, f>2 dis,8 e, f, fis, g, ~ <g, c> ~ <g, c f> bes
+      |
+
+      aes, ees bes bes b, b aes <c ges> des aes des' des' ges, des aes g
+      |
+
+      b, fis cis' cis' gis, dis b b cis,16 gis, cis d dis e f fis ~ fis2
+      |
+
+      cis,16 gis, cis d dis e f fis ~ fis2 fis,16 c cis d dis e f fis ~ fis4. cis16 fis,
+      |
+
+      f,16 cis f fis g gis a ais ~ ais4 ~ ais16 ais16 r8
+      cis,8. c,16 ~ c,8 r e8. dis16 ~ dis8 r
       |
     }
   >>
