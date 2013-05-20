@@ -184,13 +184,13 @@
       r4 a fis' ~ <fis' a> c' ~ <c' e'> << { dis' cis' } \\ b2 >>
       |
 
-      <b cis' e'>2 <ais dis' gis'>4 <gis d' fis'> <g cis' eis'>2 <bis dis'>4. d'8
+      <b cis' e'>2 <ais dis' gis'>4 <gis d' fis'> <g cis' eis'>2 <bis dis'>4. <bes d'>8
       |
 
-      <ges b ees'>4. <des' f'>8 <bes ees' ges'>4. f'8 <b ees' bes'>4. aes'8 <des' f'>4. <d' e'>8
+      <ges b ees'>4. <bes des' f'>8 <bes ees' ges'>4. f'8 <b ees' bes'>4. <des' aes'>8 <des' f'>4. <d' e'>8
       |
 
-      dis'4. eis'8 <cis' fis'>4. <dis' gis'>8 <b dis' eis'>8. <bes d' e'>16 ~ <bes  d' e'>8 r <ais dis' gis'>2
+      dis'4. <cis' eis'>8 <cis' fis'>4. <b dis' gis'>8 <b dis' eis'>8. <bes d' e'>16 ~ <bes  d' e'>8 r <ais dis' gis'>2
       |
 
       <dis' eis' ais'>8. <c' e' a'>16 ~ <c' e' a'>8 r <ais dis' gis'>2
@@ -345,13 +345,13 @@
       fis,4 r gis r fis2 <cis eis>
       |
 
-      fis,8 g, gis, a, <ais, f>2 dis,8 e, f, fis, g, ~ <g, c> ~ <g, c f> bes
+      fis,8 g, gis, a, <ais, f>2 dis,8 e, f, fis, g, ~ <g, c> ~ <g, c f>4
       |
 
-      aes, ees bes bes b, b aes <c ges> des aes des' des' ges, des aes g
+      aes,8 ees bes r b, b aes <c ges> des aes des' r ges, des aes g
       |
 
-      b, fis cis' cis' gis, dis b b cis,16 gis, cis d dis e f fis ~ fis2
+      b, fis cis' r gis, dis b r cis,16 gis, cis d dis e f fis ~ fis2
       |
 
       cis,16 gis, cis d dis e f fis ~ fis2 fis,16 c cis d dis e f fis ~ fis4. cis16 fis,
