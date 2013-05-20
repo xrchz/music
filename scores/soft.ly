@@ -190,11 +190,11 @@
       <ges b ees'>4. <des' f'>8 <bes ees' ges'>4. f'8 <b ees' bes'>4. aes'8 <des' f'>4. <d' e'>8
       |
 
-      dis'4. eis'8 <cis' fis'>4. <dis' gis'>8 <b dis' eis'>8. <bes d' e'>16 ~ <bes  d' e'>4 <ais dis' gis'>2
+      dis'4. eis'8 <cis' fis'>4. <dis' gis'>8 <b dis' eis'>8. <bes d' e'>16 ~ <bes  d' e'>8 r <ais dis' gis'>2
       |
 
-      <dis' eis' ais'>8. <c' e' a'>16 ~ <c' e' a'>4 <ais dis' gis'>2
-      <b dis' g'>8. <ais d' fis'>16 ~ <ais d' fis'>4 <b e' a'>4.. ~ <b dis' b'>16
+      <dis' eis' ais'>8. <c' e' a'>16 ~ <c' e' a'>8 r <ais dis' gis'>2
+      <b dis' g'>8. <ais d' fis'>16 ~ <ais d' fis'>8 r <b e' a'>4.. ~ <b dis' b'>16
       |
 
       <d' gis' cis''>4 ~ <d' gis' cis''>16 <cis' g' ais'>8. ~ <cis' g' ais'>8. <b dis' gis'>16 ~ <b dis' gis'>8 r16 <b dis' gis'>
