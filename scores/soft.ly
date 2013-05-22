@@ -16,6 +16,7 @@
     \new Staff = "up" {
       \accidentalStyle #'PianoStaff "dodecaphonic"
       \override PianoStaff.TimeSignature #'style = #'numbered
+      \set PianoStaff.connectArpeggios = ##t
       \clef treble
       \time 8/4
       \partial 4
@@ -200,6 +201,36 @@
       <d' gis' cis''>4 ~ <d' gis' cis''>16 <cis' g' ais'>8. ~ <cis' g' ais'>8. <b dis' gis'>16 ~ <b dis' gis'>8 r16 <b dis' gis'>
       eis'8. e'16 ~ e'8 r ais8. a16 ~ a8 r
       |
+
+      <e gis dis'>16.\arpeggio cis'32 b16 gis r4
+      <g' b' fis''>16.\arpeggio e''32 d''16 b' r4
+      <g bes ges'>16.\arpeggio e'32 d'16 bes16 ~ bes16. c'32 bes8 ~ bes16. c'32 bes8 ~ bes8 a
+      |
+
+      r4 f' d'' ~ <f' d''> gis' ~ <gis' c''> <g' b'> <g' bes'>
+      |
+
+      <g' a'> ~ <fis' a'> <c' e' a'> <c' ees' b'> <ces' ees' ces''> <des' f' bes'> <c' g' a'> <b g'>
+      |
+
+      <bes g'> ~ <bes e'> d' c' <cis' a'> ~ <cis' g'> <bis dis'> <ais cis' e'>
+      |
+
+      <b e'>2 ~ <b fis'>4 <a e' gis'> <b e' b'>2 <dis' b'>4 <cis' a'>
+      |
+
+      <b gis'>2 <ais gis'>4 ~ <ais fis'> <b dis' b'>2 <e' b'>4 ~ <e' a'>
+      |
+
+      <fis' gis'> ~ <e' gis'> <ais e' gis'> ~ <ais cis' fis'>
+      <a' cis''>  b' <dis' gis'> ~ <dis' fis'>
+      |
+
+      <cis' dis' a'> ~ <cis' e' a'> <c' fis' b'> ~ <c' fis' a'>
+      <b fis' gis'> ~ <b dis' gis'> <b dis' e'> <cis' gis>
+      |
+
+      << { cis' cis' } \\ <e a>2 >> <e aes c'>4 ~ <e ges c'>
     }
     \new Staff = "down" {
       \clef bass
@@ -360,6 +391,34 @@
       f,16 cis f fis g gis a ais ~ ais4 ~ ais16 ais16 r8
       cis,8. c,16 ~ c,8 r e8. dis16 ~ dis8 r
       |
+
+      fis,16.\arpeggio r32 r8 r4
+      cis'16.\arpeggio r32 r8 r4
+      e16.\arpeggio r32 r8 r4 r2
+      |
+
+      d4 r e' r d'2 <a d'>4 ~ <a cis'>
+      |
+
+      <d c'> ~ <d a> g ges ~ <aes, ges> ~ <aes, f> ~ <g, f>2
+      |
+
+      c4 g aes a ais dis <fis, e> <g, f>
+      |
+
+      <gis, fis> e dis cis gis, gis a, a
+      |
+
+      b, gis cis fis dis fis gis cis'
+      |
+
+      b gis cis fis <dis b> ~ <fis b> ~ <fis bis> ~ <gis bis>
+      |
+
+      a e a, fis gis, fis cis, cis
+      |
+
+      fis, gis, a,2
     }
   >>
 }
