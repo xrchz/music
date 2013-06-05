@@ -231,6 +231,11 @@
       |
 
       << { cis' cis' } \\ <e a>2 >> <e aes c'>4 ~ <e ges c'>
+      gis''4.. b'16 b'4 cis''
+
+      << { dis''4. cis''8 b'2 } \\ { gis'4 g'2 fis'4 } >>
+      << { cis''4 b' b' cis'' dis''4. cis''8 b'4 ais' }
+      \\ { g'4 ~ g'4. fis'8 e'4 e'2 eis'4 fis' } >>
     }
     \new Staff = "down" {
       \clef bass
@@ -419,6 +424,11 @@
       |
 
       fis, gis, a,2
+      b4 e' fis' g'
+
+      b, b cis' dis'
+      << { r4 d' d' r } \\ { e4 ~ e4. fis8 g4 } >>
+      fis4 cis' dis' e'
     }
   >>
 }
