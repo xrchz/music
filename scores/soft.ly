@@ -128,21 +128,19 @@
       <e' a' c''>4. <dis' g' b'>8 r4 fis'
       |
 
-      dis'4. b8 ais b dis' fis' ais'4. gis'8 gis'8. b16 b8 cis'
+      \time 9/4
+      dis'4. b8 ais b dis' fis' ais'4. gis'8 gis'8. b16 b4 cis'
       |
 
-      \time 3/2
+      \time 12/4
       <fis dis'> <ais dis'> <b e'> <a d' fis'> <a b dis'> ~ <a b d'> <g a d'> ~ <g a cis'>
       <a e' a'> ~ <a d' fis'> <gis cis' e'> <a b d'>
-      |
 
-      \time 4/2
+      \time 4/4
       <gis a cis'> ~ <fis a e'> <fis cis' dis'> <g c' dis'> <aes bes des'> bes' <bes ees' aes'> <b e' g'>
       <bes c' aes'> <ees' f' c''> <des' ees' bes'> <c' f' aes'> <c' d' f'> <ees' g' d''> <f' a' ees''> <g' b' d''>
-      |
-
       <g' bes' c''> c' g' e' d' <e a c'> <b e' a'> <c' f' gis'>
-      <b e' b'> ~ <b e' a'> <gis d' g'> ~ <gis d' f'> <a d' e'>4 <g b cis' e'>
+      <b e' b'> ~ <b e' a'> <gis d' g'> ~ <gis d' f'> <a d' e'>2 <g b cis' e'>
       |
 
       \time 8/4
@@ -166,7 +164,7 @@
       <fis dis'>8 ais b gis' fis' e' cis' <dis' cis''> <e' b'>4 ~ <dis' b'>8 ~ <dis' ais'> <cis' gis'>4 ais'8 b'
       |
 
-      <e' dis''>4. cis''8 gis'4 <d' ais'>8 ~ <d' b'> <e' b'>4 <fis' cis''> <dis' gis'>4. <b ais'>8
+      <e' dis''>4. cis''8 gis'4 <dis' ais'>8 ~ <dis' b'> <e' b'>4 <fis' cis''> <dis' gis'>4. <b ais'>8
       |
 
       <d' fis'>4. ~ <d' gis'>8  <e' a'>4 ~ <d' a'>8 ~ <d' gis'> <cis' gis'>2 <b d' fis'>
@@ -330,19 +328,14 @@
       cis'8. g16 g,8 fis,8 r2
       |
 
-      a,,8 fis, cis e gis4 g f,8 d b e' <c' e'> ~ <b e'> cis,8 <g, eis>
+      a,,8 fis, cis e gis4 g f,8 d b e' <c' e'> ~ <b e'> cis,4 <g, eis>
       |
 
       <fis, e> <g, f> <gis, fis> <d, c> <g, f> ~ <gis, f> <a, e> ~ <ais, e>
-      <b, fis> ~ <b, gis> <e, d>  <f, e>
-      |
-
-      <fis, e> ~ <c e> <gis, dis> ~ <a, dis>
+      <b, fis> ~ <b, gis> <e, d>  <f, e> <fis, e> ~ <c e> <gis, dis> ~ <a, dis>
       <bes, f> e, ees, ~ <ees, des> <f, ees> <aes, f> <aes, ges> <ees a>
-      <d a> aes, g, <f ees'>
-      |
-
-      <e d'> a, d g, c f, e, ~ <e, d> c ~ <c fis> b, ees, a,, e a, fis,
+      <d a> aes, g, <f ees'> <e d'> a, d g, c f, e, ~ <e, d> c ~ <c fis> b, ees,
+      a,, e a, fis,
       |
 
       b,,4 fis g ~ <d g> ~ <g, d> ~ <g, d f> <fis, e> <g, dis> ~
@@ -428,7 +421,7 @@
 
       b, b cis' dis'
       << { r4 d' d' r } \\ { e4 ~ e4. fis8 g4 } >>
-      fis4 cis' dis' e'
+      fis4 cis' d' e'
     }
   >>
 }
