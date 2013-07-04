@@ -157,7 +157,8 @@
       <fis b> <f cis'> <e dis'> ~ <e ais e'> <gis bis dis'>4. cis'8 <g b cis'>2
       |
 
-      << { b4. cis'8 d' ees' f' ges' } \\ { ais4 gis g fis } >> <ees' b' ees''>4. <des' bes' des''>8 <des' aes' ces''>8. b16 b8 cis'
+      \time 9/4
+      << { b4. cis'8 d' ees' f' ges' } \\ { ais4 gis g fis } >> <ees' b' ees''>4. <des' bes' des''>8 <des' aes' ces''>8. b16 b4 cis'
       |
 
       \time 2/1
@@ -350,7 +351,7 @@
       <gis, dis> d, cis, c, eis, ais, e a,
       |
 
-      aes, f ees bes, e,, g f g,
+      aes, f ees bes, e,, g f g,2
       |
 
       fis,8 cis dis e fis gis ais g, gis, fis gis ais b gis cis f,
