@@ -235,6 +235,17 @@
       << { dis''4. cis''8 b'2 } \\ { gis'4 g'2 fis'4 } >>
       << { cis''4 b' b' cis'' dis''4. cis''8 b'4 ais' }
       \\ { g'4 ~ g'4. fis'8 e'4 e'2 eis'4 fis' } >>
+
+      <gis' ais'>4. <fis' b'>8 <e' cis''>8 ~ cis'' dis''4
+      <fis' fis''>4. <ais' cis'' e''>8 <ais' dis''>4 ~ <gis' dis''>
+      << { \times 2/3 {dis''4 cis'' b'} } \\ g'2 >>
+      gis'8 g' g' gis'
+      <dis' b'>4. <eis' cis''>8 <gis' ais'>4 <dis' fis'>8 <d' fis'>
+      <a cis' e' fis'>4 <c' dis'>8  b ais b dis' <b fis'>
+      <gis fis' ais'>4. <ais e' gis'>8 <ais e' gis'>8. <b cis'>16 <b cis'>8 d'
+      <g dis'>2 gis8 b cis' dis' <eis b e'>2 r8 <e ais dis'> r <e ais dis'>
+      fis4. b,8 ais, b, dis fis ais4. gis8 gis8. b16 b8 cis'
+      <g b dis'>4 ~ <g bes dis'> <bes ees' aes'> ~ <aes ees' aes'> <ees' aes' des''> ~ <ges ees' aes' des''>2.
     }
     \new Staff = "down" {
       \clef bass
@@ -396,7 +407,7 @@
       e16.\arpeggio r32 r8 r4 r2
       |
 
-      d4 r e' r d'2 <a d'>4 ~ <a cis'>
+      d4 r e' r <bes d'>2 <a d'>4 ~ <a cis'>
       |
 
       <d c'> ~ <d a> g ges ~ <aes, ges> ~ <aes, f> ~ <g, f>2
@@ -423,6 +434,17 @@
       b, b cis' dis'
       << { r4 d' d' r } \\ { e4 ~ e4. fis8 g4 } >>
       fis4 cis' d' e'
+
+      e,8 b, e b r dis' cis' b
+      gis, cis fis ais b gis dis ais,
+      e, cis g cis' eis'4 e'
+      g,8 cis eis b <fis, cis> fis ais bis,,
+      b,, fis, b, <fis gis> <f g>4 <b, e a>
+      e,8 b, e b b8. r16 r4
+      fis,8 bis, cis e r2
+      fis,,8 cis, fis, cis fis r fis r
+      r ais,, dis, gis, fis,4 fis,,
+      e,,8 e, b, r r2 <a, e> <e, c> <b,, b,>1
     }
   >>
 }
