@@ -240,12 +240,12 @@
       <fis' fis''>4. <ais' cis'' e''>8 <ais' dis''>4 ~ <gis' dis''>
       << { \times 2/3 {dis''4 cis'' b'} } \\ g'2 >>
       gis'8 g' g' gis'
-      <dis' b'>4. <eis' cis''>8 <gis' ais'>4 <dis' fis'>8 <d' fis'>
-      <a cis' e' fis'>4 <c' dis'>8  b ais b dis' <b fis'>
+      <dis' b'>4. <eis' cis''>8 <gis' ais'>4 <dis' fis'>8 <d' e' fis'>
+      <a cis'  fis'>8 ~ <a cis' e'> <c' dis'>8  b ais b dis' <b fis'>
       <gis fis' ais'>4. <ais e' gis'>8 <ais e' gis'>8. <b cis'>16 <b cis'>8 d'
       <g dis'>2 gis8 b cis' dis' <eis b e'>2 r8 <e ais dis'> r <e ais dis'>
       fis4. b,8 ais, b, dis fis ais4. gis8 gis8. b16 b8 cis'
-      <g b dis'>4 ~ <g bes dis'> <bes ees' aes'> ~ <aes ees' aes'> <ees' aes' des''> ~ <ges ees' aes' des''>2.
+      <g b dis'>4 ~ <g ais dis' ais'> <bes ees' aes'> ~ <aes ees' aes'> <ees' aes' des''> ~ <fis ees' aes' des''> ~ <fis ees' aes' fis' des''>2
     }
     \new Staff = "down" {
       \clef bass
@@ -435,7 +435,7 @@
       << { r4 d' d' r } \\ { e4 ~ e4. fis8 g4 } >>
       fis4 cis' d' e'
 
-      e,8 b, e b r dis' cis' b
+      e,8 b, e b \parenthesize e' dis' cis' b
       gis, cis fis ais b gis dis ais,
       e, cis g cis' eis'4 e'
       g,8 cis eis b <fis, cis> fis ais bis,,
