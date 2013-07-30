@@ -212,22 +212,21 @@
       <g' a'> ~ <fis' a'> <c' e' a'> <c' ees' b'> <ces' ees' ces''> <des' f' bes'> <c' g' a'> <b g'>
       |
 
+      \time 12/4
       <bes g'> ~ <bes e'> d' c' <cis' a'> ~ <cis' g'> <bis dis'> <ais cis' e'>
-      |
 
-      <b e'>2 ~ <b fis'>4 <a e' gis'> <b e' b'>2 <dis' b'>4 <cis' a'>
-      |
+      <b e'>2 ~ <b fis'>4 <a e' gis'>
+
+      \time 8/4
+      <b e' b'>2 <dis' b'>4 <cis' a'>
 
       <b gis'>2 <ais gis'>4 ~ <ais fis'> <b dis' b'>2 <e' b'>4 ~ <e' a'>
-      |
 
       <fis' gis'> ~ <e' gis'> <ais e' gis'> ~ <ais cis' fis'>
       <a' cis''>  b' <dis' gis'> ~ <dis' fis'>
-      |
 
       <cis' dis' a'> ~ <cis' e' a'> <c' fis' b'> ~ <c' fis' a'>
       <b fis' gis'> ~ <b dis' gis'> <b dis' e'> <cis' gis>
-      |
 
       << { cis' cis' } \\ <e a>2 >> <e aes c'>4 ~ <e ges c'>
       gis''4.. b'16 b'4 cis''
@@ -246,6 +245,7 @@
       <g dis'>2 gis8 b cis' dis' <eis b e'>2 r8 <e ais dis'> r <e ais dis'>
       fis4. b,8 ais, b, dis fis ais4. gis8 gis8. b16 b8 cis'
       <g b dis'>4 ~ <g ais dis' ais'> <bes ees' aes'> ~ <aes ees' aes'> <ees' aes' des''> ~ <fis ees' aes' des''> ~ <fis ees' aes' fis' des''>2
+      \bar"|."
     }
     \new Staff = "down" {
       \clef bass
@@ -414,19 +414,14 @@
       |
 
       c4 g aes a ais dis <fis, e> <g, f>
-      |
 
       <gis, fis> e dis cis gis, gis a, a
-      |
 
       b, gis cis fis dis fis gis cis'
-      |
 
       b gis cis fis <dis b> ~ <fis b> ~ <fis bis> ~ <gis bis>
-      |
 
       a e a, fis gis, fis cis, cis
-      |
 
       fis, gis, a,2
       b4 e' fis' g'
