@@ -151,7 +151,7 @@
       |
 
       \showStaffSwitch
-      <f b dis'>4.. \change Staff = "down" fis16 \change Staff = "up" fis4 <e g bes dis'> <gis b fis'>4. e'8 <ais bis dis'>4  <a cis' dis'>
+      <f b dis'>4.. \change Staff = "down" fis16 \change Staff = "up" fis4 <e g bes dis'> <gis b fis'>4. e'8 <ais bis dis'>4  <g a cis' dis'>
       |
 
       <fis b> <f cis'> <e dis'> ~ <e ais e'> <gis bis dis'>4. cis'8 <g b cis'>2
@@ -421,7 +421,7 @@
 
       b gis cis fis <dis b> ~ <fis b> ~ <fis bis> ~ <gis bis>
 
-      a e a, fis gis, fis cis, cis
+      a e a, ~ <a, fis> gis, ~ <gis, fis> cis, cis
 
       fis, gis, a,2
       b4 e' fis' g'
@@ -439,7 +439,7 @@
       fis,8 bis, cis e r2
       fis,,8 cis, fis, cis fis r fis r
       r ais,, dis, gis, fis,4 fis,,
-      e,,8 e, b, r r2 <a, e> <e, c> <b,, b,>1
+      e,,8 ~ <e,, e,> ~ <e,, e, b,>2 r4 <a, e>2 <e, c> <b,, b,>1
     }
   >>
 }
