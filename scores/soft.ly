@@ -439,7 +439,7 @@
       fis,8 bis, cis e r2
       fis,,8 cis, fis, cis fis r fis r
       r ais,, dis, gis, fis,4 fis,,
-      e,,8 ~ <e,, e,> ~ <e,, e, b,>2 r4 <a, e>2 <e, c> <b,, b,>1
+      e,,8 e, b,2 r4 <a, e>2 <e, c> <b,, b,>1
     }
   >>
 }
