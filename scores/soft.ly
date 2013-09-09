@@ -5,6 +5,7 @@
   composer = "Ramana Kumar"
   date = "2013"
   copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  dedication = "for Cassandra Li"
 }
 
 #(set-default-paper-size "a4" 'landscape)
