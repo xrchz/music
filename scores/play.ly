@@ -114,7 +114,31 @@
       a d' fis' gis' fis' d'
       a d' fis' gis' fis' d'
       b d' fis' gis' fis' d'
-      b d' fis' b' gis' fis' d' b
+      b d' fis'
+      \time 3/4
+      b'16 gis' fis' d' b s s8 s4
+      |
+
+      \time 7/4
+      r8 <a e' gis'>4 r8 <e' a' cis''> r <e' a' cis'' e''> r e''16 cis'' a' e' r8 <gis' gis''>4.
+
+      \time 6/4
+      <gis' cis'' dis'' gis''>8 <gis' cis'' dis'' gis''> r4 <gis' cis'' dis'' gis''>4.
+      <dis' gis' dis''>4 <cis' g' a' cis''>4.
+      |
+      <b fis' gis' b'> <b e' b'>
+      <g dis' g'> <ais cis' e' gis'>
+      |
+
+      <a c' dis' gis'> <a c' dis' gis'>
+      <a c' f'> <dis' fis' a' cis''>
+      |
+
+      <d' fis' gis' b'> <dis' eis' gis' bis'>
+      <cis' e' a' cis''> <e' a' cis'' e''>
+
+      <cis'' fis'' gis'' b''>8 <cis'' fis'' gis'' b''> r4 <a' c'' dis'' gis''>
+      <e' gis' b' cis'' e''>4. <d' f' gis' ais' cis''>
 
     }
     \new Staff = "down" {
@@ -188,6 +212,20 @@
       a, d e fis2.
       gis2.
       cis'4
+      r16 gis cis
+      g,16 ~ g,4
+      |
+      fis,4. fis4 cis' cis'4. c'8 b4.
+      |
+      <b, a>8 <b, a> r b,4. f4 fis g
+      |
+      gis cis dis e gis, ais,
+      b, b,, b, f fis g
+      |
+      gis e, f, fis, b a
+      |
+      <b, a>8 <b, a> r b ~ <b dis' g'>4
+      <cis b> gis, g,
     }
   >>
 }
