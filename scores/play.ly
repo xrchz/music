@@ -108,7 +108,7 @@
       ais cis' dis' gis' dis' cis' fis' dis' cis'
       bis dis' fis' b' fis' dis' a' fis' dis'
       bis dis' fis' b' fis' dis' a' fis' dis'
-      cis' d' fis' a' fis' d' cis' d' fis' a' fis' cis'
+      cis' d' fis' a' fis' d' cis' d' fis' a' fis' d'
       a d' fis' a' fis' d'
       a d' fis' gis' fis' d'
       a d' fis' gis' fis' d'
@@ -139,6 +139,10 @@
 
       <cis'' fis'' gis'' b''>8 <cis'' fis'' gis'' b''> r4 <a' c'' dis'' gis''>
       <e' gis' b' cis'' e''>4. <d' f' gis' ais' cis''>
+      << { gis'8 gis'4 gis'4. f'8 f'4 f'4. } \\ { <a cis' e'>2. <aes d'> } >>
+      << { d'4 d' d' f' f' f' } \\ { g2. <ges des'> } >>
+      << { gis'8 gis'4. gis'4 fis'4. b' } \\ { <a dis'>4. cis' b s } >>
+      << { e''8 e''4. e''4 e''4. fis'' } \\ { <e' a'>4. gis' fis' b' } >>
 
     }
     \new Staff = "down" {
@@ -226,6 +230,11 @@
       |
       <b, a>8 <b, a> r b ~ <b dis' g'>4
       <cis b> gis, g,
+      |
+      <fis, e> gis, a, bes, f, e,
+      <ees, ees>4. ~ <ees, bes,> b, fis,
+      b,,4 fis, fis b, a e
+      fis, cis' a b, e' dis'
     }
   >>
 }
