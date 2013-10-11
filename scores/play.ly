@@ -143,6 +143,10 @@
       << { d'4 d' d' f' f' f' } \\ { g2. <ges des'> } >>
       << { gis'8 gis'4. gis'4 fis'4. b' } \\ { <a dis'>4. cis' b s } >>
       << { e''8 e''4. e''4 e''4. fis'' } \\ { <e' a'>4. gis' fis' b' } >>
+      << { gis''8 gis''4. gis''4 e''4. b'' } \\ { b'4. s s s } >>
+      << { gis''8 gis''4. gis''4 e''4. b'' } \\ { <a' c'' dis''>2.  <gis' b' d''> } >>
+      << { cis'''8 cis'''4. cis'''4 } \\ { <e'' a''>2. } >>
+      <e'' a'' b'' e'''>4 <dis'' dis'''> <cis'' cis'''>
 
     }
     \new Staff = "down" {
@@ -235,6 +239,9 @@
       <ees, ees>4. ~ <ees, bes,> b, fis,
       b,,4 fis, fis b, a e
       fis, cis' a b, e' dis'
+      e e' \clef treble cis'' d'' cis'' b'
+      \clef bass e,, e, e' fis' e' d'
+      fis, e cis' <b b'>2 <a a'>4
     }
   >>
 }
