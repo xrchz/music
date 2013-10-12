@@ -54,7 +54,8 @@
       |
 
       \time 6/4
-      bes'8*2/3 d'' bes' ges' bes' ges' des' ges' des'
+      \tempo \markup{ \concat { ( \note #"2." #UP " := " \note #"2" #UP ) } }
+      \times 2/3{bes'8 d'' bes'} ges'8*2/3^\markup{\italic{simile}} bes' ges' des' ges' des'
       bes des' bes ges bes ges f bes ges
       |
 
@@ -81,7 +82,7 @@
 
       \time 6/4
       a' fis' dis' cis' a cis' dis' fis' gis'
-      cis''
+      s
       gis' fis' dis' cis' a fis dis cis
 
       \clef bass
@@ -141,13 +142,21 @@
       <e' gis' b' cis'' e''>4. <d' f' gis' ais' cis''>
       << { gis'8 gis'4 gis'4. f'8 f'4 f'4. } \\ { <a cis' e'>2. <aes d'> } >>
       << { d'4 d' d' f' f' f' } \\ { g2. <ges des'> } >>
-      << { gis'8 gis'4. gis'4 fis'4. b' } \\ { <a dis'>4. cis' b s } >>
-      << { e''8 e''4. e''4 e''4. fis'' } \\ { <e' a'>4. gis' fis' b' } >>
-      << { gis''8 gis''4. gis''4 e''4. b'' } \\ { b'4. s s s } >>
-      << { gis''8 gis''4. gis''4 e''4. b'' } \\ { <a' c'' dis''>2.  <gis' b' d''> } >>
-      << { cis'''8 cis'''4. cis'''4 } \\ { <e'' a''>2. } >>
-      <e'' a'' b'' e'''>4 <dis'' dis'''> <cis'' cis'''>
-
+      << { gis'8 \mark \markup { \small \italic { arpeggios ad. lib. } }
+           gis'4. gis'4 fis'4. b' } \\ { <a dis'>4. cis' b s } >>
+      << { e''8\arpeggio e''4. e''4 e''4. fis'' } \\ { <e' a'>4.\arpeggio gis' fis' b' } >>
+      << { gis''8 gis''4 gis''4. e''4. b'' } \\ { b'4. s s s } >>
+      << { gis''8 gis''4 gis''4. e''4. b'' } \\ { <a' c'' dis''>2.  <gis' b' d''>4. s } >>
+      << { cis'''8 cis'''4 cis'''4. } \\ { <e'' a''>2. } >>
+      <e'' a'' b'' e'''>4\arpeggio <dis'' dis'''> <cis'' cis'''>
+      <b' dis'' gis'' b''> <gis' gis''> <fis' a' fis''>
+      <eis' ais' cis'' eis''> <fis' fis''> <gis' b' dis'' gis''>
+      <a' cis'' dis'' a''>8 <a' cis'' e'' a''>4 <a' cis'' fis'' a''>4.
+      <a' c'' e'' a''>4 <gis' gis''> <fis' dis'' fis''>
+      <e' gis' b' cis'' e''> <fis' ais' fis''> <ais' b' dis'' gis''>
+      <ais' bis' dis'' gis''> <fis' cis'' fis''> <cis' cis''>
+      <dis' gis' b' dis''>8 <dis' gis' b' dis''>4 <cis' cis''>4. <b dis' gis' b'> <cis' cis''>
+      <dis' g' b' dis''>8 <dis' g' b' dis''>4 <cis' cis''>4. <b d' g' b'>2.
     }
     \new Staff = "down" {
       \clef bass
@@ -196,7 +205,7 @@
       fis2 ~ fis4*2/3 cis8*2/3 cis2
       |
 
-      b,2. r2 b,,4
+      b,2. << { \clef treble cis''8*2/3 s s s s s \clef bass } \\ r2 >> b,,4
       |
 
       cis,4 e, fis, gis,2.
@@ -205,10 +214,10 @@
       fis,2 ~ fis,4*2/3 cis,8*2/3 cis,2
       |
 
-      << c,2. \\ { s1*2/3 c'8*2/3 c'2. } >>
+      << c,2. \\ { s1*2/3 \clef treble c''8*2/3 c''2. } >>
       |
 
-      r2. r2 gis,4
+      \clef bass r2. r2 gis,4
       |
 
       a, cis dis e2.
@@ -240,8 +249,14 @@
       b,,4 fis, fis b, a e
       fis, cis' a b, e' dis'
       e e' \clef treble cis'' d'' cis'' b'
-      \clef bass e,, e, e' fis' e' d'
-      fis, e cis' <b b'>2 <a a'>4
+      \clef bass e, e e' fis' e' d'
+      fis, e cis' <b b'>2 ~ <b a'>4
+      <gis fis'> ~ <gis e'> d
+      <cis cis'>2 ~ <cis b>4
+      <fis, e> b a <gis fis'> ~ <gis e'> ~ <gis dis'>
+      <cis b> <dis gis> <gis, e> <fis, e> fis gis
+      <b, a> gis fis gis a gis
+      \grace e, fis e d e fis g
     }
   >>
 }
