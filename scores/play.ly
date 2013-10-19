@@ -157,6 +157,14 @@
       <ais' bis' dis'' gis''> <fis' cis'' fis''> <cis' cis''>
       <dis' gis' b' dis''>8 <dis' gis' b' dis''>4 <cis' cis''>4. <b dis' gis' b'> <cis' cis''>
       <dis' g' b' dis''>8 <dis' g' b' dis''>4 <cis' cis''>4. <b d' g' b'>2.
+      <cis' e' a' cis''>2. <d' fis' gis' b'>2 <dis' eis' gis' cis''>4
+      \time 9/4
+      <dis' e' a' cis''>  <dis' gis' b'> <ais cis' e' gis'> <a c' dis' gis'>2. <a b dis' fis'>2 b'4
+      \time 6/4
+      << { b'8 cis''4 b'4. gis' b' } \\ {dis'2. d'} >>
+      << { b'4 a' gis' a'2 b'4 } \\ { d'2. cis' } >>
+      << { cis''8 e''4 cis''4. a' cis'' } \\ { e'2 s4 s2. } >>
+      << { cis''4 b' a' b'2 g'4 } \\ { e'2. dis' } >>
     }
     \new Staff = "down" {
       \clef bass
@@ -180,11 +188,11 @@
       <aes, aes>4 d8 ees
       |
 
-      <f, f>4 fis,8 g, <aes, ges>4 g8 aes
-      a4 f <bes, aes> e
+      << { f2  ges4 g8 aes } \\ { f,4 fis,8 g, aes,2 }>>
+      a4 f <bes, aes> ~ <bes, e>
       |
 
-      <aes, f>4 fis g cis'
+      <aes, f>4 ~ <aes, fis> g ~ <g cis'>
       |
 
       d' r2 r2.
@@ -257,6 +265,12 @@
       <cis b> <dis gis> <gis, e> <fis, e> fis gis
       <b, a> gis fis gis a gis
       \grace e, fis e d e fis g
+      fis fis, g, gis, a gis
+      <fis, cis>4 ~ <fis, dis> ~ <fis, e> <b, fis>1.
+      e,4 b, e b e b,
+      a, e b b a gis
+      fis cis' fis' gis' fis' e'
+      b, fis cis' cis' b a
     }
   >>
 }
