@@ -162,9 +162,17 @@
       <dis' e' a' cis''>  <dis' gis' b'> <ais cis' e' gis'> <a c' dis' gis'>2. <a b dis' fis'>2 b'4
       \time 6/4
       << { b'8 cis''4 b'4. gis' b' } \\ {dis'2. d'} >>
-      << { b'4 a' gis' a'2 b'4 } \\ { d'2. cis' } >>
+      << { b'4 a' gis' a'4. b' } \\ { d'2. cis' } >>
       << { cis''8 e''4 cis''4. a' cis'' } \\ { e'2 s4 s2. } >>
-      << { cis''4 b' a' b'2 g'4 } \\ { e'2. dis' } >>
+      << { cis''4 b' a' b'4. g' } \\ { e'2. dis' } >>
+      << { gis'8 b'4 gis'4. e' b' } \\ { d'4 s s s4. } >>
+      <e' a' cis'' e''>2.\arpeggio <c' e' fis' a'>
+      <dis' fis' gis' b'>4. <d' f' gis' cis''> <cis' e' fis' a'> <a cis' e' fis'>
+      <e a cis' e'> <f a cis'> <fis a b> <g a cis'>
+      << { dis'8 dis'4 dis'4. b ~ <b fis'> } \\ { gis2. g4. s } >>
+      << { b'8\arpeggio b'4 b'4. a' g' }  \\ { <b e'>2.\arpeggio dis'4. e' } >>
+      << { fis'8 fis'4 fis'4. fis' g' }  \\ { <c' e'>2. dis' } >>
+      << { a'8 a'4 a'4. b' c'' }  \\ { d'2. <d' e'> } >>
     }
     \new Staff = "down" {
       \clef bass
@@ -271,6 +279,14 @@
       a, e b b a gis
       fis cis' fis' gis' fis' e'
       b, fis cis' cis' b a
+      <e gis> ~ <e b> cis' d' cis' b
+      b a gis a e fis
+      gis8 b4 gis4. e4 cis dis
+      fis, gis, a, b, cis dis
+      e b, e, b, e b,
+      c, g, c fis c b,
+      a, e b a b, f,
+      e, b, a gis c b,
     }
   >>
 }
