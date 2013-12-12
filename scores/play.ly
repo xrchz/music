@@ -173,6 +173,9 @@
       << { b'8\arpeggio b'4 b'4. a' g' }  \\ { <b e'>2.\arpeggio dis'4. e' } >>
       << { fis'8 fis'4 fis'4. fis' g' }  \\ { <c' e'>2. dis' } >>
       << { a'8 a'4 a'4. b' c'' }  \\ { d'2. <d' e'> } >>
+      << { d''8 d''4. d''4 e''4. e'' } \\ { <d' g'>4. ~ <d' a'> <e' g' b'> <e' g' c''> } >>
+      <a' cis'' e'' a''>4. <e' b' cis'' e''> <d' fis' a' d''>4 <e' e''> <fis' cis'' fis''>
+      <fis' ais' d'' fis''> <g' g''> <d' d''> <fis' ais' d'' fis''> ~ <e' ais' d'' e''> ~ <fis' ais' cis'' fis''>
     }
     \new Staff = "down" {
       \clef bass
@@ -287,6 +290,10 @@
       c, g, c fis c b,
       a, e b a b, f,
       e, b, a gis c b,
+      a, e b a a, g,
+      fis, fis cis' <b, a> fis d'
+      \times 3/4 { <e d'> b e, f, }
+      \times 3/4 { <f, e> gis b ais }
     }
   >>
 }
