@@ -176,6 +176,13 @@
       << { d''8 d''4. d''4 e''4. e'' } \\ { <d' g'>4. ~ <d' a'> <e' g' b'> <e' g' c''> } >>
       <a' cis'' e'' a''>4. <e' b' cis'' e''> <d' fis' a' d''>4 <e' e''> <fis' cis'' fis''>
       <fis' ais' d'' fis''> <g' g''> <d' d''> <fis' ais' d'' fis''> ~ <e' ais' d'' e''> ~ <fis' ais' cis'' fis''>
+      <fis' g' b' fis''> <e' e''> <d' d''> <d' f' bes' d''> <bes bes'> <f f'>
+      \time 2/2
+      <ais d' fis' ais'>2 <gis gis'>8 ~ <gis b gis'> ~ <gis b d' gis'> ~ <gis b d' f' gis'>
+      \time 3/2
+      <gis ais dis' gis'>2 <fis fis'> <fis fis'>
+      <f ais dis' f'> <dis b dis'> <dis gis cis' dis'>
+      <dis a cis' dis'>
     }
     \new Staff = "down" {
       \clef bass
@@ -293,7 +300,12 @@
       a, e b a a, g,
       fis, fis cis' <b, a> fis d'
       \times 3/4 { <e d'> b e, f, }
-      \times 3/4 { <f, e> gis b ais }
+      \times 3/4 { <fis, e> gis b ais }
+      \times 3/4 { g, e a fis }
+      \times 3/4 { <aes, e aes> bes, ces des }
+      e,8 b, d f s2
+      ees,8 bes, des f r f'4. des,2
+      b,,8 fis, b, f r f'4. r2
     }
   >>
 }
