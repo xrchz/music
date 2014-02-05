@@ -146,11 +146,11 @@
       |
 
       << { dis''4 e'' e'' dis'' gis'' fis'' fis'' e'' }
-      \\ { <g' ais'>2 <a' b'> <gis' d''> <a' cis''> } >>
+      \\ { <g' ais'>2 <a' b'> <gis' d''> \tuplet 3/2 { <a' cis''>2 gis'4 } } >>
       |
 
-      << { cis''4 e'' e'' d'' cis'' b' b' cis'' }
-      \\ { <e' gis'>2 <f' b'> <ais' d'>4 fis' a' gis' } >>
+      << { <gis' cis''>4 <a' e''> <bes' e''> <b' d''> cis'' b' b' cis'' }
+      \\ { e'2 f' <gis' d'>4 fis' a' gis' } >>
       |
 
       <e' a' e''>4 <e' b' e''> <fis' cis'' fis''> e''
@@ -356,7 +356,7 @@
       cis' dis' e' fis' b b, e, e <b fis'> e' a cis
       |
 
-      fis, fis cis' d' gis b, e, b cis' eis' dis' e'
+      fis, e cis' d' gis b, e, b cis' eis' dis' e'
       |
 
       cis' g e a, e a d' fis b, f, d a
