@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.17.97"
 
 \header {
   title="Vase"
@@ -16,8 +16,8 @@ mg = \change Staff=left
 \score {
   \context PianoStaff <<
     \set PianoStaff.connectArpeggios = ##t
-    \override PianoStaff.TimeSignature #'style = #'()
-    \accidentalStyle #'Score "dodecaphonic"
+    \override PianoStaff.TimeSignature.style = #'()
+    \accidentalStyle Score.dodecaphonic
     \context Staff=right <<
       \clef treble
       \time 8/4
@@ -78,7 +78,7 @@ mg = \change Staff=left
 <d' bes' d''>4 <f' a' f''> <bes' g'' bes''> <c'' f'' c'''> <d'' g'' d'''> <a' a''> <c'' c'''> <des'' bes''> |
 << {dis''4 fis'' e'' d'' b'' fis'' a'' g''} \\ {cis''4 b' c'' bes' b' a' bes' aes'} >> |
 << {g'4 bes' aes' ges' dis'' ais' cis'' b'} \\ {a'4 g' aes' ges' g' f' fis' e'} >> |
-<< {<c' gis'>4 b' a' g' e'' b' d'' c''} \\ {eis'4 ees' e' d' fis' e' a' g'} >> \bar ":|"
+<< {<c' gis'>4 b' a' g' e'' b' d'' c''} \\ {eis'4 ees' e' d' fis' e' a' g'} >> \bar ":|."
 << {a'4 c'' f'' g'' a'' e'' g'' f''} \\ {g'4 f' bes' a' d'' c'' g'' f''} >> |
 << {e''4 g'' c''' d''' e''' b'' d''' c'''} \\ {d''4 bes' f'' des'' bes'' ges'' c''' aes''} >> |
 << {g''4 bes'' ees''' f''' g''' d''' f''' ees'''} \\ {d'''4 bes'' a'' f'' c''' aes'' bes'' ges''} >> |
@@ -157,7 +157,7 @@ a,8[ e cis' g] c[ g e' bes] f,[ c a e] a,[ e c' g] |
 bes,8[ f d' a] d[ a f' d'] ees[ bes g' des'] ges[ des' bes' e'] |
 b,8[ fis dis' a] d[ a fis' c'] g,[ d b f] bes,[ f d' aes] |
 ees,8[ bes, g des'] ges,[ des bes fes'] b,[ fis dis' a] d[ a e' c'] |
-g,8[ d b g] b,[ fis \parenthesize d' b] c[ g \parenthesize e' c'] e[ b \parenthesize g' e'] \bar ":|"
+g,8[ d b g] b,[ fis \parenthesize d' b] c[ g \parenthesize e' c'] e[ b \parenthesize g' e'] \bar ":|."
 f8[ c' \parenthesize f' a] g[ c' g' e'] \clef treble bes[ f' bes' g'] d'[ f' d'' a'] |
 \clef bass bes,8[ f d' bes] des[ aes f' des'] \clef treble ges[ des' bes' ges'] bes[ f' d'' bes'] |
 \clef bass aes,8[ ees bes aes] c[ g d' c'] \clef treble f[ c' g' f'] aes[ ees' bes' aes'] |
