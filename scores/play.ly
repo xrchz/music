@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.17.97"
 
 \header {
   title = "Play"
@@ -15,8 +15,8 @@
 \score {
   \new PianoStaff <<
     \new Staff = "up" {
-      \accidentalStyle #'PianoStaff "dodecaphonic"
-      \override PianoStaff.TimeSignature #'style = #'numbered
+      \accidentalStyle PianoStaff.dodecaphonic
+      \override PianoStaff.TimeSignature.style = #'numbered
       \set PianoStaff.connectArpeggios = ##t
       \clef treble
       \time 8/4
@@ -31,31 +31,31 @@
       |
 
       <ges' b' ees''>
-      << { <f' des''> } \\ { \times 2/3 {bes'4 bes' bes'} } >>
+      << { <f' des''> } \\ { \tuplet 3/2 {bes'4 bes' bes'} } >>
       <f' ges' bes'>2
-      << { <ees' aes'> } \\ { \times 2/3 {bes'4 bes' bes'} } >>
+      << { <ees' aes'> } \\ { \tuplet 3/2 {bes'4 bes' bes'} } >>
       |
 
       \time 4/4
       <des' ges' bes'>2
-      << { <c' f'> } \\ { \times 2/3 {bes'4 bes' bes'} } >>
+      << { <c' f'> } \\ { \tuplet 3/2 {bes'4 bes' bes'} } >>
       |
 
       \time 8/4
-      << { <bes ees'>2 } \\ { \times 2/3 {aes'4 aes' aes'} } >>
-      << { <b dis'>2 } \\ { \times 2/3 {f'4 f' f'} } >>
-      << { bes2 } \\ { \times 2/3 {d'4 d' d'} } >>
-      << { des'2 } \\ { \times 2/3 {f'4 f' f'} } >>
+      << { <bes ees'>2 } \\ { \tuplet 3/2 {aes'4 aes' aes'} } >>
+      << { <b dis'>2 } \\ { \tuplet 3/2 {f'4 f' f'} } >>
+      << { bes2 } \\ { \tuplet 3/2 {d'4 d' d'} } >>
+      << { des'2 } \\ { \tuplet 3/2 {f'4 f' f'} } >>
       |
 
       \time 4/4
-      << { <b ees'>2 } \\ { \times 2/3 {g'4 g' fis'} } >>
-      << { c'4 } \\ { \times 2/3 {f'4 f' f'} } >>
+      << { <b ees'>2 } \\ { \tuplet 3/2 {g'4 g' fis'} } >>
+      << { c'4 } \\ { \tuplet 3/2 {f'4 f' f'} } >>
       |
 
       \time 6/4
       \tempo \markup{ \concat { ( \note #"2." #UP " := " \note #"2" #UP ) } }
-      \times 2/3{bes'8 d'' bes'} ges'8*2/3^\markup{\italic{simile}} bes' ges' des' ges' des'
+      \tuplet 3/2{bes'8 d'' bes'} ges'8*2/3^\markup{\italic{simile}} bes' ges' des' ges' des'
       bes des' bes ges bes ges f bes ges
       |
 
@@ -202,7 +202,7 @@
       <ees b> <ees c'>
       |
 
-      \times 2/3 { <ees, ees>4 <bes, bes> <a, a> }
+      \tuplet 3/2 { <ees, ees>4 <bes, bes> <a, a> }
       <aes, aes>4 d8 ees
       |
 
@@ -299,10 +299,10 @@
       e, b, a gis c b,
       a, e b a a, g,
       fis, fis cis' <b, a> fis d'
-      \times 3/4 { <e d'> b e, f, }
-      \times 3/4 { <fis, e> gis b ais }
-      \times 3/4 { g, e a fis }
-      \times 3/4 { <aes, e aes> bes, ces des }
+      \tuplet 4/3 { <e d'> b e, f, }
+      \tuplet 4/3 { <fis, e> gis b ais }
+      \tuplet 4/3 { g, e a fis }
+      \tuplet 4/3 { <aes, e aes> bes, ces des }
       e,8 b, d f s2
       ees,8 bes, des f r f'4. des,2
       b,,8 fis, b, f r f'4. r2

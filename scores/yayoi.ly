@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.17.97"
 
 \header {
   title = "弥生"
@@ -13,8 +13,8 @@
 \score {
   \new PianoStaff <<
     \new Staff {
-      \accidentalStyle #'PianoStaff "dodecaphonic"
-      \override PianoStaff.TimeSignature #'style = #'numbered
+      \accidentalStyle PianoStaff.dodecaphonic
+      \override PianoStaff.TimeSignature.style = #'numbered
       \clef treble
 
       \time 8/4
@@ -92,8 +92,8 @@
       << { gis' a' e' cis' } \\ { <dis' fis'>2 ~ <dis' e'>4 cis' } >>
       |
 
-      << { dis'4 e' cis'2\laissezVibrer } \\ { \times 2/3 { a2 r4 } } >>
-      << { gis'' a'' e'' } \\ { <a' dis''>2 \times 2/3 { b'2 cis''4\laissezVibrer } } >>
+      << { dis'4 e' cis'2\laissezVibrer } \\ { \tuplet 3/2 { a2 r4 } } >>
+      << { gis'' a'' e'' } \\ { <a' dis''>2 \tuplet 3/2 { b'2 cis''4\laissezVibrer } } >>
       |
 
       << { e''4 e'' fis'' e'' cis'' e'' e''2 }
@@ -166,36 +166,36 @@
       <gis' cis'' gis''>\laissezVibrer <b' dis'' ais''> <a' d'' fis''> <ais' dis''>
       |
 
-      << { \times 2/3 { cis''4 cis'' cis'' } dis'' cis'' ais' cis'' cis'' b' }
+      << { \tuplet 3/2 { cis''4 cis'' cis'' } dis'' cis'' ais' cis'' cis'' b' }
       \\ { <dis' eis'> <e' fis'> <fis' gis'>2 eis'4 fis' dis'2 } >> \breathe
       |
 
-      << { \times 2/3 { ais'4 -\markup{\italic "with great care"} ais' ais' } cis'' b' gis' b' b' a' }
+      << { \tuplet 3/2 { ais'4 -\markup{\italic "with great care"} ais' ais' } cis'' b' gis' b' b' a' }
       \\ { <d' eis'> <cis' fis'> dis' e' <b fis'> ~ <b e'> dis' cis' } >> \breathe
       |
 
       << {
-        \times 2/3 { gis'4 gis' gis' } e' gis'
-        \times 2/3 { b' b' b' } gis' ais'
+        \tuplet 3/2 { gis'4 gis' gis' } e' gis'
+        \tuplet 3/2 { b' b' b' } gis' ais'
       } \\ {
         <ais cis'>4 <bis dis'> <cis' e'> <bis dis'>
         <d' fis'>2 <dis' eis'>
       } >>
       |
 
-      << { \times 2/3 { fis'4 fis' fis' } gis' fis' dis' fis' fis' e' }
+      << { \tuplet 3/2 { fis'4 fis' fis' } gis' fis' dis' fis' fis' e' }
       \\ {
         <ais d'>4 <bis dis'> <b e'> <ais dis'>
         <a cis'> ~ <a b> <gis dis'> ~ <gis cis'>
       } >>
       |
 
-      << { \times 2/3 { dis'4 cis' dis' } gis ais dis' eis' eis' ~ <eis' ais'> }
+      << { \tuplet 3/2 { dis'4 cis' dis' } gis ais dis' eis' eis' ~ <eis' ais'> }
         \\ { g2 fis b ais } >>
       |
 
-      << { \times 2/3 { fisis'4 eis' fisis' } } \\ dis'2 >> bis4 cisis'
-      << { \times 2/3 { dis'4 cis' dis' } } \\ { g4 a } >> fis4 fis8 gis
+      << { \tuplet 3/2 { fisis'4 eis' fisis' } } \\ dis'2 >> bis4 cisis'
+      << { \tuplet 3/2 { dis'4 cis' dis' } } \\ { g4 a } >> fis4 fis8 gis
       |
 
       <e a>8 <fis b> <gis b> ~ <gis cis'> <a e'>4 ~ <a dis'> ~
@@ -207,9 +207,9 @@
       |
 
       \time 8/4
-      \times 2/3 { <fisis'' bis'' fisis'''> <eis'' cis''' eis'''> <fisis'' dis''' fisis'''> }
+      \tuplet 3/2 { <fisis'' bis'' fisis'''> <eis'' cis''' eis'''> <fisis'' dis''' fisis'''> }
       <bis' gis'' bis''> <d'' g'' d'''>
-      \times 2/3 { <ees'' ges'' ees'''> <des'' aes'' des'''> <ees'' bes'' ees'''> }
+      \tuplet 3/2 { <ees'' ges'' ees'''> <des'' aes'' des'''> <ees'' bes'' ees'''> }
       <ges' des'' ges''> <ges' ces'' ges''>8 ~ <aes' ces'' aes''>
       |
 
@@ -312,11 +312,11 @@
 
       a, ( fis cis' gis ) c ( b ) dis ( fis, )
       cis, ( bis, fis b )
-      \set tupletSpannerDuration = #(ly:make-moment 2 4)
-      \times 2/3 { cis'4 gis b, }
+      \tupletSpan 1*2/4
+      \tuplet 3/2 { cis'4 gis b, }
       |
 
-      \times 2/3 {
+      \tuplet 3/2 {
         a,\laissezVibrer e\laissezVibrer b\laissezVibrer \clef treble r a'\laissezVibrer e''\laissezVibrer
         \clef bass fis,\laissezVibrer dis\laissezVibrer b\laissezVibrer cis'\laissezVibrer fis'\laissezVibrer r
       }
@@ -334,7 +334,7 @@
       << { e4 fis a g } \\ { fis,2 b, } >>
       |
 
-      \times 2/3 { e,4 b, fis } e4*2/3 ais, b,
+      \tuplet 3/2 { e,4 b, fis } e4*2/3 ais, b,
       <fis, cis> e gis fis ais, b,
       |
 
@@ -400,7 +400,7 @@
       gis dis' cis'' ais' dis''4 r b,8 fis cis' b e'4 dis'
       |
 
-      cis' b a16 fis' a' cis'' \times 4/6 { b, fis a cis' fis' b' }
+      cis' b a16 fis' a' cis'' \tuplet 6/4 { b, fis a cis' fis' b' }
       e,8 b, e b e' fis' ais' b'
       |
 

@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.17.97"
 
 \header {
   title = "Soft"
@@ -15,8 +15,8 @@
 \score {
   \new PianoStaff <<
     \new Staff = "up" {
-      \accidentalStyle #'PianoStaff "dodecaphonic"
-      \override PianoStaff.TimeSignature #'style = #'numbered
+      \accidentalStyle PianoStaff.dodecaphonic
+      \override PianoStaff.TimeSignature.style = #'numbered
       \set PianoStaff.connectArpeggios = ##t
       \clef treble
       \time 8/4
@@ -85,19 +85,19 @@
       <b' dis'' e'' b''>4. <a' a''>8 <gis' bis' dis'' gis''>4 <e' gis' cis'' e''>
       |
 
-      << { <cis'' e'' gis''>  s } \\ \times 2/3 { a' gis' <fis' fis''> } >>
+      << { <cis'' e'' gis''>  s } \\ \tuplet 3/2 { a' gis' <fis' fis''> } >>
       << { <e' e''>8 <dis' dis''> <dis' dis''> <e' e''> } \\ { <a' cis''>4 gis' } >>
       <gis' b' e'' gis''>4. <fis' fis''>8 <fis' b' dis'' fis''>4. <b' b''>8
       |
 
       <b' e'' gis'' b''>4. <e' e''>8 <dis' dis''> <e' e''> <gis' gis''> <b' b''>
-      <e'' fis'' a'' dis'''>4. <cis'' cis'''>8 \times 2/3 { <cis'' e'' a'' cis'''>4 <a' a''>  <e' gis' cis'' e''> }
+      <e'' fis'' a'' dis'''>4. <cis'' cis'''>8 \tuplet 3/2 { <cis'' e'' a'' cis'''>4 <a' a''>  <e' gis' cis'' e''> }
       |
 
-      << { \times 2/3 { <gis' e'' gis''>2 <ais' ais''>4 } }
-      \\ { \times 2/3 { b' cis'' d'' } } >>
-      \times 2/3 { <eis'' fis'' ais'' dis'''>  ~ <dis'' fis'' ais'' cis'''> <ais' d'' ais''>  }
-      \times 2/3 { <b' dis'' ais''> <ais' cis'' gis''> <fis' bis' fis''> } <gis' b' dis'' gis''>4. <eis'' cis'''>8
+      << { \tuplet 3/2 { <gis' e'' gis''>2 <ais' ais''>4 } }
+      \\ { \tuplet 3/2 { b' cis'' d'' } } >>
+      \tuplet 3/2 { <eis'' fis'' ais'' dis'''>  ~ <dis'' fis'' ais'' cis'''> <ais' d'' ais''>  }
+      \tuplet 3/2 { <b' dis'' ais''> <ais' cis'' gis''> <fis' bis' fis''> } <gis' b' dis'' gis''>4. <eis'' cis'''>8
       |
 
       cis'''4. fis''8 eis'' fis'' ais'' cis''' eis'''4. dis'''8 dis'''8. fis''16 fis''8 gis''
@@ -125,7 +125,7 @@
       r4 <dis'' fis''>8 <d'' e'' a''>8 ~ <d'' e'' a''>4 ~ <e'' g''>
       |
 
-      \times 2/3 { <g' c'' fis''>2 <fis' cis'' e''>4 } \times 2/3 { <fis' ais' d''>2 <f' ais' cis''>4 }
+      \tuplet 3/2 { <g' c'' fis''>2 <fis' cis'' e''>4 } \tuplet 3/2 { <fis' ais' d''>2 <f' ais' cis''>4 }
       <e' a' c''>4. <dis' g' b'>8 r4 fis'
       |
 
@@ -238,7 +238,7 @@
 
       <gis' ais'>4. <fis' b'>8 <e' cis''>8 ~ cis'' dis''4
       <fis' fis''>4. <ais' cis'' e''>8 <ais' dis''>4 ~ <gis' dis''>
-      << { \times 2/3 {dis''4 cis'' b'} } \\ g'2 >>
+      << { \tuplet 3/2 {dis''4 cis'' b'} } \\ g'2 >>
       gis'8 g' g' gis'
       <dis' b'>4. <eis' cis''>8 <gis' ais'>4 <dis' fis'>8 <d' e' fis'>
       <a cis'  fis'>8 ~ <a cis' e'> <c' dis'>8  b ais b dis' <b fis'>
@@ -337,7 +337,7 @@
       \clef bass ees4 \clef treble <a' c''>8 bes'8 ~ bes'4 ~ <bes' cis''>
       |
 
-      \clef bass \times 2/3 { a,4 dis' e' } \times 2/3 { c, ais b }
+      \clef bass \tuplet 3/2 { a,4 dis' e' } \tuplet 3/2 { c, ais b }
       cis'8. g16 g,8 fis,8 r2
       |
 
