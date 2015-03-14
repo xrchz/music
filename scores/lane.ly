@@ -31,7 +31,7 @@
       \\ { e'2 fis' e'2. ~ e'8 fis'16 gis' } >>
       |
 
-      << { a'4 cis'' < eis' cis''> < dis' b'> b' gis' e'4. e'16 fis' }
+      << { a'4 cis'' < e' cis''> < dis' b'> b' gis' e'4. e'16 fis' }
       \\ { e'2 fis' e' ais4. s8 } >>
       |
 
@@ -110,10 +110,10 @@
       < ais, gis>2 < cis b> << { s2 b4 ~ b8 s } \\ < b, fis>1 >>
       |
 
-      < fis cis'>2 < eis dis'> < dis cis'> << bes2 \\ { b,4 bes, } >>
+      < fis cis'>2 < eis dis'> < dis cis'> << aes2 \\ { b,4 bes, } >>
       |
 
-      << { ges4 bes } \\ aes,2 >> < des ces'>2 ges4 aes, ees ges,
+      << { ges4 bes } \\ aes,2 >> < des ces'>2 ges4 bes, ees ges,
       |
  
       << { ges4 ces' ~ ces' des' ~ des' ees' fes' s }
