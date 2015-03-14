@@ -47,7 +47,7 @@
         bes''4 ees'' ees'''^\markup{\large {molto rit.}} des'''\) cis''' gis'' gis''4*2/3 \change Staff=left fis'' \change Staff=right e'' |
         \stemUp e''4^\markup{\large {a tempo}}\( cis'' e'' cis'' e'' cis'' gis'' fis''\) |
         ges''8.\( f''8 d''16. bes' des''8. ces'' bes'8 bes'1 ~ \) |
-        bes'2 bes'4 c'' \once \override TextScript.padding = #1.2 des''_\markup{\italic {semper crescendo}}\( aes' ces'' bes' |
+        bes'2 bes'4 c'' \once \override TextScript.padding = #1.2 des''_\markup{\italic {sempre crescendo}}\( aes' ces'' bes' |
         bes'2. c''4 des'' aes' ces'' bes' |
         bes'2.\) c''4 des''\( bes' des'' bes' |
         des''4 bes' f'' ees''\) ees''\( ces'' aes'' ges''\) |
