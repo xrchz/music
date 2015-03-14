@@ -79,6 +79,27 @@
       \\ { ais2 < b dis'>4 < cis' e'> } >>
       |
 
+      << { fis'4 b' b' ais'8 gis' }
+      \\ { dis'2 < e' fis'> } >>
+      |
+
+      fis'4 ~ < fis' dis''> << { dis'' cis'' } \\  gis'2 >>
+      |
+
+      << { b'4 ais' gis'8 ais' b' cis'' }
+      \\ { fis'2 eis' } >>
+      |
+
+      << { b'4 ais' gis' fis' }
+      \\ {e'2 e' } >>
+      |
+
+      << { fis'4 b' b' ais'8 gis' }
+      \\ { dis'2 < e' fis'> } >>
+      |
+
+      fis'4 ~ < fis' dis''> << { dis'' cis'' } \\  < e' g'>2 >>
+      |
     }
     \new Staff {
       \clef bass
@@ -131,6 +152,23 @@
       << { r4 e } \\ { fis,2 } >> gis4 ais
       |
 
+      b2 cis'4 ~ < cis' fis>
+      |
+
+      < b dis'>4 ~ < fis b dis'> << { e'4 cis' } \\ e2 >>
+      |
+
+      dis4 b d ais
+      |
+
+      cis gis fis ais
+      |
+
+      b4 ~ < fis b> cis' ~ < cis' fis>
+      |
+
+      dis'4 ~ < b dis'> e ~ < e cis'>
+      |
     }
   >>
 }
