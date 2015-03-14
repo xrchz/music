@@ -59,7 +59,7 @@
       |
 
       << { b'4 ees'' ees'' des'' des'' bes' ges' aes'8 bes' }
-      \\ { ees'4 r bes' f' aes' des' des' ces'8 bes } >>
+      \\ { ees'4 ges' bes' f' aes' des' des' ces'8 bes } >>
       |
 
       << { ces''4 des''2. ees''4 des'' ges' gis'8 fis' }
@@ -83,7 +83,7 @@
       \\ { dis'2 < e' fis'> } >>
       |
 
-      fis'4 ~ < fis' dis''> << { dis'' cis'' } \\  gis'2 >>
+      < dis' fis'>4 ~ < dis' fis' dis''> << { dis'' cis'' } \\  < e' gis'>2 >>
       |
 
       << { b'4 ais' gis'8 ais' b' cis'' }
@@ -100,6 +100,45 @@
 
       fis'4 ~ < fis' dis''> << { dis'' cis'' } \\  < e' g'>2 >>
       |
+
+      << { b'4 ais' gis'8 ais' b' ais' }
+      \\ { < dis' gis'>2 < d' f'> } >>
+      |
+
+      << { aes'4 g' f' g' }
+      \\ { < ees' f'>2 des' } >>
+      |
+
+      << { aes'4 c'' c'' bes'8 aes' }
+      \\ { ees'2 f' } >>
+      |
+
+      < ees' aes'>4 ~ < ees' aes' c''>
+      << { ees''2 } \\ { bes'4 aes'8 g' } >>
+      |
+
+      << { des''4 c'' bes'8 c'' des'' ees'' }
+      \\ { f'4 ees' des' aes' } >>
+      |
+
+      << { des''2 c''4 bes' }
+      \\ { aes'4 f' < des' g'>2 } >>
+      |
+
+      < ees' c''>4 ~ < ees' aes'> << { aes' g'8 f' } \\ < des' ees'>2 >>
+      |
+
+      ees'4 ~ < ees' c''> < e' aes' c''> < f' bes'>
+      |
+
+      << { ees''4 bes' c'' aes' }
+      \\ { f' g' g' aes' } >>
+      |
+
+      << { f' bes' g' ees' }
+      \\ { ees' d' d' des' } >>
+      |
+
     }
     \new Staff {
       \clef bass
@@ -113,8 +152,8 @@
       < e b>2 < dis cis'> < cis b>1
       |
 
-      << { cis'2 a gis ais }
-      \\ { fis b, ~ b, cis } >>
+      << { cis'2 a gis }
+      \\ { fis b, ~ b, } >> cis
       |
 
       < fis, e>4. < ais, gis>2
@@ -155,19 +194,51 @@
       b2 cis'4 ~ < cis' fis>
       |
 
-      < b dis'>4 ~ < fis b dis'> << { e'4 cis' } \\ e2 >>
+      b4 ~ < fis b > e ~ < e cis'>
       |
 
-      dis4 b d ais
+      dis4 ~ < dis b> d ~ < d ais>
       |
 
-      cis gis fis ais
+      cis ~ < cis gis> fis ~ < fis ais>
       |
 
       b4 ~ < fis b> cis' ~ < cis' fis>
       |
 
       dis'4 ~ < b dis'> e ~ < e cis'>
+      |
+
+      dis4 ~ < dis b> d ~ < d ais>
+      |
+
+      ees4 ~ < ees bes> aes bes
+      |
+
+      c'4 ~ < c' aes> des ~ < des bes>
+      |
+
+      c4 ~ < c aes> c' ~ < c' f>
+      |
+
+      bes, ~ < bes, aes> f bes
+      |
+
+      ees4 ~ < ees aes> ees' ~ < ees' bes>
+      |
+
+      aes4 ~ < aes ees> bes ~ < bes ees>
+      |
+
+      << { c'4 aes ~ aes2 }
+      \\ { r2 bes,4 c8 d } >>
+      |
+
+      << { des'2 ees' }
+      \\ { ees4 f8 g aes4 bes8 c' } >>
+      |
+
+      bes4 ~ < bes, bes> ~ < bes ees>2
       |
     }
   >>
