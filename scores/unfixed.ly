@@ -1,9 +1,9 @@
-\version "2.16.0"
+\version "2.18.0"
 
 \header {
   title = \markup{\concat{\small{\raise #1.0 "1"}"5673"\small{\raise #1.0 "1"}"214"}}
   date = "2006"
-  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 
 \paper {
@@ -14,14 +14,14 @@
 
 pushUp = #(define-music-function (parser location padding) (number?)
   #{
-    \once \override TextScript #'extra-offset = #( cons 0.0 padding )
+    \once \override TextScript.extra-offset = #( cons 0.0 padding )
   #})
 
 \score {
   \context PianoStaff <<
-    \override PianoStaff.TextScript #'font-size = #5.0
+    \override PianoStaff.TextScript.font-size = #5.0
     \context Staff = right <<
-      \override Staff.TimeSignature #'style = #'()
+      \override Staff.TimeSignature.style = #'()
       \autoBeamOff
       \clef treble
       \time 8/8
@@ -87,7 +87,7 @@ pushUp = #(define-music-function (parser location padding) (number?)
       } >>
     >>
     \context Staff = left <<
-      \override Staff.TimeSignature #'style = #'()
+      \override Staff.TimeSignature.style = #'()
       \clef bass
       \key fis \major
       << {
@@ -103,7 +103,7 @@ pushUp = #(define-music-function (parser location padding) (number?)
         |
          <b, fis>4 <fis, fis> <b,, b,> \pushUp #-8.0 <fis,, fis,>^\markup{\hspace #1.1 i}
         |
-         \times 2/3 {d,8 a, e b, fis r} fis,2
+         \tuplet 3/2 {d,8 a, e b, fis r} fis,2
         |
          <e a b>4 <dis ais cis'> <dis, gis,> <d f> <e g> <f a>
         |
@@ -113,7 +113,7 @@ pushUp = #(define-music-function (parser location padding) (number?)
         |
          r4 gis, cis,2
         |
-         \times 2/3 {e,8 b, fis fis, cis r} cis,2
+         \tuplet 3/2 {e,8 b, fis fis, cis r} cis,2
         |
          r4 <fis, cis fis>4 <b,, fis, b,>2
         |

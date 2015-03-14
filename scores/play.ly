@@ -1,10 +1,10 @@
-\version "2.17.97"
+\version "2.18.0"
 
 \header {
   title = "Play"
   composer = "Ramana Kumar"
   date = "2013"
-  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright = "Creative Commons Attribution-ShareAlike 4.0"
   dedication = ""
 }
 

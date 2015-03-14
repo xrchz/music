@@ -1,4 +1,4 @@
-\version "2.14.0"
+\version "2.18.0"
 
 \header {
   title = "Lace"
@@ -6,19 +6,19 @@
   piece = \markup{\large "Vivo " \note #"2" #1 \large "=69 molto rubato"}
   dedication = "for Freya Franzen inspired by Samuel Barber"
   date = "2003"
-  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 
 \score {
   \context PianoStaff <<
     \set PianoStaff.followVoice = ##t
     \set PianoStaff.explicitKeySignatureVisibility = #end-of-line-invisible
-    #(set-accidental-style 'dodecaphonic 'Score)
+    \accidentalStyle Score.dodecaphonic
     \context Staff = right <<
       \clef treble
       \time 4/2
       << {
-        \override TextScript #'padding = #2.2 \once \override DynamicLineSpanner #'padding = #3 \stemUp \tieNeutral \phrasingSlurUp \override PhrasingSlur #'height-limit = #3.0 \override PhrasingSlur #'ratio = #0.5 a'4_\f\( fis' a' fis' a' fis' cis'' b'\) |
+        \override TextScript.padding = #2.2 \once \override DynamicLineSpanner.padding = #3 \stemUp \tieNeutral \phrasingSlurUp \override PhrasingSlur.height-limit = #3.0 \override PhrasingSlur.ratio = #0.5 a'4_\f\( fis' a' fis' a' fis' cis'' b'\) |
         b'4\( fis' fis' e'\) e'\( cis' e' cis' |
         e'4 cis' gis' fis'\) fis'2.\( b'4\) |
         b'4\( gis' b' gis' b' gis' dis'' cis''\) |
@@ -33,9 +33,9 @@
         b'4\( fis' fis' e' e'1\) |
         \stemUp \phrasingSlurUp cis''4\( a' cis'' ais' cis'' cis''\rest cis'' b'\) |
         b'4\( gis' <a fis'> <b e'>\) e'\( cis' e' cis' |
-        e'4 cis' gis' fis'\) \override DynamicLineSpanner #'padding = #2 fis'2.\<\( <gis' b'>4\) |
+        e'4 cis' gis' fis'\) \override DynamicLineSpanner.padding = #2 fis'2.\<\( <gis' b'>4\) |
         <gis' e'' gis''>2\!\( r4 fis''\) fis''\( dis'' fis'' dis'' |
-        fis''4\mp \revert DynamicLineSpanner #'padding s \) ais'' gis'' gis''\( dis'' cis'' <gis' b'>\) |
+        fis''4\mp \revert DynamicLineSpanner.padding s \) ais'' gis'' gis''\( dis'' cis'' <gis' b'>\) |
         <e' b'>2 <fis' b'> <fis' b'> <eis' b'> |
         <d' b'>2 <cis' b'> cis' fis' |
         bes'4\( ges' bes' f' bes' ees' ges' aes'\) |
@@ -47,14 +47,14 @@
         bes''4 ees'' ees'''^\markup{\large {molto rit.}} des'''\) cis''' gis'' gis''4*2/3 \change Staff=left fis'' \change Staff=right e'' |
         \stemUp e''4^\markup{\large {a tempo}}\( cis'' e'' cis'' e'' cis'' gis'' fis''\) |
         ges''8.\( f''8 d''16. bes' des''8. ces'' bes'8 bes'1 ~ \) |
-        bes'2 bes'4 c'' \once \override TextScript #'padding = #1.2 des''_\markup{\italic {semper crescendo}}\( aes' ces'' bes' |
+        bes'2 bes'4 c'' \once \override TextScript.padding = #1.2 des''_\markup{\italic {semper crescendo}}\( aes' ces'' bes' |
         bes'2. c''4 des'' aes' ces'' bes' |
         bes'2.\) c''4 des''\( bes' des'' bes' |
         des''4 bes' f'' ees''\) ees''\( ces'' aes'' ges''\) |
         ges''4\( des'' des'' c''\) bis'\( cis'' gis' eis'\) |
         des''4\(bes' f'' ees''\) ees''\( ces'' aes'' ges''\) |
         ges''4\( des'' des'' c''\) bis'\( cis'' gis' eis'\) |
-        \time 2/2 \stemNeutral \phrasingSlurNeutral g'2^\( ~ \times 2/3 {g'4 ees' f'} |
+        \time 2/2 \stemNeutral \phrasingSlurNeutral g'2^\( ~ \tuplet 3/2 {g'4 ees' f'} |
         ges'2 ~ ges'4*2/3 aes' bes' |
         b'2 ~ b'4*2/3 cis'' dis'' |
         eis''2\) ~ eis''4*2/3 fisis'' gis'' |
@@ -129,11 +129,11 @@
         s1 |
         \time 4/2 cis''2\( dis'' e'' fis''\) |
         gis''4\( a'' e'' cis'' e''1\) |
-        gis''4\( a'' fis'' e'' fis''1\) | \once \override PhrasingSlur #'height-limit = #5.0
+        gis''4\( a'' fis'' e'' fis''1\) | \once \override PhrasingSlur.height-limit = #5.0
         fis'''4^\( d''' d''' cis''' cis''' d''' a'' fis'' |
         a''4 d'' d'' cis'' cis'' d'' a' fis'\) |
         cis'4\( dis'2 e'4\) cis'\( dis'2 e'4\) |
-        cis'4\( e' cis' e' cis' e' gis ais\) | \once \override PhrasingSlur #'height-limit = #5.0
+        cis'4\( e' cis' e' cis' e' gis ais\) | \once \override PhrasingSlur.height-limit = #5.0
         cis'4^\( cis' cis' bis <g bis> ~ <g cis'> \change Staff=left gis eis ~ |
         <eis gis>\breve\) \bar "|."
 
@@ -143,14 +143,14 @@
       \clef bass
       \time 4/2
       << {
-        \stemNeutral \tieNeutral \phrasingSlurNeutral \override PhrasingSlur #'height-limit = #3.5 \override PhrasingSlur #'ratio = #0.4 <d fis a>2 <cis fis b> <b, fis b> ~ <b, fis a> |
+        \stemNeutral \tieNeutral \phrasingSlurNeutral \override PhrasingSlur.height-limit = #3.5 \override PhrasingSlur.ratio = #0.4 <d fis a>2 <cis fis b> <b, fis b> ~ <b, fis a> |
         <g, d>2 <e gis> <a, cis e> <gis, cis eis> |
         <fis, cis fis>2 <fis, cis e> b,,1 |
         <e b>2 <dis cis'> <cis cis'> <cis b> |
         <a, a>2\( <e, e> <a, a> <gis, gis> |
         <fis, fis>2 <e, e> <dis, dis> <cis, cis> |
         <gis,, gis,>\breve\) |
-        \times 2/3 {fes,4\( bes, ees} aes4*2/3 f' ees'\) aes,\( ees bes aes ees bes, |
+        \tuplet 3/2 {fes,4\( bes, ees} aes4*2/3 f' ees'\) aes,\( ees bes aes ees bes, |
         aes,4*2/3\)\( ees c' aes ees aes, aes,,\) ees\( c' aes ees ces |
         fes,4*2/3\)\( bes, ees aes f' ees'\) aes,\( ees bes aes ees bes, |
         aes,4*2/3\) ees'\( c'' aes' ees' aes aes,\) ees'\( c'' aes' ees' aes\) |
@@ -179,7 +179,7 @@
         \clef bass a,4*2/3\( e cis' \clef treble fis' ais' fis''\) \clef bass cis\( gis eis' \clef treble gis' eis'' cis'''\) |
         \clef bass ees,4*2/3\( bes, g \clef treble des' g' bes'\) \clef bass ges,\( ees aes \clef treble des' ges' bes'\) |
         \clef bass a,4*2/3\( e cis' \clef treble fis' ais' fis''\) \clef bass cis\( gis eis' \clef treble gis' eis'' cis'''\) |
-        \clef bass \time 2/2 \times 2/3 {ees,4\( bes, g} des'2\) |
+        \clef bass \time 2/2 \tuplet 3/2 {ees,4\( bes, g} des'2\) |
         ges,4*2/3\( des bes des'2\) |
         a,4*2/3\( e cis' gis'2\) |
         cis4*2/3\( gis eis' \clef treble gis' bis' r\) |

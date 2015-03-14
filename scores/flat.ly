@@ -1,15 +1,15 @@
-\version "2.15.39"
+\version "2.18.0"
 
 \header {
   title             = "Flat"
   composer          = "Ramana Kumar"
   date              = "2007"
-  copyright         = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright         = "Creative Commons Attribution-ShareAlike 4.0"
 }
 
 onceStem =
 #(define-music-function (parser location direction music) (number? ly:music?) #{
-  \once \override Stem #'direction = $direction
+  \once \override Stem.direction = $direction
   $music #}
 )
 
@@ -18,8 +18,8 @@ onceStem =
 \score {
   \context PianoStaff <<
     \context Staff = right <<
-      \accidentalStyle #'Score "dodecaphonic"
-      \override Score.TimeSignature #'style = #'()
+      \accidentalStyle Score.dodecaphonic
+      \override Score.TimeSignature.style = #'()
       \clef treble
       \time 8/4
       << {

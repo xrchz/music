@@ -1,4 +1,4 @@
-\version "2.14.0"
+\version "2.18.0"
 
 \header {
   title = "Jumelle qui joue"
@@ -6,18 +6,18 @@
   piece = \markup{\large {"Lente\n"} "très libre bien que tentative"}
   dedication = "pour Jeanne Masle-Farquhar"
   date = "2004"
-  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 
 \score {
   \context PianoStaff <<
     \context Staff = right <<
-      \override Staff.TimeSignature #'style = #'()
+      \override Staff.TimeSignature.style = #'()
       \clef treble
       \key ges \major
       \time 5/4
       << {
-        \override DynamicLineSpanner #'padding = #2.5 d'4\p bes des'2 ~ des'4\fermata |
+        \override DynamicLineSpanner.padding = #2.5 d'4\p bes des'2 ~ des'4\fermata |
         c'2. d'2\fermata |
         ees'4 c' d'2 ~ d'4\fermata |
         \time 6/4 f'4 des' e'2 \deprecatedcresc g'4 ees' |
@@ -33,7 +33,7 @@
         \key ges \major g'2. f'4\fermata ees'2 |
         d'2. des'4\fermata e' c' |
         ees'2. s4 bes' ges' |
-        aes'1 ges'4 ees' | \once \override DynamicLineSpanner #'padding = #3.5
+        aes'1 ges'4 ees' | \once \override DynamicLineSpanner.padding = #3.5
         ges'2.\f ees'4. des' |
         \time 4/4 ees'1 |
         \key a \major \time 6/4 dis'2.\rest \deprecatedcresc dis'4. b |
@@ -51,7 +51,7 @@
         ees'4 b d' |
         bes'4 ges' a' |
         ees''4 b' d''\fermata |
-        \time 9/4 \key d \major \override DynamicLineSpanner #'padding = #1 <a' d'' e'' a''>4.\ff <f' bes' d'' f''> <gis' bis' dis'' gis''>2. ~ <gis' bis' dis'' gis''>2\fermata ~ <fis' bis' dis'' fis''>4 |
+        \time 9/4 \key d \major \override DynamicLineSpanner.padding = #1 <a' d'' e'' a''>4.\ff <f' bes' d'' f''> <gis' bis' dis'' gis''>2. ~ <gis' bis' dis'' gis''>2\fermata ~ <fis' bis' dis'' fis''>4 |
         <a' d'' e'' a''>4. <f' bes' d'' f''> <gis' bis' dis'' gis''>2. ~ <gis' bis' dis'' gis''>2\fermata ~ <fis' bis' dis'' fis''>4 |
         <a' d'' e'' a''>4. <f' bes' d'' f''> <gis' bis' dis'' gis''> ~ <fis' bis' dis'' fis''> <e' a' c'' e''> <c' c''> |
         <f' a' c'' f''>1 ~ <f' a' c'' f''>2. ~ <f' a' c'' f''>2\fermata |
@@ -62,7 +62,7 @@
         \time 6/4 <c' f' g' c''>2 <aes aes'>4 <b d' f' b'>2 bes4 |
         \time 9/4 r4 des'2 ~ des'2.\fermata ~ des'\fermata |
         \key ges \major \time 5/4 \clef bass f2 bes2 ~ bes4\fermata |
-        \clef treble \override DynamicLineSpanner #'padding = #2.5 d'4\p bes des'2 ~ des'4\fermata |
+        \clef treble \override DynamicLineSpanner.padding = #2.5 d'4\p bes des'2 ~ des'4\fermata |
         \time 6/4 eis'4 cis' dis' ~ dis'2.\fermata |
         \time 5/4 ees'4 b d'2 ~ d'4\fermata |
         d'4 bes des'2.\fermata \bar "|."
@@ -120,12 +120,12 @@
       } >>
     >>
     \context Staff = left <<
-      \override Staff.TimeSignature #'style = #'()
+      \override Staff.TimeSignature.style = #'()
       \clef bass
       \key ges \major
       \time 5/4
       {
-        \override DynamicLineSpanner #'padding = #2 ges,4 _\markup{\italic{avec pédale}}des ees f\fermata ees\fermata |
+        \override DynamicLineSpanner.padding = #2 ges,4 _\markup{\italic{avec pédale}}des ees f\fermata ees\fermata |
         g,4 d e f\fermata g |
         ges,4 ees f ges\fermata f\fermata |
         \time 6/4 aes,4 f g aes2. |

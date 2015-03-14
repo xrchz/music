@@ -1,10 +1,10 @@
-\version "2.17.97"
+\version "2.18.0"
 
 \header {
   title = "弥生"
   composer = "Ramana Kumar"
   date = "2012"
-  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright = "Creative Commons Attribution-ShareAlike 4.0"
   dedication = "for 鈴木藍さん"
 }
 

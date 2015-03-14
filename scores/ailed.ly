@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.18.0"
 
 \header {
   title = "Prelude"
@@ -6,14 +6,14 @@
   composer = "Ramana Kumar"
   date = "2005"
   dedication = "Delia Wang"
-  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 %#(set-default-paper-size "a4" 'landscape)
 
 \score {
   \context PianoStaff <<
     \context Staff = right <<
-      \accidentalStyle #'PianoStaff "dodecaphonic"
+      \accidentalStyle PianoStaff.dodecaphonic
       \clef treble
       \time 6/4
       << {

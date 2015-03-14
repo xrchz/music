@@ -1,11 +1,11 @@
-\version "2.17.97"
+\version "2.18.0"
 
 \header {
   title="Vase"
   composer="Ramana Kumar"
   dedication="for Emma Walsh"
   date = "2006"
-  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 
 #(ly:set-option 'point-and-click #f)

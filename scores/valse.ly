@@ -1,4 +1,4 @@
-\version "2.14.0"
+\version "2.18.0"
 
 \header {
   title = "Valse"
@@ -7,7 +7,7 @@
   date = "2002"
   piece = "Allegretto"
   dedication = "pour Stephanie Walls"
-  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 
 \paper{
@@ -85,7 +85,7 @@
         << {aes'4 ges'8. f'16 ges'8. aes'16} \\ {s2.} >> |
         << {ges'4 f' ees'8( des')\)\(} \\ {s2.} >> |
         << {bes'2 aes'4} \\ {s2.} >> |
-        << {\override DynamicLineSpanner #'padding = #2 aes'4\< des''4 f''} \\ {s4 des'2} >> |
+        << {\override DynamicLineSpanner.padding = #2 aes'4\< des''4 f''} \\ {s4 des'2} >> |
         << {c''4\!\> f'4( e')} \\ {s4 c' s} >> |
         << {e'4( f')\!\) \bar "|."} \\ {s2} >>
       }

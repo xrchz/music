@@ -1,22 +1,22 @@
-\version "2.14.0"
+\version "2.18.0"
 
 \header {
   title = "Lani"
   composer = "Ramana Kumar"
   piece = \markup {with considered and plentiful rubato}%; ~1.5s/bar}
   date = "2005"
-  copyright = "Creative Commons Attribution-ShareAlike 3.0"
+  copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 
 \score {
   \context PianoStaff <<
-    \override PianoStaff.TimeSignature #'style = #'()
-    \once \override PianoStaff.TimeSignature #'stencil = ##f
+    \override PianoStaff.TimeSignature.style = #'()
+    \once \override PianoStaff.TimeSignature.stencil = ##f
     \context Staff = right <<
       \clef bass
       << {
-        #(set-accidental-style 'forget)
-        \once \override DynamicText #'extra-offset = #'(0 . -1.2)
+        \accidentalStyle forget
+        \once \override DynamicText.extra-offset = #'(0 . -1.2)
         \cadenzaOn \tieNeutral \slurNeutral \phrasingSlurUp cis'2\(\p \bar ""
         cis'4. b8 \bar ""
         b8 a gis a \bar ""
@@ -206,7 +206,7 @@
     \context Staff = left <<
       \clef bass
       << {
-        #(set-accidental-style 'forget)
+        \accidentalStyle forget
         \cadenzaOn \stemUp \tieUp d2 \bar ""
         cis2 \bar ""
         d2 \bar ""
