@@ -54,6 +54,31 @@
       \\ { cis'4 fis' eis'2 ~ < cis' eis'> dis'4 ~ dis'8 } >>
       |
 
+      << { ais'4 cis'' cis'' ais' dis''2 g'4 aes'8 bes' }
+      \\ { fis'2 gis' gis' d' } >>
+      |
+
+      << { b'4 ees'' ees'' des'' des'' bes' ges' aes'8 bes' }
+      \\ { ees'4 r bes' f' aes' des' des' ces'8 bes } >>
+      |
+
+      << { ces''4 des''2. ees''4 des'' ges' gis'8 fis' }
+      \\ { ees'4 ges' < f' bes'> ~ < f' aes'> bes'2 s } >>
+      |
+
+      << { cis''4 b' ais' gis' fis' ais' dis' eis'8 fis' }
+      \\ { e'4 dis' d'2 cis' bis } >>
+      |
+
+      << { ais'4 gis' fis' eis' fis' ais' cis' cis'8 d' }
+      \\ { d'2 cis' cis' b } >>
+      |
+
+      \time 4/4
+      << { cis'4 fis' fis' fis' }
+      \\ { ais2 < b dis'>4 < cis' e'> } >>
+      |
+
     }
     \new Staff {
       \clef bass
@@ -75,7 +100,7 @@
       |
 
       << { dis2 fis }
-      \\ { s2 ais,4 gis, ~ } >>
+      \\ { r2 ais,4 gis, ~ } >>
       |
 
       << { eis2 fis dis a }
@@ -84,7 +109,28 @@
 
       < ais, gis>2 < cis b> << { s2 b4 ~ b8 s } \\ < b, fis>1 >>
       |
+
+      < fis cis'>2 < eis dis'> < dis cis'> << bes2 \\ { b,4 bes, } >>
+      |
+
+      << { ges4 bes } \\ aes,2 >> < des ces'>2 ges4 aes, ees ges,
+      |
  
+      << { ges4 ces' ~ ces' des' ~ des' ees' fes' s }
+      \\ { aes,2 des ges2. ais,4 } >>
+      |
+
+      << { gis4 fis ~ fis eis ais r fis2 }
+      \\ { b,2 ais, dis4 a, gis, ais, } >>
+      |
+
+      << { gis4 ais b ~ b b ais r f }
+      \\ { b,2 r4 cis fis2 g, } >>
+      |
+
+      << { r4 e } \\ { fis,2 } >> gis4 ais
+      |
+
     }
   >>
 }
