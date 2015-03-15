@@ -139,6 +139,23 @@
       \\ { ees' d' d' des' } >>
       |
 
+      ees'4 ~ < ees' aes'> << { aes' g'8 f' } \\ < des' ees'>2 >>
+      |
+
+      ees'4 ~ < ees' c''> < e' aes' c''> < g' bes'>
+      |
+
+      \time 8/4
+      << { aes'2 < bes g'> < bes f'> < aes d'> }
+      \\ { ees'4 ees' ees' ees' ees' ees' f' g' } >>
+      |
+
+      < g ees'>4 ~ < g bes> < bes c'> ~ < bes c' ees'>
+      bes4 ~ < bes ees'> aes ~ < aes d'>
+      |
+
+      ees'4 bes ees' g' bes' ees'' ees'' ees''
+      |
     }
     \new Staff {
       \clef bass
@@ -221,7 +238,7 @@
       c4 ~ < c aes> c' ~ < c' f>
       |
 
-      bes, ~ < bes, aes> f bes
+      bes, ~ < bes, aes> f ~ < f bes>
       |
 
       ees4 ~ < ees aes> ees' ~ < ees' bes>
@@ -240,6 +257,20 @@
 
       bes4 ~ < bes, bes> ~ < bes ees>2
       |
+
+      aes4 ~ < aes ees> bes ~ < bes ees>
+      |
+
+      c'4 ~ < c' aes> < ees des'>2
+      |
+
+      < f c'>2 < bes, g> < bes, aes>2 < bes, f>
+      |
+
+      < ees g>2 < ees aes> < ees g>2 < ees f>
+      |
+
+      < ees g>\breve
     }
   >>
 }
