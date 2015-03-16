@@ -76,7 +76,7 @@
 
       \time 4/4
       << { cis'4 fis' fis' fis' }
-      \\ { ais2 < b dis'>4 < cis' e'> } >>
+      \\ { < ais cis'>4 ~ < ais cis'> < b dis'> < cis' e'> } >>
       |
 
       << { fis'4 b' b' ais'8 gis' }
@@ -172,12 +172,20 @@
       << { dis'8 e' } \\ { < ais cis' gis'>4 } >> fis'8 gis'
       |
 
-      < dis' fis' gis' b>4 gis'8 fis'
-      << { d'8 cis' cis' d' gis' fis' dis' b b' gis' gis' b' }
-      \\ { < a bes>2 < a cis'> < b dis' fis'>4 r } >>
+      < dis' fis' gis' b'>4 gis'8 fis'
+      << { d'8 cis' cis' d' }
+      \\ { < a bes>2 } >>
       |
 
-      < e' fis' a' cis''>8. b'16 b'8 cis'' fis'' dis'' cis'' gis'
+      < a cis' gis'>8. ~ < a cis' fis'>16 dis' b8 ~
+      < b dis' fis' b'>8. ~ < b dis' fis' gis'>8 gis' b'
+      |
+
+      \time 15/16
+      < e' fis' a' cis''>8. b'16 b' cis''8 fis'' dis'' cis'' gis'8
+      |
+
+      < eis' cis''>8. b'16 b' cis''8 << gis'4.\trill \\ < bis fis'>4. >> fis'16 gis'
       |
 
     }
@@ -201,7 +209,7 @@
       |
 
       << { dis2 fis }
-      \\ { r2 ais,4 gis, ~ } >>
+      \\ { dis,2 ais,4 gis, ~ } >>
       |
 
       << { eis2 fis dis a }
@@ -310,10 +318,17 @@
       cis8 gis, ~ gis, g, fis, ~ < fis, e> fis gis
       |
 
-      < b, a>4 r < fis, e>2 < b, fis> e,4\laissezVibrer b
+      < b, a>4 r < fis, e>2
       |
 
-      cis'4\laissezVibrer a\laissezVibrer e\laissezVibrer a,
+      < b, fis>4 ~ < b, fis>8. e,16 ~ e,4\laissezVibrer b
+      |
+
+      cis'4\laissezVibrer a8.\laissezVibrer e4\laissezVibrer a,
+      |
+
+      < gis, gis>4\laissezVibrer d'8. < gis, fis>4\laissezVibrer dis'
+      |
     }
   >>
 }
