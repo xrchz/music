@@ -139,7 +139,7 @@
       \\ { ees' d' d' des' } >>
       |
 
-      ees'4 ~ < ees' aes'> << { aes' g'8 f' } \\ < des' ees'>2 >>
+      < c' ees'>4 ~ < c' ees' aes'> << { aes' g'8 f' } \\ < des' ees'>2 >>
       |
 
       ees'4 ~ < ees' c''> < e' aes' c''> < g' bes'>
@@ -150,12 +150,36 @@
       \\ { ees'4 ees' ees' ees' ees' ees' f' g' } >>
       |
 
-      < g ees'>4 ~ < g bes> < bes c'> ~ < bes c' ees'>
+      ees'4 ~ < ees' bes> < bes c'> ~ < bes c' ees'>
       bes4 ~ < bes ees'> aes ~ < aes d'>
       |
 
       ees'4 bes ees' g' bes' ees'' ees'' ees''
       |
+
+      \time 4/4
+      << { dis''4 cis''8 dis'' } \\ < e' a'>2 >> e''4 dis''8 cis''
+      |
+
+      << { b'8 cis'' dis'' b' gis'4 a'8 b' }
+      \\ { < e' a'>4 < fis' gis'> dis' e' } >>
+      |
+
+      < e' fis' a' cis''>4 b'8 a' < a c' dis' gis'>4 fis'8 gis'
+      |
+
+      << { e'8 dis' } \\ { < gis b cis'>4} >> dis'8 e'
+      << { dis'8 e' } \\ { < ais cis' gis'>4 } >> fis'8 gis'
+      |
+
+      < dis' fis' gis' b>4 gis'8 fis'
+      << { d'8 cis' cis' d' gis' fis' dis' b b' gis' gis' b' }
+      \\ { < a bes>2 < a cis'> < b dis' fis'>4 r } >>
+      |
+
+      < e' fis' a' cis''>8. b'16 b'8 cis'' fis'' dis'' cis'' gis'
+      |
+
     }
     \new Staff {
       \clef bass
@@ -271,6 +295,25 @@
       |
 
       < ees g>\breve
+      |
+
+      < fis, e>1
+      |
+
+      << { cis'4 bis cis'8 bis b ais }
+      \\ { g4 fis eis2 } >>
+      |
+
+      < a cis'>4 dis8 e gis8 fis ais,8 bis,
+      |
+
+      cis8 gis, ~ gis, g, fis, ~ < fis, e> fis gis
+      |
+
+      < b, a>4 r < fis, e>2 < b, fis> e,4\laissezVibrer b
+      |
+
+      cis'4\laissezVibrer a\laissezVibrer e\laissezVibrer a,
     }
   >>
 }
