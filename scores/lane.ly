@@ -87,7 +87,7 @@
       |
 
       << { b'4 ais' gis'8 ais' b' cis'' }
-      \\ { fis'2 eis' } >>
+      \\ { < dis' fis'>2 < d' eis'> } >>
       |
 
       << { b'4 ais' gis' fis' }
@@ -185,8 +185,19 @@
       < e' fis' a' cis''>8. b'16 b' cis''8 fis'' dis'' cis'' gis'8
       |
 
-      < eis' cis''>8. b'16 b' cis''8 << gis'4.\trill \\ < bis fis'>4. >> fis'16 gis'
+      \time 4/4
+      < eis' cis''>8 ~ < eis' b'> b' cis''8 << gis'4.\trill \\ < bis fis'>4. >> fis'16 gis'
       |
+
+      \time 15/16
+      < d' e' a'>8. g'16 g' a'8 d'' b' a' fis'
+      |
+
+      << { e'8 d'16 e'8 fis' d'8 ~ d'8 fis'16 fis' g'8 }
+      \\ { b8. ais4 b r } >>
+      |
+
+      b'8 d''16 b'8 fis'
 
     }
     \new Staff {
@@ -327,8 +338,16 @@
       cis'4\laissezVibrer a8.\laissezVibrer e4\laissezVibrer a,
       |
 
-      < gis, gis>4\laissezVibrer d'8. < gis, fis>4\laissezVibrer dis'
+      < gis, gis>4\laissezVibrer d' < gis, fis>4\laissezVibrer dis'
       |
+
+      < b, a>4\laissezVibrer b8. g4 d
+      |
+
+      < fis, e>8.\laissezVibrer fis4 < g, fis>8 ~ < g, fis>8.\laissezVibrer b,8.\laissezVibrer
+      |
+
+      a8.\laissezVibrer d'4 < cis gis>
     }
   >>
 }
