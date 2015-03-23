@@ -19,9 +19,9 @@
 
       \clef treble
 
-      \time 6/8
-      << { gis'4 b'8 b'4 gis'8 }
-      \\ { e'4. fis'4. } >>
+      \time 7/8
+      << { gis'4 b'8 b'4. gis'8 }
+      \\ { e'4. fis'2 } >>
       |
 
       \time 8/8
@@ -242,7 +242,7 @@
     \new Staff {
       \clef bass
 
-      < e b>4. < e dis'>
+      < e b>4. < e dis'>2
       |
 
       < e cis'>1
@@ -266,7 +266,7 @@
       \\ { gis, ais, b, ~ b, } >>
       |
 
-      < ais, gis>2 < cis b> << { s2 b4 ~ b8 s } \\ < b, fis>1 >>
+      < ais, gis>2 < cis b> << { r2 b4 ~ b8 r } \\ < b, fis>1 >>
       |
 
       < fis cis'>2 < eis dis'> < dis cis'> << aes2 \\ { b,4 bes, } >>
