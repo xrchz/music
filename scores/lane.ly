@@ -15,6 +15,8 @@
     \new Staff {
       \accidentalStyle PianoStaff.dodecaphonic
       \override PianoStaff.TimeSignature.style = #'numbered
+      \set PianoStaff.connectArpeggios = ##t
+
       \clef treble
 
       \time 6/8
@@ -204,13 +206,37 @@
 
       b'8 d'' b' fis'
 
-      \time 9/16
-      e'16 fis'
+      \time 1/16
+      e'32 fis'
+      \time 7/16
       << { e'8 d'16 e'8 fis' } \\ { b8. ais4 } >>
 
       \time 15/16
-      < a d'>8. fis'16 fis' g'8 ~ g'16
-      < d' e' b'>8 d''16 b'8 fis'8 e'16 fis'
+      < a d'>8 fis'16 fis' g'8.
+      < d' e' b'>8 d''16 b'8 fis'8
+      e'32 fis'
+      \time 7/16
+
+      < e' d'>8 d'16 < cis' e'>8 ~ < cis' a'>
+      \time 2/4
+      << { fis'8. fis'16 fis' g' a' d' } \\ { cis'4 c'8. d'16 ~ } >>
+
+      << { < fis' a' d''>8. b'16 } \\ { d'8. s16 } >> < d' g' b'>8. g'16
+      << { g' a' b' e'8 a'8. }
+      \\ { < d' e'>8. d'8 cis'8. } >>
+      |
+
+      \time 4/4
+      << { fis'8. fis'16 fis'8. fis'16 fis'8. fis'16 }
+      \\ { d'4 cis' c' } >>
+      < c' fis' b'>16\arpeggio a' e' fis'
+
+      \time 15/16
+      << { d'16 e'  fis' d'8 fis' e' d'16 e' a'8 fis' }
+      \\ { ais8. a4 gis4 b8 cis' } >>
+      |
+
+      < d' a' d''>8.\arpeggio a'8 ~ < a' d'>
 
     }
     \new Staff {
@@ -354,13 +380,27 @@
       < gis, gis>4\laissezVibrer d' < gis, fis>4\laissezVibrer dis'
       |
 
-      < b, a>4\laissezVibrer b8. g4 d
+      < b, a>4\laissezVibrer b8.\laissezVibrer g4\laissezVibrer d
       |
 
       < fis, e>8.\laissezVibrer fis4 < g, fis>8. ~ < g, fis>16\laissezVibrer b,8.\laissezVibrer
 
-      a4\laissezVibrer d'4 ~ d'8 < cis gis>8. < fis, e>4 < b, fis>8. ~ < b, fis>16 fis,8 f,
-      < e, d>
+      a4\laissezVibrer d'4 ~ d'16 < cis gis>8. < fis, e>4
+
+      < b, fis>8. fis,8 f,8
+      < e, d>8.\laissezVibrer g\laissezVibrer b16 ~ b16 < a, g>8. < e g a>4 < d a> < d a>
+
+      < g, g>4 ~ < b, g> < e b>8. < a, g>8 ~ < a, g>8.
+      |
+
+      < d a>4 < d a>  < d a> < d a>\arpeggio
+      |
+
+      < fis, e>8. < b, fis>4 < e, d> < a, g>
+      |
+
+      < d fis>8.\arpeggio r4
+
     }
   >>
 }
