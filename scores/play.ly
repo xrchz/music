@@ -182,7 +182,8 @@
       \time 3/2
       <gis ais dis' gis'>2 <fis fis'> <fis fis'>
       <f ais dis' f'> <dis b dis'> <dis gis cis' dis'>
-      <dis a cis' dis'>
+      <dis a cis' dis'> f' <fis ais dis' fis'>
+      <a cis' fis' a'> <cis' fis' a' cis''> <fis' a' cis'' fis''>
     }
     \new Staff = "down" {
       \clef bass
@@ -301,11 +302,13 @@
       fis, fis cis' <b, a> fis d'
       \tuplet 4/3 { <e d'> b e, f, }
       \tuplet 4/3 { <fis, e> gis b ais }
-      \tuplet 4/3 { g, e a fis }
+      \tuplet 4/3 { g, e b fis }
       \tuplet 4/3 { <aes, e aes> bes, ces des }
       e,8 b, d f s2
       ees,8 bes, des f r f'4. des,2
       b,,8 fis, b, f r f'4. r2
+      b,,8 fis, b, f r1
+      b,8 fis b f' r1
     }
   >>
 }
