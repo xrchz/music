@@ -236,7 +236,12 @@
       \\ { ais8. a4 gis4 b8 cis' } >>
       |
 
-      < d' a' d''>8.\arpeggio a'8 ~ < a' d'>
+      < d' a' d''>8.\arpeggio a'8 ~ < a' d'>8.
+      << { c''16 b' c'' d''8 b'8 }
+      \\ { < e' g'>8. < fis' a'>8 ~ < fis' a'>8 } >>
+
+      \time 4/4
+      < d' g'>16 ~ < d' f'> ~ < d' g'> c''8 g'8 f'32 g' f'16 e' f' bes'8 ees'8.
 
     }
     \new Staff {
@@ -399,7 +404,10 @@
       < fis, e>8. < b, fis>4 < e, d> < a, g>
       |
 
-      < d fis>8.\arpeggio r4
+      < d fis>8.\arpeggio r8 r8. < d a c'>8. < d a c'>8 ~ < d a c'>8
+      |
+
+      < bes, aes>8.\laissezVibrer des'8 ~ des'8. ~ < ees des'>2
 
     }
   >>
