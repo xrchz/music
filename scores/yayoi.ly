@@ -347,7 +347,7 @@
       f, e f d c, ees, d, a, d c f, aes,
       |
 
-      g, d a b, e <fis' b'> dis gis <cis b> <f, e> bis cis'
+      g, d a b, e <fis' b'> dis gis <cis b> <fis, e> bis cis'
       |
 
       fis b, fis, b,, fis, b, e b, e, a,, e, a,
