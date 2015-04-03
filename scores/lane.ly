@@ -241,6 +241,20 @@
 
       < d' g'>16 ~ < d' f'> ~ < d' g'> c''8 g'8 f'32 g' f'16 e' f' bes'8 ees'8.
 
+      \time 17/16
+      << { d'16 ees' f' g'8 c'' bes'32 c'' bes'16. g' d' < c' ees'> ~ < c' ees'>8. }
+      \\ { bes8. c'4 r16 r2 } >>
+      |
+
+      << { d'16 ees' f' g'8 ees' d'32 ees' d'16. bes g ~ < g c'> ~ < g c'>8. }
+      \\ { bes8. c'4 r16 r2 } >>
+
+      \time 19/16
+      << { bes16 c' d' ees'8 g' f' ~ < f' bes'> ~ bes' ~ < c' bes'> ~ < c' bes'>4 }
+      \\ { f8. aes8 ~ aes8 bes ~ bes d' ~ d' ees'4 } >>
+      |
+
+
     }
     \new Staff {
       \clef bass
@@ -406,6 +420,15 @@
       |
 
       < bes, aes>8.\laissezVibrer des'8 ~ des'8. ~ < ees des'>2
+
+      < g, f>8. < aes, aes>8 ~ < aes, aes>8. < g f'>16. ~ < g f'> ~ < g f'> < aes bes> ~ < aes bes>8.
+      |
+
+      < f g>8. < ees aes>8 ~ < ees aes>8. < c f>16. ~ < c f> ~ < c f> < aes, ees> ~ < aes, ees>8.
+      |
+
+      < g, d>8. < f, ees>8 ~ < f, ees>8 < g, f> ~ < g, f> ~ < g, f> < aes, aes> ~ < aes, aes>4
+      |
 
     }
   >>
