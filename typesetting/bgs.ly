@@ -1,4 +1,4 @@
-\version "2.15.39"
+\version "2.18.0"
 \header {
   title = "Brook Green Suite"
   subtitle = "For String Orchestra"
@@ -30,8 +30,8 @@ semprepp =
 
 beamQuaverPairs = #'((end . (((1 . 8) . (2 2 2 2)))))
 beamQuaverFours = #'((end . (((1 . 8) . (4 4)))))
-setupRall = \once \override TextSpanner #'(bound-details left text) = \markup{\upright \bold "rall."}
-neutralStemUp = \once \override Stem #'neutral-direction = #up
+setupRall = \once \override TextSpanner.bound-details.left.text = \markup{\upright \bold "rall."}
+neutralStemUp = \once \override Stem.neutral-direction = #up
 
 PreludeVlnI =
 \relative c' {
@@ -75,10 +75,10 @@ PreludeVlnI =
   r f!8( g
   \stemUp
   aes)
-% \once \override Slur #'height-limit = #4.0
-% \once \override Slur #'ratio = #1.0
-% \once \override Slur #'details #'accidental-collision = #10
-  \once \override Slur #'positions = #'(4.5 . 4)
+% \once \override Slur.height-limit = #4.0
+% \once \override Slur.ratio = #1.0
+% \once \override Slur.details.accidental-collision = #10
+  \once \override Slur.positions = #'(4.5 . 4)
   c(
   \stemNeutral
   aes' f) |
@@ -86,9 +86,9 @@ PreludeVlnI =
   dis2.\cresc g8\!( e) |
   dis4 g2( e4) | \mark \default
   \set Staff.beamExceptions = \beamQuaverFours
-  \once \override Score.DynamicText #'self-alignment-X = #2
-% \once \override DynamicText #'self-alignment-Y = #3
-% \once \override DynamicText #'extra-spacing-width = #'(-3 . -inf.0)
+  \once \override Score.DynamicText.self-alignment-X = #2
+% \once \override DynamicText.self-alignment-Y = #3
+% \once \override DynamicText.extra-spacing-width = #'(-3 . -inf.0)
   ees8\f( c g) g'\staccato fis2 ~ |
   fis1 |
   ees8( c g) g'\staccato c2 ~ |
@@ -327,7 +327,7 @@ AirVlnI =
   a4.( \neutralStemUp b8) g4 |
   e2 e4 |
   fis2 a4 |
-  \once \override Slur #'details #'accidental-collision = #10
+  \once \override Slur.details.accidental-collision = #10
   a4( fis) gis |
   a2( \neutralStemUp b4) |
   c2( d4) |
@@ -359,7 +359,7 @@ AirVlnI =
   d bes8 c d4) |
   c4.( a8 c4) |
   bes8( c bes[ a] g4) |
-  \once \override Slur #'height-limit = #3.0
+  \once \override Slur.height-limit = #3.0
   a4( d, g) |
   f2. |
   bes, |
@@ -1538,8 +1538,8 @@ DanceBass =
 
 globals = {
   \set Score.markFormatter = #format-mark-box-numbers
-  \override Score.DynamicTextSpanner #'style = #'none
-  \override Score.BreathingSign #'Y-offset = #3
+  \override Score.DynamicTextSpanner.style = #'none
+  \override Score.BreathingSign.Y-offset = #3
   \compressFullBarRests
 }
 
@@ -1668,9 +1668,9 @@ globals = {
       }
       \context Staff = "vln1" {
         s1*32
-        \override Staff.DynamicLineSpanner #'staff-padding = #2.5
+        \override Staff.DynamicLineSpanner.staff-padding = #2.5
         s1*2
-        \revert Staff.DynamicLineSpanner #'staff-padding
+        \revert Staff.DynamicLineSpanner.staff-padding
       }
     >>
     \header {
