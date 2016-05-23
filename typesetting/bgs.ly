@@ -102,10 +102,10 @@ PreludeVlnI =
   >>
   a4-\unis b g' e |
   <<
-    { g4.-\divisi( a8\tenuto) bes4 d, | 
+    { g4.-\divisi( a8\tenuto) bes4 d, |
       f a,-\unis }
     \\
-    { c4.\< c8\! d4 f, | 
+    { c4.\< c8\! d4 f, |
       a a }
   >>
   c e, |
@@ -183,7 +183,7 @@ PreludeVla =
   c8( e) e4 c c8 d |
   e c\tenuto( e4) e e |
   e e8 e f4 g |
-  c,8 c\tenuto( f4) f, f |
+  c,8 c\tenuto( g4) g, g |
   c'4. c8 c4 c |
   c8( b a g ~ g2) | \mark \default
   e'8( d c b) d( c b a) |
@@ -470,7 +470,7 @@ AirVlnII =
   g'4.\f( f8 e4) |
   e( a, d) |
   d( g, e) |
-  a\>( d, b)\! | \bar "||" \mark \default 
+  a\>( d, b)\! | \bar "||" \mark \default
   \key c \major
   \tempo "Andante"
   a'4\p( c a) |
@@ -572,7 +572,7 @@ AirVla =
   cis2. |
   b2( b4\staccato) |
   b2. |
-  b2 r4 |
+  a2 r4 |
   R2. |
   R |
   c2. |
@@ -595,7 +595,7 @@ AirVla =
   a,2. |
   cis,8( d e fis gis a) |
   b( cis d e fis) r |
-  r4 a4.\<( g8)\! |
+  r4 a4.\<( gis8)\! |
   a2\accent\mf( b4) |
   cis2 r4 |
   a4\accent( g f) |
@@ -1258,9 +1258,9 @@ DanceVla =
   ees d'!8 c aes |
   f4\downbow\ff g8\upbow bes4\downbow bes8\upbow |
   d4.\simile d |
-  g4 g8 g4 d8 |
-  c4 c8 f4 c8 |
-  g'4 d8 d4 <d g,>8 |
+  f4 f8 f4 d8 |
+  c4 c8 e4 c8 |
+  f4 d8 d4 <d g,>8 |
   c4 d8 e4 c8 |
   e4 d8 c4 b8 |
   a4 g8 c4 b8 |
@@ -1268,8 +1268,8 @@ DanceVla =
   <c c,>4\accent <c c,>8\accent <c c,>4\accent g8\accent |
   <c c,>4\accent <c c,>8\accent <c c,>4\accent r8 |
   \set doubleSlurs = ##t
-  <g ees>4.\accent( <g c,>4) r8 |
-  <g ees>4.\accent( <g c,>4) r8 |
+  <g des>4.\accent( <g c,>4) r8 |
+  <g des>4.\accent( <g c,>4) r8 |
   aes'2. ~ |
   << { aes\fermata } {s4.\> \tempo "Animato" s4\p s8} >> |
   aes4.\accent\ff ~ aes4 g8 |
