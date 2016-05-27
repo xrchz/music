@@ -139,7 +139,7 @@ PreludeVlnII =
   c f,\> g e\! |
   e4.(\upbow e8\tenuto) d4.( d8\tenuto) |
   c4 c g' g |
-  bes4.( b8\tenuto) c4 f, |
+  bes4.( bes8\tenuto) c4 f, |
   d2 e8(\upbow g) g f |
   g4 g8( f) e( e-.) g4 |
   e8( g) g c c4 c |
@@ -750,7 +750,7 @@ DanceVlnI =
   c4( b8\staccato) a4( g8\staccato) |
   a4( b8\staccato) c4( d8\staccato) |
   e4. c4. |
-  d c\< ~ |
+  d c\> ~ |
   c ~ c8\! r8 e'8\p\staccato |
   g4( g8\staccato) g4( e8\staccato) |
   g4( g8\staccato) g4( e8\staccato) |
@@ -821,7 +821,7 @@ DanceVlnI =
   c4( d8\staccato) b4( a8\staccato) |
   g4( fis8\staccato) e4( d8\staccato) |
   d'8\staccato c\staccato b\staccato a\staccato g\staccato a\staccato |
-  g2. ~ |
+  << { g2. ~ } { s4 s2\> } >> |
   << { g } { s2 s4\! } >> \bar "||" \mark \default
   \key ees \major
   bes2.\pp ~ |
@@ -932,7 +932,7 @@ DanceVlnII =
   c4( b8\staccato) a4( g8\staccato) |
   a4( b8\staccato) c4( d8\staccato) |
   e4. c4. |
-  d c\< ~ |
+  d c\> ~ |
   c ~ c8\! r8 r |
   e'4.\p c |
   d b |
@@ -1003,7 +1003,7 @@ DanceVlnII =
   b4( a8\staccato) g4( fis8\staccato) |
   e4( d8\staccato) c4( d8\staccato) |
   g4. fis |
-  << { g,2. } { s4 s2\> } >> |
+  << { g,2. ~ } { s4 s2\> } >> |
   << { g2. } { s2 s4\! } >> \bar "||" \mark \default
   \key ees \major
   R2. |
@@ -1027,8 +1027,8 @@ DanceVlnII =
   c4( d8\staccato) d4( d8\staccato) |
   e4( d8\staccato) g,4( a8\staccato) |
   b4( d8\staccato) d4( fis8\staccato) |
-  c4.\cresc c |
-  <d d'>4\! r8 r4 r8 |
+  c'4.\cresc c |
+  <d, d'>4\! r8 r4 r8 |
   r4 r8 r4 g,8\f |
   d'4( d8\staccato) d4( g,8\staccato) |
   d'4( d8\staccato) d8 r r |
@@ -1069,7 +1069,7 @@ DanceVlnII =
   c4( f8\staccato) e4( g8\staccato) |
   f4( e8\staccato) a4( a8\staccato) | \mark \default
   aes2.\f |
-  aes8\downbow bes\upbow c\downbow ees4\upbow( c8\staccato) |
+  aes8\downbow bes\upbow c\downbow des4\upbow( c8\staccato) |
   bes\downbow c\upbow des\downbow ees4.\upbow |
   aes,4. aes |
   ees' aes,\cresc |
@@ -1112,7 +1112,7 @@ DanceVla =
   c4( b8\staccato) a4( g8\staccato) |
   a4( b8\staccato) c4( d8\staccato) |
   e4. c4. |
-  d c\< ~ |
+  d c\> ~ |
   c ~ c8\! r8 r |
   c'4.\p a |
   b g |
@@ -1314,8 +1314,8 @@ DanceVlc =
   e4( d8\staccato) c4( b8\staccato) |
   a4( g8\staccato) f4( e8\staccato) | \mark \default
   d4. ~ d4 d8\f |
-  f4 f8 f4. ~ |
-  f4 d8 f4 d'8 |
+  g4 g8 g4. ~ |
+  g4 d8 g4 d'8 |
   g4 r8 r4 r8 |
   R2. |
   r4 r8 r4 c,8\upbow\ff |
@@ -1514,7 +1514,7 @@ DanceBass =
   aes4 r8 aes4 r8 |
   g8\ff r r c,4\downbow c8\upbow |
   g'4\downbow a8\upbow g4\downbow c,8\upbow |
-  g8\downbow r r c,4\downbow c8\upbow |
+  g8\downbow r r c4\downbow c8\upbow |
   g'4\downbow a8\upbow g4\downbow c,8\simile |
   d4 e8 f4 g8 |
   a4 b8 c4 c,8 |
@@ -1528,7 +1528,7 @@ DanceBass =
   R2. |
   << { R2.-\fermataMarkup } {s4. \tempo "Animato" s4 s8 } >> |
   R2.*3 |
-  r4 r8 r4 c'8\ff |
+  r4 r8 r4 c8\ff |
   g'4 g8 g4 c,8 |
   g'4 g8 g4. ~ |
   g g8\staccato a\staccato b\staccato |
