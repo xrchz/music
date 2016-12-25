@@ -45,7 +45,7 @@
       \time 4/4
       << { fis'4 dis'4 ~ dis' b8 cis' }
       \\ { cis'4 ~ cis' b s } >>
-      | 
+      |
 
       \time 8/4
       << { dis'4 cis' cis' dis' cis' gis' eis' fis' }
@@ -208,15 +208,18 @@
 
       \time 1/16
       e'32 fis'
+
       \time 7/16
       << { e'8 d'16 e'8 fis' } \\ { b8. ais4 } >>
 
       \time 15/16
-      < a d'>8 fis'16 fis' g'8.
+      < a d'>8. fis'16 fis' g'8.
       < d' e' b'>8 d''16 b'8 fis'8
-      e'32 fis'
-      \time 7/16
 
+      \time 1/16
+      e'32 fis'
+
+      \time 7/16
       < e' d'>8 d'16 < cis' e'>8 ~ < cis' a'>
       \time 2/4
       << { fis'8. fis'16 fis' g' a' d' } \\ { cis'4 c'8. d'16 ~ } >>
@@ -291,7 +294,7 @@
 
       << { ges4 bes } \\ aes,2 >> < des ces'>2 ges4 bes, ees ges,
       |
- 
+
       << { ges4 ces' ~ ces' des' ~ des' ees' fes' s }
       \\ { aes,2 des ges2. ais,4 } >>
       |
@@ -404,7 +407,7 @@
 
       a4\laissezVibrer d'4 ~ d'16 < cis gis>8. < fis, e>4
 
-      < b, fis>8. fis,8 f,8
+      < b, fis>4 fis,8 f,8
       < e, d>8.\laissezVibrer g\laissezVibrer b16 ~ b16 < a, g>8. < e g a>4 < d a> < d a>
 
       < g, g>4 ~ < b, g> < e b>8. < a, g>8 ~ < a, g>8.
