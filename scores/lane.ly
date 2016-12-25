@@ -260,7 +260,10 @@
       f'32 g'
 
       \time 7/16
-      f'16 e' f' bes'8 ees'8
+      f'16 e' f' bes'8 ees'8 ~
+
+      \time 1/16
+      ees'16
 
       \time 7/16
       << { d'16 ees' f' g'8 c'' }
@@ -270,17 +273,27 @@
       \time 1/16
       bes'32 c''
 
-      \time 7/16
-      bes'16 g' d' < c' ees'>4
+      \time 2/4
+      \times 2/3 { bes'8 g' d' } <c' ees'>4
       |
 
-      \time 17/16
-      << { d'16 ees' f' g'8 ees' d'32 ees' d'16. bes g ~ < g c'> ~ < g c'>8. }
-      \\ { bes8. c'4 r16 r2 } >>
+      \time 7/16
+      << { d'16 ees' f' g'8 ees' }
+      \\ { bes8. c'4 } >>
 
-      \time 19/16
-      << { bes16 c' d' ees'8 g' f' ~ < f' bes'> ~ bes' ~ < c' bes'> ~ < c' bes'>4 }
-      \\ { f8. aes8 ~ aes8 bes ~ bes d' ~ d' ees'4 } >>
+      \time 1/16
+      d'32 ees'
+
+      \time 2/4
+      \times 2/3 { d'8 bes g ~ } < g c'>4
+
+      \time 7/16
+      << { bes16 c' d' ees'8 g' }
+      \\ { f8. aes8 ~ aes8 } >>
+
+      \time 6/8
+      << { f'8 ~ < f' bes'> ~ bes' ~ < c' bes'>4. }
+      \\ { bes8 ~ bes d' ~ d'8 ees'4 } >>
       |
 
 
@@ -452,16 +465,20 @@
       < d fis>8.\arpeggio r8 r8 < d a c'>8. < d a c'>8 ~ < d a c'>8
       |
 
-      < bes, aes>8.\laissezVibrer des'4 ~ des'16 < ees des'>8. ~ <ees des'>4
+      < bes, aes>8.\laissezVibrer des'4 ~ des'16 < ees des'>8. ~ <ees des'>4 ~
+      < ees des'>16
 
       < g, f>8. < aes, aes>4 ~ <aes, aes>16
-      < g f'>8. < aes bes>4
+
+      < g f'>4 < aes bes>4
       |
 
-      < f g>8. < ees aes>8 ~ < ees aes>8. < c f>16. ~ < c f> ~ < c f> < aes, ees> ~ < aes, ees>8.
+      < f g>8. < ees aes>4 ~ < ees aes>16
+      < c f>4 < aes, ees>
       |
 
-      < g, d>8. < f, ees>8 ~ < f, ees>8 < g, f> ~ < g, f> ~ < g, f> < aes, aes> ~ < aes, aes>4
+      < g, d>8. < f, ees>4
+      < g, f>4. < aes, aes>
       |
 
     }
