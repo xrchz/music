@@ -8,6 +8,7 @@
 % dedication = "tbd"
 }
 
+#(set-default-paper-size "a4" 'landscape)
 #(ly:set-option 'point-and-click #f)
 
 \score {
@@ -252,11 +253,28 @@
       << { c''16 b' c'' d''8 b'8 }
       \\ { < e' g'>8. < fis' a'>8 ~ < fis' a'>8 } >>
 
-      \time 17/16
-      << { d'16 ees' f' g'8 c'' bes'32 c'' bes'16. g' d' < c' ees'> ~ < c' ees'>8. }
-      \\ { bes8. c'4 r16 r2 } >>
+      \time 7/16
+      < d' g'>16 ~ < d' f'> ~ < d' g'> c''8 g'8
+
+      \time 1/16
+      f'32 g'
+
+      \time 7/16
+      f'16 e' f' bes'8 ees'8
+
+      \time 7/16
+      << { d'16 ees' f' g'8 c'' }
+      \\ { bes8. c'4 } >>
       |
 
+      \time 1/16
+      bes'32 c''
+
+      \time 7/16
+      bes'16 g' d' < c' ees'>4
+      |
+
+      \time 17/16
       << { d'16 ees' f' g'8 ees' d'32 ees' d'16. bes g ~ < g c'> ~ < g c'>8. }
       \\ { bes8. c'4 r16 r2 } >>
 
@@ -434,9 +452,10 @@
       < d fis>8.\arpeggio r8 r8 < d a c'>8. < d a c'>8 ~ < d a c'>8
       |
 
-      < bes, aes>8.\laissezVibrer des'8 ~ des'8. ~ < ees des'>2
+      < bes, aes>8.\laissezVibrer des'4 ~ des'16 < ees des'>8. ~ <ees des'>4
 
-      < g, f>8. < aes, aes>8 ~ < aes, aes>8. < g f'>16. ~ < g f'> ~ < g f'> < aes bes> ~ < aes bes>8.
+      < g, f>8. < aes, aes>4 ~ <aes, aes>16
+      < g f'>8. < aes bes>4
       |
 
       < f g>8. < ees aes>8 ~ < ees aes>8. < c f>16. ~ < c f> ~ < c f> < aes, ees> ~ < aes, ees>8.
@@ -447,4 +466,6 @@
 
     }
   >>
+\layout{}
+\midi{}
 }
