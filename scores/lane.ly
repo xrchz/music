@@ -213,10 +213,9 @@
       << { e'8 d'16 e'8 fis' } \\ { b8. ais4 } >>
 
       \time 15/16
-      < a d'>8. fis'16 fis' g'8.
+      < a d'>8 fis'16 fis' g'8.
       < d' e' b'>8 d''16 b'8 fis'8
 
-      \time 1/16
       e'32 fis'
 
       \time 7/16
@@ -226,8 +225,12 @@
 
       << { < fis' a' d''>8. b'16 } \\ { d'8. s16 } >> < d' g' b'>8. g'16
       \time 7/16
-      << { g' a' b' e'8 a'8 }
-      \\ { < d' e'>8. d'8 cis'8 } >>
+      << { g' a' b' e'8 a'8 ~ }
+      \\ { < d' e'>8. d'8 cis'8 ~ } >>
+      |
+
+      \time 1/16
+      << { a'16 } \\ { cis'16 } >>
       |
 
       \time 4/4
@@ -235,15 +238,19 @@
       \\ { d'4 cis' c' } >>
       < c' fis' b'>16\arpeggio a' e' fis'
 
-      << { d'16 e'  fis' d'8 fis' e' d'16 e' a'8 fis'8. }
-      \\ { ais8. a4 gis4 b8 cis'8. } >>
+      \time 15/16
+      << { d'16 e'  fis' d'8 fis' e' d'16 e' a'8 fis'8 ~ }
+      \\ { ais8. a4 gis4 b8 cis'8 ~ } >>
       |
 
-      < d' a' d''>8.\arpeggio a'8 ~ < a' d'>8.
-      << { c''16 b' c'' d''8 b'8. }
-      \\ { < e' g'>8. < fis' a'>8 ~ < fis' a'>8. } >>
+      \time 1/16
+      << { fis'16 } \\ { cis'16 } >>
+      |
 
-      < d' g'>16 ~ < d' f'> ~ < d' g'> c''8 g'8 f'32 g' f'16 e' f' bes'8 ees'8.
+      \time 7/8
+      < d' a' d''>8.\arpeggio a'8 ~ < a' d'>8
+      << { c''16 b' c'' d''8 b'8 }
+      \\ { < e' g'>8. < fis' a'>8 ~ < fis' a'>8 } >>
 
       \time 17/16
       << { d'16 ees' f' g'8 c'' bes'32 c'' bes'16. g' d' < c' ees'> ~ < c' ees'>8. }
@@ -408,19 +415,23 @@
 
       a4\laissezVibrer d'4 ~ d'16 < cis gis>8. < fis, e>4
 
-      < b, fis>4 fis,8 f,8
+      < b, fis>8. fis,8 f,8
+
       < e, d>8.\laissezVibrer g\laissezVibrer b16 ~ b16 < a, g>8. < e g a>4 < d a> < d a>
 
-      < g, g>4 ~ < b, g> < e b>8. < a, g>4
+      < g, g>4 ~ < b, g> < e b>8. < a, g>4 ~ <a, g>16
       |
 
       < d a>4 < d a>  < d a> < d a>\arpeggio
       |
 
-      < fis, e>8. < b, fis>4 < e, d> < a, g>8 ~ < a, g>8.
+      < fis, e>8. < b, fis>4 < e, d> < a, g>4 ~
       |
 
-      < d fis>8.\arpeggio r8 r8. < d a c'>8. < d a c'>8 ~ < d a c'>8.
+      <a, g>16
+      |
+
+      < d fis>8.\arpeggio r8 r8 < d a c'>8. < d a c'>8 ~ < d a c'>8
       |
 
       < bes, aes>8.\laissezVibrer des'8 ~ des'8. ~ < ees des'>2
