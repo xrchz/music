@@ -225,8 +225,9 @@
       << { fis'8. fis'16 fis' g' a' d' } \\ { cis'4 c'8. d'16 ~ } >>
 
       << { < fis' a' d''>8. b'16 } \\ { d'8. s16 } >> < d' g' b'>8. g'16
-      << { g' a' b' e'8 a'8. }
-      \\ { < d' e'>8. d'8 cis'8. } >>
+      \time 7/16
+      << { g' a' b' e'8 a'8 }
+      \\ { < d' e'>8. d'8 cis'8 } >>
       |
 
       \time 4/4
@@ -410,7 +411,7 @@
       < b, fis>4 fis,8 f,8
       < e, d>8.\laissezVibrer g\laissezVibrer b16 ~ b16 < a, g>8. < e g a>4 < d a> < d a>
 
-      < g, g>4 ~ < b, g> < e b>8. < a, g>8 ~ < a, g>8.
+      < g, g>4 ~ < b, g> < e b>8. < a, g>4
       |
 
       < d a>4 < d a>  < d a> < d a>\arpeggio
