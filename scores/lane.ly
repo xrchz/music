@@ -287,15 +287,20 @@
       \time 2/4
       \times 2/3 { d'8 bes g ~ } < g c'>4
 
-      \time 7/16
+      \time 19/16
       << { bes16 c' d' ees'8 g' }
       \\ { f8. aes8 ~ aes8 } >>
 
-      \time 6/8
-      << { f'8 ~ < f' bes'> ~ bes' ~ < c' bes'>4. }
-      \\ { bes8 ~ bes d' ~ d'8 ees'4 } >>
+      << { f'8 ~ < f' bes'>4 ~ < c' bes'>8 ~ < c' bes'>4 }
+      \\ { bes8 ~ bes d'8 ~ d'8 ees'4 } >>
       |
 
+      \time 7/16
+      << { aes'16 g' c'  \times 4/3 { g'16 f' c' } }
+      \\ { <bes e'>8 c'16 <aes ees'>4 } >>
+
+      << { ees'16 f' g' f'4 }
+      \\ { g8. aes4 } >>
 
     }
     \new Staff {
@@ -478,8 +483,12 @@
       |
 
       < g, d>8. < f, ees>4
-      < g, f>4. < aes, aes>
+      < g, f>4. < aes, aes>4.
       |
+
+      < c aes >8. < f, f>4
+
+      < aes, ees>8. < bes, f>4
 
     }
   >>
