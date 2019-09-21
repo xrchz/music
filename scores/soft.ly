@@ -69,7 +69,7 @@
 
       \time 12/4
       << { e'2 b4 c'8\noBeam d' d'4 c' g a }
-      \\ { b4 a gis <f a> <g b>2 d4 s } >>
+      \\ { b4 a gis <f a> <e g>2 d4 s } >>
       b2 b4 b
       |
 
