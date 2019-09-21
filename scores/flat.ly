@@ -70,7 +70,7 @@ onceStem =
         >> | \time 8/4 <<
           {<gis' gis''>4 <b' b''> <b' b''> <cis'' cis'''> \ottava #1 <cis'' cis'''> <e'' e'''> <eis'' gis'' cis''' eis'''> <gis'' gis'''>}
         \\{e''2 fis'' <f'' a''> s}
-        >> | 
+        >> |
           <gis'' e''' gis'''>2 <fis'' dis''' fis'''> <cis'' gis'' cis'''> <dis'' fis'' dis'''>
            |                                               %--15
           <eis'' cis''' eis'''>2 <gis'' b'' gis'''> \ottava #0 <e' cis'' e''> <gis' e'' gis''>
@@ -104,14 +104,14 @@ onceStem =
         \\{a4 cis' cis' b <b dis'>2 <cis' fis'>}
         >> |
           <cis'' fis'>2 <bis' gis'> <gis' dis'> <ais' eis'>
-           | 
+           |
           <cis'' g'>2 <dis'' bes'> bes'1
            | <<
           {dis''2 eis'' fis'' eis''}
         \\{<fis' ais'>2 <eis' gis'> dis' eis'}
         >> |
           <g' dis''>2 <a' cis''> <ees' ges' bes'> <f' aes' c''>
-           |                                               %--30             
+           |                                               %--30
           <g ees' g'>2 <bes f'> <bes ees'> c'
            | <<
           {dis'2 eis' fis' eis'}
@@ -125,7 +125,7 @@ onceStem =
         >> | <<
           {c''4 bes' f' g' g' bes' bes'2}
         \\{<des' g'>4 f' ees'2 e' d'4 f'}
-        >> | <<                                            %--35 
+        >> | <<                                            %--35
           {ges'4 aes' bes' b' b' cis'' gis' b'}
         \\{des'4 f' f'2 e' fis'}
         >> | <<
@@ -186,7 +186,7 @@ onceStem =
         \\{<fis cis'>2 gis a s}
         >> | <<                                            %--55
           {eis'2 gis' a' gis'}
-        \\{<gis cis'>2 <b dis'> <b eis'> s}     
+        \\{<gis cis'>2 <b dis'> <b eis'> s}
         >> | <<
           {<gis gis'>2 <b b'> <bis bis'> <cis' cis''>}
         \\{cis'4 dis' e' fis' gis' ais' fis' ais'}
@@ -206,7 +206,7 @@ onceStem =
           {fis'2  d'4   e'  fis'      a' a'2 d''4 b' b'2}
         \\{a4 gis <g b> ais <fis ais> a  a2  d'4  b  b2}
         >> | \time 8/4
-           <e e'>4 <g g'> <cis' cis''> <e' e''> <a' a''> <dis' dis''> <b' b''> <d' d''> 
+           <e e'>4 <g g'> <cis' cis''> <e' e''> <a' a''> <dis' dis''> <b' b''> <d' d''>
            |
           <e' e''>4 <g' g''> <g' g''> <fis' fis''> <e' e''> <gis' gis''> <gis' gis''> <fis' fis''>
            |
@@ -244,7 +244,7 @@ onceStem =
         \\{b2 a g fis}
         >> | <<
           {dis'2 fis' <fis fis'>1}
-        \\{e2 s cis' b}         
+        \\{e2 s cis' b}
         >> | <<
           {fis'2 e' cis' cis'}
         \\{<g b>2 <gis cis'> <e b> <fis ais>}
@@ -396,7 +396,7 @@ onceStem =
         >> | <<
           {cis2 e e' d'}
         \\{cis,1 g}
-        >> | 
+        >> |
           b,4 fis a cis' d a d' e'
            | \clef treble
           fis4 cis' eis' gis' a e' a' e''
@@ -426,7 +426,7 @@ onceStem =
            |                                               %--60
           <e, d>2 <a, g> <d, d> <g,, g,>
            |
-          <e, e>2 <a,, a,> <d, d> <c, c> <f,, f,> <g,, g,> 
+          <e, e>2 <a,, a,> <d, d> <c, c> <f,, f,> <g,, g,>
            |
           <c, c>2 <fis,, fis,> <b,,, b,,> <e e'>
            |
