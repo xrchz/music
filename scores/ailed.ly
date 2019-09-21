@@ -5,7 +5,7 @@
   subtitle = "que je ne comprends pas"
   composer = "Ramana Kumar"
   date = "2005"
-  dedication = "Delia Wang"
+  dedication = "for Delia Wang"
   copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 %#(set-default-paper-size "a4" 'landscape)
