@@ -56,7 +56,7 @@
       |
 
       << { bes'4 aes' aes' bes' c''4. bes'8 gis'2 }
-      \\ { fes'4 ~ fes'4. ees'8 des'4 des' ees' e' fis' } >> 
+      \\ { fes'4 ~ fes'4. ees'8 des'4 des' ees' e' fis' } >>
       |
 
       << { a'4. gis'8 fis'2 b'4. a'8 gis'2 }
@@ -294,7 +294,7 @@
       gis, f e d a,2 << { s4 c } \\ ees,2 >>
       g,4 a, b, r
       |
-      
+
       e r fis' r e'2 <b dis'>
       |
 
