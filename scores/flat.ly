@@ -199,13 +199,13 @@ onceStem =
         >> | <<
           {b'4 a' <fis fis'> <a a'> <b b'> d' d' e'}
         \\{d'4 f' b e' fis' s <g bes>2}
-        >> | <<                                            %--60
-          {fis'4 a' a' b' fis' d' d' e'}
-        \\{<gis b>4 d' <b e'> <cis' eis'> a c' c' bes}
-        >> | \time 12/8 <<
-          {fis'2  d'4   e'  fis'      a' a'2 d''4 b' b'2}
-        \\{a4 gis <g b> ais <fis ais> a  a2  d'4  b  b2}
-        >> | \time 8/4
+        >> | \time 12/4 <<                                 %--60
+          {fis'4 a' a' b' fis' d' d' e' fis'2  d'4   e'}
+        \\{<gis b>4 d' <b e'> <cis' eis'> a c' c' bes a gis <g b> ais}
+        >> | \time 8/4 <<
+          { fis'4 a' a'2 d''4 b' b'2}
+        \\{<fis ais>4 a  a2  d'4  b  b2}
+        >> |
            <e e'>4 <g g'> <cis' cis''> <e' e''> <a' a''> <dis' dis''> <b' b''> <d' d''>
            |
           <e' e''>4 <g' g''> <g' g''> <fis' fis''> <e' e''> <gis' gis''> <gis' gis''> <fis' fis''>
@@ -424,9 +424,9 @@ onceStem =
         >> |
           <e, b,>2 <d, c> <g,, g,> <g, e>
            |                                               %--60
-          <e, d>2 <a, g> <d, d> <g,, g,>
+          <e, d>2 <a, g> <d, d> <g,, g,> <e, e> <a,, a,>
            |
-          <e, e>2 <a,, a,> <d, d> <c, c> <f,, f,> <g,, g,>
+          <d, d>2 <c, c> <f,, f,> <g,, g,>
            |
           <c, c>2 <fis,, fis,> <b,,, b,,> <e e'>
            |
