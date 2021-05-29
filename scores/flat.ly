@@ -1,4 +1,4 @@
-\version "2.18.0"
+\version "2.22.0"
 
 \header {
   title             = "Flat"
@@ -9,7 +9,7 @@
 }
 
 onceStem =
-#(define-music-function (parser location direction music) (number? ly:music?) #{
+#(define-music-function (direction music) (number? ly:music?) #{
   \once \override Stem.direction = $direction
   $music #}
 )
@@ -20,7 +20,7 @@ onceStem =
   \context PianoStaff <<
     \context Staff = right <<
       \accidentalStyle Score.dodecaphonic
-      \override Score.TimeSignature.style = #'()
+      \override Score.TimeSignature.style = #'numbered
       \clef treble
       \time 8/4
       << {
