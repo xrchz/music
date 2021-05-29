@@ -16,6 +16,10 @@ onceStem =
 
 #(ly:set-option 'point-and-click #f)
 
+\paper {
+  ragged-last-bottom = ##f
+}
+
 \score {
   \context PianoStaff <<
     \context Staff = right <<
