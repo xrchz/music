@@ -1,9 +1,9 @@
-\version "2.18.0"
+\version "2.22.0"
 
 \header {
   title = "Lace"
   composer = "Ramana Kumar"
-  piece = \markup{\large "Vivo " \note #"2" #1 \large "=69 molto rubato"}
+  piece = \markup{\large "Vivo " \note {2} #1 \large "=69 molto rubato"}
   dedication = "for Freya Franzen inspired by Samuel Barber"
   date = "2003"
   copyright = "Creative Commons Attribution-ShareAlike 4.0"
@@ -73,7 +73,7 @@
         s\breve |
         s\breve |
         a'4^\markup{\large rit.}\( fis' a' fis' a' fis' a' fis'\) |
-        a'4^\markup{\large "Adagio " \note #"2" #1 \large "=60"}\( e' cis'' b' ais' gis'2 fis'4\)
+        a'4^\markup{\large "Adagio " \note {2} #1 \large "=60"}\( e' cis'' b' ais' gis'2 fis'4\)
         <g fis'>1 r4 cis'2. ~ |
         cis'\breve \bar "|."
       } \\
