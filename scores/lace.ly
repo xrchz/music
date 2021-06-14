@@ -9,6 +9,10 @@
   copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 
+\paper {
+  ragged-last-bottom = ##f
+}
+
 \score {
   \context PianoStaff <<
     \set PianoStaff.followVoice = ##t
@@ -46,9 +50,9 @@
         ces''1 \stemNeutral bes''4_\markup{\italic dolce}\( ges'' bes'' f'' |
         bes''4 ees'' ees'''^\markup{\large {molto rit.}} des'''\) cis''' gis'' gis''4*2/3 \change Staff=left fis'' \change Staff=right e'' |
         \stemUp e''4^\markup{\large {a tempo}}\( cis'' e'' cis'' e'' cis'' gis'' fis''\) |
-        ges''8.\( f''8 d''16. bes' des''8. ces'' bes'8 bes'1 ~ \) |
-        bes'2 bes'4 c'' \once \override TextScript.padding = #1.2 des''_\markup{\italic {sempre crescendo}}\( aes' ces'' bes' |
-        bes'2. c''4 des'' aes' ces'' bes' |
+        \time 6/2 ges''8.\( f''8 d''16. bes' des''8. ces'' bes'8 bes'1 ~ \) bes'2 bes'4 c'' |
+        \time 2/2 \once \override TextScript.padding = #1.2 des''_\markup{\italic {sempre crescendo}}\( aes' ces'' bes' |
+        \time 4/2 bes'2. c''4 des'' aes' ces'' bes' |
         bes'2.\) c''4 des''\( bes' des'' bes' |
         des''4 bes' f'' ees''\) ees''\( ces'' aes'' ges''\) |
         ges''4\( des'' des'' c''\) bis'\( cis'' gis' eis'\) |
@@ -106,9 +110,8 @@
         ees''4\( f''2 ges''4\) s1 |
         s1 s1 |
         s1 ais'2 bis'4\< cis'' |
-        \tieDown <bes' d''>2 <d' aes'>8. ~ \tieNeutral <d' ges'> ~ <d' ges'>8 <d' f'>2\! d''^\( |
-        e'''2 f''\) s1 |
-        s\breve |
+        \tieDown <bes' d''>2 <d' aes'>8. ~ \tieNeutral <d' ges'> ~ <d' ges'>8 <d' f'>2\! d''^\( e'''2 f''\) |
+        s1 s\breve |
         s1 r2 aes' |
         g'2 r r1 |
         s\breve |
@@ -171,8 +174,8 @@
         ces4*2/3\( ges des' ces' ges ces\) ges,\( des bes f des ges,\) |
         ces,4*2/3\( ces ges \clef treble ees' ges' ces''\) a e' b' d''4 r4 |
         \clef bass cis,4*2/3\( a, e gis cis' eis' fis'1\) |
-        <bes, bes>2 <e, e> <bes,, bes,>1 ~ |
-        <bes,, bes,>1 e,4*2/3\( bes, ees aes des' ges' |
+        <bes, bes>2 <e, e> <bes,, bes,>1 ~ <bes,, bes,>1 |
+        e,4*2/3\( bes, ees aes des' ges' |
         f'4*2/3\)\( bes f bes, f, b, e,\)\( bes, ees aes des' ges' |
         f'4*2/3\)\( bes f bes, f, c ees,\)\( bes, ees aes des' f'\) |
         ees,4*2/3\( bes, g \clef treble des' g' bes'\) \clef bass ges,\( ees aes \clef treble des' ges' bes'\) |
@@ -230,9 +233,8 @@
         s\breve |
         s\breve |
         s1 s1 |
-        s1 r2 gis4\( ais |
-        bes2\) s2 s1 |
-        s\breve |
+        s1 r2 gis4\( ais bes2\) s2
+        s1 s\breve |
         s\breve |
         s\breve |
         s\breve |
