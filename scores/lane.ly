@@ -73,13 +73,13 @@
       \\ { e'4 dis' d'2 cis' bis } >>
       |
 
-      << { ais'4 gis' fis' eis' fis' ais' cis' cis'8 d' }
+      << { ais'4 gis' fis' eis' fis' ais' cis' dis'8 eis' }
       \\ { d'2 cis' cis' b } >>
       |
 
       \time 4/4
-      << { cis'4 fis' fis' fis' }
-      \\ { < ais cis'>4 ~ < ais cis'> < b dis'> < cis' e'> } >>
+      << { <ais fis'>2 fis'4 fis' }
+      \\ { r4 cis' < b dis'> < cis' e'> } >>
       |
 
       << { fis'4 b' b' ais'8 gis' }
@@ -347,8 +347,8 @@
       \\ { b,2 ais, dis4 a, gis, ais, } >>
       |
 
-      << { gis4 ais b ~ b b ais r f }
-      \\ { b,2 r4 cis fis2 g, } >>
+      << { gis4 ais b ~ b b ais <d a> <cis gis> }
+      \\ { b,2 r4 cis fis2 eis } >>
       |
 
       << { r4 e } \\ { fis,2 } >> gis4 ais
@@ -441,10 +441,10 @@
       cis'4\laissezVibrer a8.\laissezVibrer e4\laissezVibrer a,
       |
 
-      < gis, gis>4\laissezVibrer d' < gis, fis>4\laissezVibrer dis'
+      < gis, gis>4\laissezVibrer dis'8 d' < gis, fis>4\laissezVibrer dis'
       |
 
-      < b, a>4\laissezVibrer b8.\laissezVibrer g4\laissezVibrer d
+      < b, a>4\laissezVibrer c'8 b a8.\laissezVibrer d4
       |
 
       < fis, e>8.\laissezVibrer fis4 < g, fis>8. ~ < g, fis>16\laissezVibrer b,8.\laissezVibrer
