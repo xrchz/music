@@ -74,7 +74,7 @@
       |
 
       << { ais'4 gis' fis' eis' fis' ais' cis' dis'8 eis' }
-      \\ { d'2 cis' cis' b } >>
+      \\ { d'2 cis' cis' a4 <gis b> } >>
       |
 
       \time 4/4
@@ -338,8 +338,8 @@
       \\ { b,2 ais, dis4 a, gis, ais, } >>
       |
 
-      << { gis4 ais b ~ b b ais <d a> <cis gis> }
-      \\ { b,2 r4 cis fis2 eis } >>
+      << { gis4 ais b ~ b b ais f ~ eis }
+      \\ { b,2 r4 cis fis2 d4 cis } >>
       |
 
       << { r4 e } \\ { fis,2 } >> gis4 ais
