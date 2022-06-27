@@ -214,9 +214,8 @@
       << { e'8 d'16 e'8 fis' } \\ { b8. ais4 } >>
 
       \time 15/16
-      < a d'>8 fis'16 fis' g'8.
-      < d' e' b'>8 d''16 b'8 fis'8
-
+      < a d'>8 fis'16 fis' g'8
+      < d' e' b'>8. d''16 b'8 fis'8
       e'32 fis'
 
       \time 7/16
