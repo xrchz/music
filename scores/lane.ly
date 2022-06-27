@@ -239,22 +239,14 @@
       \\ { ais8. a4 gis4 b8 cis'8. } >>
       |
 
-      \time 7/8
-      < d' a' d''>8.\arpeggio a'8 ~ < a' d'>8
-      << { c''16 b' c'' d''8 b'8 }
-      \\ { < e' g'>8. < fis' a'>8 ~ < fis' a'>8 } >>
+      < d' a' d''>8.\arpeggio a'8 ~ < a' d'>8.
+      << { c''16 b' c'' d''8 b'8. }
+      \\ { < e' g'>8. < fis' a'>8 ~ < fis' a'>8. } >>
+      |
 
-      \time 7/16
       < d' g'>16 ~ < d' f'> ~ < d' g'> c''8 g'8
-
-      \time 1/16
-      f'32 g'
-
-      \time 7/16
-      f'16 e' f' bes'8 ees'8 ~
-
-      \time 1/16
-      ees'16
+      f'32 g' f'16 e' f' bes'8 ees'8.
+      |
 
       \time 7/16
       << { d'16 ees' f' g'8 c'' }
@@ -455,11 +447,10 @@
       < fis, e>8. < b, fis>4 < e, d> < a, g>8 ~ <a, g>8.
       |
 
-      < d fis>8.\arpeggio r8 r8 < d a c'>8. < d a c'>8 ~ < d a c'>8
+      < d fis>8.\arpeggio r8 r8. < d a c'>8. < d a c'>8 ~ < d a c'>8.
       |
 
-      < bes, aes>8.\laissezVibrer des'4 ~ des'16 < ees des'>8. ~ <ees des'>4 ~
-      < ees des'>16
+      < bes, aes>8.\laissezVibrer des'8 ~ des'8. ~ < ees des'>2
 
       < g, f>8. < aes, aes>4 ~ <aes, aes>16
 
