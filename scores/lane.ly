@@ -247,26 +247,17 @@
       f'32 g' f'16 e' f' bes'8 ees'8.
       |
 
-      \time 7/16
-      << { d'16 ees' f' g'8 c'' }
-      \\ { bes8. c'4 } >>
+      \time 2/4
+      << { d'16 ees' f' g'8 c'' bes'32 c'' }
+      \\ { bes8. c'8 s8. } >>
       |
 
-      \time 1/16
-      bes'32 c''
-
-      \time 2/4
       \times 2/3 { bes'8 g' d' } <c' ees'>4
       |
 
-      \time 7/16
-      << { d'16 ees' f' g'8 ees' }
-      \\ { bes8. c'4 } >>
+      << { d'16 ees' f' g'8 ees' d'32 ees' }
+      \\ { bes8. c'8 ~ c'8. } >>
 
-      \time 1/16
-      d'32 ees'
-
-      \time 2/4
       \times 2/3 { d'8 bes g ~ } < g c'>4
 
       \time 19/16
@@ -278,11 +269,20 @@
       |
 
       \time 7/16
-      << { aes'16 g' c'  \times 4/3 { g'16 f' c' } }
+      << { aes'16 g' c'  \times 2/3 { g'8 f' c' } }
       \\ { <bes e'>8 c'16 <aes ees'>4 } >>
 
-      << { ees'16 f' g' f'4 }
+      << { ees'16 f' g' f'8. d'32 ees' }
       \\ { g8. aes4 } >>
+      |
+
+      \time 2/4
+      << { d'16 ees' f' g'8 c'' d''32 ees'' }
+      \\ { bes8. c'8 s8. } >>
+
+      \times 2/3 { d''8 bes' g' } ~ < g' c''>4
+      |
+
 
     }
     \new Staff {
@@ -451,12 +451,12 @@
 
       < bes, aes>8.\laissezVibrer des'8 ~ des'8. ~ < ees des'>2
 
-      < g, f>8. < aes, aes>4 ~ <aes, aes>16
+      < g, f>8. < aes, aes>8 ~ <aes, aes>8.
 
       < g f'>4 < aes bes>4
       |
 
-      < f g>8. < ees aes>4 ~ < ees aes>16
+      < f g>8. < ees aes>8 ~ < ees aes>8.
       < c f>4 < aes, ees>
       |
 
@@ -465,8 +465,13 @@
       |
 
       < c aes >8. < f, f>4
+      |
 
       < aes, ees>8. < bes, f>4
+      |
+
+      < g, f>8. < aes, aes>8 ~ <aes, aes>8.
+      < g f'>4 < aes ees'>
 
     }
   >>
