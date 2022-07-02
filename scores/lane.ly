@@ -283,6 +283,21 @@
       \times 2/3 { d''8 bes' g' } ~ < g' c''>4
       |
 
+      \time 6/8
+      << { bes'8 g' ~ <g' d''> ees'' bes' ees'' }
+      \\ { ees'4. aes'4 g'8 ~ } >>
+      |
+
+      << { c''4 c''8 bes' g' bes' }
+      \\ { g'8 aes' f' ~ f'4 ees'8 ~ } >>
+      |
+
+      << { aes'4 bes'8 c''4 d''8 }
+      \\ { ees'4. f' } >>
+      |
+
+      < g' ees''>4.
+
 
     }
     \new Staff {
@@ -472,6 +487,21 @@
 
       < g, f>8. < aes, aes>8 ~ <aes, aes>8.
       < g f'>4 < aes ees'>
+      |
+
+      << { d'4 bes8 des'4. }
+      \\ { g4. f4 ees8 } >>
+      |
+
+      << { ees'4. d' ~ }
+      \\ { aes4. ~ aes4 g8 } >>
+      |
+
+      << { d'8 c'4 ~ c'8 b4 }
+      \\ { f4 ees8 d4. } >>
+      |
+
+      < c bes >4.
 
     }
   >>
