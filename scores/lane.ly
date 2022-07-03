@@ -244,7 +244,7 @@
       |
 
       < d' g'>16 ~ < d' f'> ~ < d' g'> c''8 g'8
-      f'32 g' f'16 e' f' bes'8 ees'8.
+      f'32 g' f'16 e' f' ~ <f' bes'>8 ~ <ees' bes'>8.
       |
 
       \time 2/4
@@ -252,13 +252,13 @@
       \\ { bes8. c'8 s8. } >>
       |
 
-      \times 2/3 { bes'8 g' d' } <c' ees'>4
+      \times 2/3 { bes'8 ~ <g' bes'> ~ <d' g' bes'> } <c' ees'>4
       |
 
       << { d'16 ees' f' g'8 ees' d'32 ees' }
       \\ { bes8. c'8 ~ c'8. } >>
 
-      \times 2/3 { d'8 bes g ~ } < g c'>4
+      \times 2/3 { d'8 ~ <d' bes> ~ <d' bes g> ~ } < g c'>4
 
       \time 19/16
       << { bes16 c' d' ees'8 g' }
@@ -280,7 +280,7 @@
       << { d'16 ees' f' g'8 c'' d''32 ees'' }
       \\ { bes8. c'8 s8. } >>
 
-      \times 2/3 { d''8 bes' g' } ~ < g' c''>4
+      \times 2/3 { d''8 ~ <d'' bes'> ~ <d'' bes' g'> } ~ < g' c''>4
       |
 
       \time 6/8
@@ -312,8 +312,8 @@
       < e b>2 < dis cis'> < cis b>1
       |
 
-      << { cis'2 a gis }
-      \\ { fis b, ~ b, } >> cis
+      << { cis'2 a gis1 }
+      \\ { fis2 b, ~ b, cis } >>
       |
 
       < fis, e>4. < ais, gis>2
