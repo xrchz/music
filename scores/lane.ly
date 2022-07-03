@@ -296,7 +296,23 @@
       \\ { ees'4. f' } >>
       |
 
-      < g' ees''>4.
+      < g' ees''> 8 ~ < ees' g' ees''> ~ <ees' g' bes' ees''>
+      < aes' c''> ~ < ees' aes' c''> g'
+      |
+
+      < c' aes'> ~ < ees' aes'> g'
+      < c' aes'> ~ < ees' aes'> < d' bes'>
+      |
+
+      \time 4/4
+      << { \times 2/3 { g'8 aes' bes' } g'4 \times 2/3 { g'8 aes' bes' }
+           <des' g' c''>16\arpeggio bes' f' g'}
+      \\ { ees'4 \times 2/3 { d'8 ees' f' } des'4 } >>
+      |
+
+      \time 15/16
+      << { ees'16 f' g' ees'8 g' \times 2/3 {f'8 ees' f'} bes'8 <g' d''> }
+      \\ { b8. bes4 a ees'8 d' } >>
 
 
     }
@@ -501,7 +517,16 @@
       \\ { f4 ees8 d4. } >>
       |
 
-      < c bes >4.
+      < c bes >4. < f c'>
+      |
+
+      < f, ees> <bes, aes>
+      |
+
+      < ees bes>4 < ees bes> < ees bes> < ees bes>\arpeggio
+      |
+
+      < g, f>8. <c g>4 <f, ees> <bes, aes>
 
     }
   >>
