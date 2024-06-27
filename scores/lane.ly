@@ -79,7 +79,7 @@
 
       \time 4/4
       << { <ais fis'>2 fis'4 fis' }
-      \\ { r4 cis' < b dis'> < cis' e'> } >>
+      \\ { r4 cis' < b d'> < cis' e'> } >>
       |
 
       << { fis'4 b' b' ais'8 gis' }
@@ -360,11 +360,11 @@
       \\ { b,2 ais, dis4 a, gis, ais, } >>
       |
 
-      << { gis4 ais b ~ b b ais f ~ eis }
+      << { gis4 ais b ~ b b ais fis ~ fis }
       \\ { b,2 r4 cis fis2 d4 cis } >>
       |
 
-      << { r4 e } \\ { fis,2 } >> gis4 ais
+      << { r4 eis } \\ { fis,2 } >> gis4 ais
       |
 
       b2 cis'4 ~ < cis' fis>
