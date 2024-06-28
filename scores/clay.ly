@@ -74,8 +74,32 @@
         { fis'2 eis'4 ~ < eis' ais' > 2 ~ < eis' gis' >4 } \\
         { dis'2 d'4 cis'2 ~ cis'4 } >>
       | <<
-        { < e' gis' >2. < dis' fis' >2 } \\
-        { b2. ais2 } >>
+        { < e' gis' >2. < dis' fis' >2 fis4 } \\
+        { b2. ais2 fis4 ~ } >>
+      | <<
+        { dis'2 e'4 cis'2 dis'4 } \\
+        { <fis gis>2 ais4 b2 ais4 } >>
+      | <<
+        { e'2 ~ < e' gis'>4 ~ < cis' gis'>2 e'4 ~ } \\
+        { a2 gis4 ~ <gis cis'>2 b4 } >>
+      | <<
+        { e'2. dis'2 cis'4 } \\
+        { ais2 cis'4 fis2 gis4 } >>
+      | <<
+        { dis'2 fis'4 ~ fis'2 < g' b' >4 ~ } \\
+        { a2. b2 ~ b4 } >>
+      | <<
+        { < g' cis''>2 b'4 gis'2 b'4 } \\
+        { cis'2 dis'4 e'2 dis'4 } >>
+      | <<
+        { b'2 e'4 a'2 fis'4 } \\
+        { d'2. cis'2 c'4 } >>
+      | <<
+        { gis'2 dis'4 e'2 ~ e'4 } \\
+        { b2 a4 gis2 cis'4 } >>
+      | <<
+        { dis'2 e'4 b2 ~ <b dis' b'>4 } \\
+        { ais2 fis4 } >>
 
     }
     \new Staff {
@@ -98,8 +122,16 @@
       | a2. ~ a2 b4
       | cis'2 b4 cis2 b4
       | ais2 cis4 fis2 b4
-      | ais2 gis4 fisis2 ais4
-      | dis2 cis4 fis2
+      | ais2 gis4 fisis2 ais,4
+      | dis2 cis4 fis2 e4
+      | b,2 cis4 dis2 fis4
+      | e2. e,2 g,4
+      | fis,2 gis,4 a,2 ais,4
+      | b,2 cis4 dis2 fis4
+      | e2 fis4 gis2 e4
+      | a2. a,2 e4 ~
+      | < gis, e>2 fis4 cis2 g,4
+      | < fis, e>2 ~ fis,4 b,2 ~ <b, a>4
     }
   >>
 \layout{}
