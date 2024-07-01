@@ -275,10 +275,12 @@
 
       \times 2/3 { d'8 ~ <d' bes> ~ <d' bes g> ~ } < g c'>4
 
-      \time 19/16
+      \time 7/16
       << { bes16 c' d' ees'8 g' }
       \\ { f8. aes8 ~ aes8 } >>
+      |
 
+      \time 6/8
       << { f'8 ~ < f' bes'>4 ~ < c' bes'>8 ~ < c' bes'>4 }
       \\ { bes8 ~ bes d'8 ~ d'8 ees'4 } >>
       |
