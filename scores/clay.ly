@@ -11,9 +11,10 @@
 
 \score {
   \new PianoStaff <<
-    \new Staff {
+    \new Staff \with { \consists "Span_arpeggio_engraver" } {
       \accidentalStyle PianoStaff.dodecaphonic
       \override PianoStaff.TimeSignature.style = #'numbered
+      \set Staff.connectArpeggios = ##t
 
       \clef treble
       \time 6/4
@@ -115,8 +116,14 @@
         { b''2 a''4 gis''2 fis''4 } \\
         { < cis'' e''>2. <ais' dis''>2 <gis' bis'>4 } >>
       | <<
-        { e''2 gis''4 } \\
-        { <gis' b'>2. } >>
+        { e''2 gis''4 <dis'''>2\arpeggio cis'''4 } \\
+        { <gis' b'>2. <c'' e'' g'' ais''>2\arpeggio fis''4 } >>
+      | <<
+        { b''2 a''2. gis''4 } \\
+        { dis''2. cis''4 e'' <b' dis''> } >>
+      | <<
+        { e''2 e''4 a'' gis'' fis'' } \\
+        { a'2 gis'4 <fis' dis''>2 gis'4 } >>
     }
     \new Staff {
       \clef bass
@@ -155,7 +162,9 @@
       | <<
         { a'2. fis'2 r4 } \\
         { r4 \clef bass a ~ <a e'> gis4 ais bis } >>
-      | cis'4 dis' e'
+      | cis'4 dis' e' \clef treble fis' gis' ais'
+      | << { b'4 ~ b' b' ~ b' a' ~ a' } \\ { r4 b ~ b b ~ b b } >>
+      | \clef bass c'4 b a gis ais bis
     }
   >>
 \layout{}
