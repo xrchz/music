@@ -328,9 +328,45 @@
       |
 
       \time 15/16
-      << { ees'16 f' g' ees'8 g' \times 2/3 {f'8 ees' f'} bes'8 <g' d''> }
+      << { ees'16 f' g' ees'8 g' \grace { f'16 g' } \times 2/3 {f'8 ees' f'} bes'8 <g' d''> }
       \\ { b8. bes4 a ees'8 d' } >>
+      |
 
+      \time 4/2
+      <<
+        { ees''4 c'' bes' g' f' bes' g' fis' } \\
+        { f'4 ees'1 d'2. }
+      >>
+      |
+
+      <<
+        { eis'4 ais' g' ees' f' bes' g' ees' } \\
+        { cis'2 c' c' b }
+      >>
+      |
+
+      <<
+        { f'4 bes' g' ees' f' bes' g' ees'' } \\
+        { bes4 c' aes c' bes d' bes ees' }
+      >>
+      |
+
+      <<
+        { f'4 bes' g' ees' f' bes' g' ees' } \\
+        { d'4 c' b bes c' bes aes d' }
+      >>
+      |
+
+      <<
+        { \times 2/3 { f'4 ees' f' } c''4 g' bes'2 aes' } \\
+        { des'2 <c' e'>4 f' \times 2/3 { f'4 ees' f' } c'2 }
+      >>
+      |
+
+      <<
+        { \times 2/3 { g'2 f'4 } f'4 ees' \times 2/3 { d'4 c'2 } b2 } \\
+        { \times 2/3 { b4 c' d' } ~ d'4 c' \times 2/3 { aes2 f4 ~ } f4 g }
+      >>
 
     }
     \new Staff {
@@ -547,9 +583,45 @@
       |
 
       < g, f>8. <c g>4 <f, ees> <bes, aes>
+      |
+
+      <<
+        { des'2. b bes2 } \\
+        { ees2 g aes1 }
+      >>
+      |
+
+      <<
+        { b2 aes gis g } \\
+        { g2 ees d1 }
+      >>
+      |
+
+      \times 2/3 { c4 d ees } g4 f
+      \times 2/3 { d4 ees f } aes4 g
+      |
+
+      <<
+        { g1 f1 } \\
+        {
+          \times 2/3 { f4 ees d } c2
+          \times 2/3 { ees4 d c } bes,2
+        }
+      >>
+      |
+
+      <<
+        {
+          \times 2/3 { ces'4 bes aes } ges4 g
+          \times 2/3 { aes4 g f } ees2
+        } \\
+        { ees1 aes, }
+      >>
+      |
+
+      < g, f >2 < aes, ees aes > < f, ees > < g, d >
 
     }
   >>
 \layout{}
-\midi{}
 }
