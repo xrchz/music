@@ -180,60 +180,60 @@
       \\ { < a bes>2 } >>
       |
 
-      \time 9/16
+      \time 8/16
       < a cis' gis'>8. ~ < a cis' fis'>16 dis' b8 ~
-      < b dis' fis' b'>8 ~
+      < b dis' fis' b'>16 ~
       |
-      \time 3/8
+      < b dis' fis' b'>8 ~
       < b dis' fis' gis'>8 gis' b'
       |
 
-      \time 9/16
-      < e' fis' a' cis''>8. b'16 b' cis''8 fis''
+      < e' fis' a' cis''>8. b'16 b' cis''8 fis''16 ~
       |
-      \time 3/8
-      dis'' cis'' gis'8
+      \time 7/16
+      fis''16 dis''8 cis'' gis'8
       |
 
       \time 4/4
       < eis' cis''>8 ~ < eis' b'> b' cis''8 << gis'4.\trill \\ < bis fis'>4. >> fis'16 gis'
       |
 
-      \time 9/16
-      < d' e' a'>8. g'16 g' a'8 d''
-      |
-      \time 3/8
-      b' a' fis'
+      \time 8/16
+      < d' e' a'>8. g'16 g' a'8 d''16 ~
       |
 
       \time 7/16
+      d''16 b'8 a' fis'
+      |
+
       << { e'8 d'16 e'8 fis'}
       \\ { b8. ais4 } >>
 
-      \time 9/16
+      \time 8/16
       < b d'>8. fis'16 fis' g'8
 
-      b'8
+      b'16 ~
       |
-
-      \time 7/16
-      d'' b' fis'
-
-      e'32 fis'
-      |
-
-      << { e'8 d'16 e'8 fis' } \\ { b8. ais4 } >>
 
       \time 8/16
-      < a d'>8 fis'16 fis' g'8
-      < d' e' b'>8 ~
-      |
+      b'16 d''8 b' fis'
 
-      \time 7/16
-      < d' e' b'>16 d''16 b'8 fis'8
       e'32 fis'
       |
 
+      \time 7/16
+      << { e'8 d'16 e'8 fis' } \\ { b8. ais4 } >>
+
+      < a d'>8 fis'16 fis' g'8
+      < d' e' b'>16 ~
+      |
+
+      \time 8/16
+      < d' e' b'>8 d''16 b'8 fis'8
+      e'32 fis'
+      |
+
+      \time 7/16
       < e' d'>8 d'16 < cis' e'>8 ~ < cis' a'>
       \time 2/4
       << { fis'8. fis'16 fis' g' a' d' } \\ { cis'4 c'8. d'16 ~ } >>
@@ -462,24 +462,29 @@
 
       < b, a>4 r < fis, e>2
 
-      < b, fis>4 ~ < b, fis>8. e,8 ~ e,\laissezVibrer b4
+      < b, fis>4 ~ < b, fis>8. e,16 ~ e,4\laissezVibrer b4
 
-      cis'4\laissezVibrer a8.\laissezVibrer e8 ~ e8\laissezVibrer a,4
+      cis'4\laissezVibrer a8.\laissezVibrer e16 ~ e8.\laissezVibrer a,4
       |
 
       < gis, gis>4\laissezVibrer dis'8 d' < gis, fis>4\laissezVibrer dis'
       |
 
-      < b, a>4\laissezVibrer c'8 b a16 ~ a8\laissezVibrer d4
+      < b, a>4\laissezVibrer c'8 b
+      |
+      a8.\laissezVibrer d4
       |
 
-      < fis, e>8.\laissezVibrer fis4 < g, fis>8. ~ < g, fis>16\laissezVibrer b,8.\laissezVibrer
-
-      a8 ~ a8\laissezVibrer d'4 ~ d'16 < cis gis>8. < fis, e>4
+      < fis, e>8.\laissezVibrer fis4
+      |
+      < g, fis>4\laissezVibrer b,8.\laissezVibrer
+      a16 ~
+      |
+      a8.\laissezVibrer d'4 ~ d'16 < cis gis>8. < fis, e>4
 
       < b, fis>8. fis,8 f,8
 
-      < e, d>8 ~ <e, d>16\laissezVibrer g8.\laissezVibrer b16 ~ b16 < a, g>8. < e g a>4 < d a> < d a>
+      <e, d>8.\laissezVibrer g8.\laissezVibrer b8 < a, g>8. < e g a>4 < d a> < d a>
 
       < g, g>4 ~ < b, g> < e b>8. < a, g>8 ~ <a, g>8.
       |
