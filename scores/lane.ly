@@ -367,6 +367,69 @@
         { \times 2/3 { g'2 f'4 } f'4 ees' \times 2/3 { d'4 c'2 } b2 } \\
         { \times 2/3 { b4 c' d' } ~ d'4 c' \times 2/3 { aes2 f4 ~ } f4 g }
       >>
+      |
+
+      <<
+        {
+          \times 2/3 { c'4 d' ees' } <ees' g'>4 <d' f'>
+          \times 2/3 { ees'4 d' ~ < d' f'> ~ } < d' f' aes' >4 < ees' g'>
+        } \\
+        { \times 2/3 { bes2. } aes1 }
+      >>
+      |
+
+      <<
+        {
+          \times 2/3 { ees'4 f' g' } <aes' ees''>4 ~ < aes' c''>
+          \times 2/3 { bes'4 aes' ees' } g'4 f'
+        } \\
+        { bes2 f'4 ees' \times 2/3 { c'2 ees'4 } d'2 }
+      >>
+      |
+
+      \time 6/8
+      << { b8 c' d' f'4 ees'8 } \\ { g2. } >>
+      |
+
+      d'8 ees' aes' d''4 c''8
+      |
+
+      bes'8 aes' ees' \times 3/4 { g'4. f'8 }
+      |
+
+      <<
+        { \times 3/4 { ees'8 d' d' ees' } g'4 g'8 } \\
+        { s4. des'8 c' bes }
+      >>
+      |
+
+      <<
+        { g'8 c' f' \times 3/4 { ees'4. d'8 } } \\
+        { aes4. b }
+      >>
+      |
+
+      <<
+        { \times 3/4 { ees'4. bes'8 } bes'8 aes' g' } \\
+        { bes4. d'8 c' bes }
+      >>
+      |
+
+      <<
+        { g'8 aes' bes' \times 3/4 { f'4. g'8 } } \\
+        { aes8 bes ees' \times 3/4 { ees'4. d'8 } }
+      >>
+      |
+
+      \time 4/4
+      ees'4. f'8 bes'4. bes8
+      |
+
+      <<
+        { bes'4. c''8 aes'4. g'8 } \\
+        { r4. ees'8 c'4. d'8 }
+      >>
+      |
 
     }
     \new Staff {
@@ -620,6 +683,40 @@
       |
 
       < g, f >2 < aes, ees aes > < f, ees > < g, d >
+      |
+
+      < c g >2 < f, c> <bes, f> <ees bes>
+      |
+
+      < c g>2 <f c'> <aes, g> <bes, aes>
+      |
+
+      f8 ees d c aes, g,
+      |
+
+      f,8 c f c' aes g
+      |
+
+      \times 3/4 { aes,8 ees f c' } \times 3/4 { b g d g, }
+      |
+
+      \times 3/4 { c,8 g, c g } \times 3/4 { e,8 c g bes }
+      |
+
+      \times 3/4 { f,8 c g f } \times 3/4 { aes,8 ees bes aes }
+      |
+
+      \times 3/4 { g,8 ees g d } \times 3/4 { c, g, f e }
+      |
+
+      \times 3/4 { f,8 ees f c' } \times 3/4 { bes,8 aes c' bes }
+      |
+
+      b8 f des aes, g, ees g r
+      |
+
+      f,8 c aes ees' g, d f b
+      |
 
     }
   >>
