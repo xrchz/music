@@ -11,9 +11,14 @@
 #(set-default-paper-size "a4" 'portrait)
 #(ly:set-option 'point-and-click #f)
 
+md = \change Staff = "r"
+mg = \change Staff = "l"
+mdt = #(define-music-function () () #{ \md \voiceTwo #})
+mgt = #(define-music-function () () #{ \mg \oneVoice #})
+
 \score {
   \new PianoStaff <<
-    \new Staff {
+    \new Staff = "r" {
       \accidentalStyle PianoStaff.dodecaphonic
       \override PianoStaff.TimeSignature.style = #'numbered
       \set PianoStaff.connectArpeggios = ##t
@@ -411,7 +416,9 @@
 
       <<
         { \times 3/4 { ees'4. bes'8 } bes'8 aes' g' } \\
-        { bes4. d'8 c' bes }
+        { \once \override TupletBracket.bracket-visibility = ##f
+          \once \override TupletNumber.stencil = ##f
+          \times 3/4 { bes4. d'8 } d'8 c' bes }
       >>
       |
 
@@ -431,8 +438,50 @@
       >>
       |
 
+      <<
+        { g'4. g'8 c''4. g'8 } \\
+        { f'4. ees'8 d'4. ees'8 }
+      >>
+      |
+
+      <<
+        { c''4. d''8 bes'4. a'8 } \\
+        { f'4. e'8 d'4. c'8 }
+      >>
+      |
+
+      <<
+        { bes'4. r8 d''4. c''8 } \\
+        { bes4. d'8 ~ d'2 }
+      >>
+      |
+
+      <<
+        { bes'4. d'8 d'4. c'8 } \\
+        { r4. bes8 <g bes>2 }
+      >>
+      |
+
+      <<
+        { f'4. c'8 ees'4. d'8 } \\
+        { <bes c'>4. a8 g4. a8 }
+      >>
+      |
+
+      bes'4 \times 2/3 { r8 bes bes' }
+      b'4 ~ \times 2/3 { b'4 fis'8 }
+      |
+
+      a'4 ~ \times 2/3 { a'4 g'8 }
+      f'4 ~ \times 2/3 { f'4 ees'8 }
+      |
+
+      d'4 ~ \times 2/3 { d'4 \voiceOne bes'8 }
+      d''4 ~ \times 2/3 { d''4 c''8 } \oneVoice
+      |
+
     }
-    \new Staff {
+    \new Staff = "l" {
       \clef bass
 
       < e b>4. < e dis'>2
@@ -706,16 +755,43 @@
       \times 3/4 { f,8 c g f } \times 3/4 { aes,8 ees bes aes }
       |
 
-      \times 3/4 { g,8 ees g d } \times 3/4 { c, g, f e }
+      \times 3/4 { g,8 ees g \mdt d' \mgt } \times 3/4 { c, g, f e }
       |
 
       \times 3/4 { f,8 ees f c' } \times 3/4 { bes,8 aes c' bes }
       |
 
-      b8 f des aes, g, ees g r
+      b8 f des aes, g, ees g \md bes \mg
       |
 
-      f,8 c aes ees' g, d f b
+      f,8 c aes \mdt ees' \mgt g, d f b
+      |
+
+      c8 g c' \mdt ees' \mgt bes, g c' \mdt ees' \mgt
+      |
+
+      a,8 f c' \mdt e' \mgt d, a, e fis
+      |
+
+      g,8 d g \mdt d' \mgt fis, dis fis ais
+      |
+
+      f,8 d f \mdt bes \mgt ees, c ees bes
+      |
+
+      f,8 ees f \mdt a \mgt f, c f \mdt a \mgt
+      |
+
+      bes,8 f \times 2/3 { bes8 r4 }
+      a,8 fis \times 2/3 { a8 \md c' fis' \mg }
+      |
+
+      g,8 d \times 2/3 { g \md bes g' \mg }
+      ees,8 b, \times 2/3 { ees \md aes ees' \mg }
+      |
+
+      g,8 d \times 2/3 { g8 \md bes \voiceTwo bes' \mgt }
+      \times 2/3 { fis,8 dis a } \times 2/3 { \mdt c'8 dis' c'' \mgt }
       |
 
     }
