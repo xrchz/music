@@ -403,7 +403,7 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       |
 
       <<
-        { \times 3/4 { ees'8 d' d' ees' } g'4 g'8 } \\
+        { \times 3/4 { ees'8 d' d' ees' } \times 3/4 { g'4. g'8  } } \\
         { s4. des'8 c' bes }
       >>
       |
@@ -479,6 +479,48 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       d'4 ~ \times 2/3 { d'4 \voiceOne bes'8 }
       d''4 ~ \times 2/3 { d''4 c''8 } \oneVoice
       |
+
+      \time 2/4
+      bes'4.. g'16
+      |
+      g'4.. a'16
+      |
+      fis'4.. d''16
+      |
+      d''4.. c''16
+      |
+      bes'2
+      |
+      a'4.. g'16
+      |
+      f'4.. ees'16
+      |
+      d'4 f'16 c'' bes'8
+      |
+      aes'4.. d''16
+      |
+      << { d''4.. c''16 } \\ { g'2 } >>
+      |
+      bes'4.. g'16
+      |
+      f'4.. ees'16
+      |
+      d'4.. c''16
+      |
+      bes'2
+      |
+      a'4.. g'16
+      |
+      f'4.. ees'16
+      |
+      d'2
+      |
+      bes'4. g'8
+      |
+      g'4.. f'16
+      |
+      \time 2/2
+      f'2 g' | aes'2 \voiceOne bes' \oneVoice |
 
     }
     \new Staff = "l" {
@@ -749,7 +791,7 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       \times 3/4 { aes,8 ees f c' } \times 3/4 { b g d g, }
       |
 
-      \times 3/4 { c,8 g, c g } \times 3/4 { e,8 c g bes }
+      \times 3/4 { c,8 g, c g } \times 3/4 { e,8 c g r }
       |
 
       \times 3/4 { f,8 c g f } \times 3/4 { aes,8 ees bes aes }
@@ -793,6 +835,42 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       g,8 d \times 2/3 { g8 \md bes \voiceTwo bes' \mgt }
       \times 2/3 { fis,8 dis a } \times 2/3 { \mdt c'8 dis' c'' \mgt }
       |
+
+      \times 2/3 { g,8 d g } \mdt bes16 ees' d' g' \mgt
+      \times 2/3 { bes,8 ees a } \mdt des'16 fes' ees' a' \mgt
+      |
+
+      \times 2/3 { a,8 d a } \mdt c'16 ees' d' d'' \mgt
+      \times 2/3 { d,8 a, fis } \mdt c'16 ees' d' c'' \mgt
+      |
+
+      \times 2/3 { bes,8 f bes} \mdt d'16 g' f'8 \mgt
+      \times 2/3 { ees,8 bes, g } \mdt bes16 ees' c' g' \mgt
+      |
+
+      \times 2/3 { f,8 ees f } \mdt a16 d' c' ees' \mgt
+      \times 2/3 { bes,8 f bes } \mdt f'16 c'' bes'8 \mgt
+      |
+
+      \times 2/3 { bes,8 f aes } \mdt c'16 ees' d' d'' \mgt
+      \times 2/3 { ees,8 bes, g } \mdt bes16 f' ees' c'' \mgt
+      |
+
+      \times 2/3 { c8 f g } \mdt bes16 ees' d' g' \mgt
+      \times 2/3 { f,8 ees f } \mdt a16 d' c' ees' \mgt
+      |
+
+      \times 2/3 { fis,8 d fis } \mdt a16 ees' c' c'' \mgt
+      \times 2/3 { g,8 d g } \mdt bes16 f' ees'8 \mgt
+      |
+
+      \times 2/3 { c,8 g, ees } \mdt a16 ees' d' g' \mgt
+      \times 2/3 { d,8 a, d } \mdt a16 d' c' ees' \mgt
+      \times 2/3 { g,8 d f } \mdt g16 c' bes8 \mgt
+      \times 2/3 { c8 fis g } \mdt d'16 ees' g'8 \mgt
+      \times 2/3 { f,8 ees f } \mdt a16 c' ees' f' \mgt
+      bes,8 f aes c' \mdt g' c' ees' g' \mgt
+      bes,8 aes c' ees' \mdt bes' d' f' bes' \mgt
 
     }
   >>
