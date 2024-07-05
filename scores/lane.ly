@@ -520,7 +520,25 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       g'4.. f'16
       |
       \time 2/2
-      f'2 g' | aes'2 \voiceOne bes' \oneVoice |
+      f'2 g' | aes'2 \voiceOne bes' \oneVoice
+      |
+      \times 8/9 { bes'8 bes b b' b bes' g' ees' bes }
+      |
+      c'4 d'8 d'' d' ees' f' g'
+      |
+      \times 8/9 { bes'8 bes b b' b bes' g' ees' bes }
+      |
+      \times 8/7 { c'8 d' d'' d' ees' f' g' }
+      |
+      \times 8/6 { aes'8 aes bes' bes c'' c' }
+      |
+      d''8 d' ees'' ees' f'' f' g'' g'
+      |
+      \times 8/6 { g''8 aes' f'' g' ees'' f' }
+      |
+      d''8 f' c'' ees' bes' d' aes' c'
+      |
+      g'8 aes f' bes g' ~ < b g'> aes' c'
 
     }
     \new Staff = "l" {
@@ -871,6 +889,25 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       \times 2/3 { f,8 ees f } \mdt a16 c' ees' f' \mgt
       bes,8 f aes c' \mdt g' c' ees' g' \mgt
       bes,8 aes c' ees' \mdt bes' d' f' bes' \mgt
+      |
+
+      \times 8/10 { ees,8 bes, ees g bes b bes g ees bes, }
+      |
+      \times 8/9 { aes,8 ees aes c' d' c' aes ees aes, }
+      |
+      \times 8/10 { ees,8 bes, ees g bes b bes g ees bes, }
+      |
+      \times 8/10 { aes,8 ees aes c' d' c' aes ees c g, }
+      |
+      f,8 c g f ees c d ees
+      |
+      \times 8/9 { g,8 ees g bes c' bes g ees bes, }
+      |
+      \times 8/9 { aes,8 g c' ees' c' aes f c g, }
+      |
+      \times 8/9 { f,8 c g aes ees bes, f, g, f }
+      |
+      \times 4/6 { g8 f, c d c g, } \times 4/7 { d, g,, d, g, d f aes }
 
     }
   >>
