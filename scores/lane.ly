@@ -539,6 +539,29 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       d''8 f' c'' ees' bes' d' aes' c'
       |
       g'8 aes f' bes g' ~ < b g'> aes' c'
+      |
+      << { g'2. g'4 } \\ { <b d'>1 } >>
+      |
+      << { g'2 f'4 ees' } \\ { < aes c' >1 } >>
+      |
+      << { d'2 c' } \\ { <f aes> 1 } >>
+      |
+      <<
+        { b1 } \\
+        { < f g>1 } \\
+        { r2. ees'4 }
+      >>
+      |
+      <<
+        { ees'2 ~ <d' ees'>4 ~ <c' ees'>4 } \\
+        { <g aes>1 }
+      >>
+      |
+      <<
+        { <c' f'>2. <d' g'>4 } \\
+        { bes2 aes }
+      >>
+      < g c' e' g'>1 ~ < g c' e' g'>
 
     }
     \new Staff = "l" {
@@ -908,6 +931,18 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       \times 8/9 { f,8 c g aes ees bes, f, g, f }
       |
       \times 4/6 { g8 f, c d c g, } \times 4/7 { d, g,, d, g, d f aes }
+      |
+      < g, f g>1
+      |
+      < aes, ees>1
+      |
+      < f, c>1
+      |
+      <g, d>1
+      <aes, ees>
+      <f, d>
+      <c, g, c> ~ <c, g, c>
+      \bar "|."
 
     }
   >>
