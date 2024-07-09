@@ -124,6 +124,9 @@
       | <<
         { e''2 e''4 a'' gis'' fis'' } \\
         { a'2 gis'4 <fis' dis''>2 gis'4 } >>
+      | <<
+        { e''2 gis''4 cis''2 dis''4 } \\
+        { gis'2 b'4 b'2 <fis' ais'>4 } >>
     }
     \new Staff {
       \clef bass
@@ -165,6 +168,7 @@
       | cis'4 dis' e' \clef treble fis' gis' ais'
       | << { b'4 ~ b' b' ~ b' a' ~ a' } \\ { r4 b ~ b b ~ b b } >>
       | \clef bass c'4 b a gis ais bis
+      | cis'4 dis' e' fis' fis ~ <fis e'>
     }
   >>
 \layout{}
