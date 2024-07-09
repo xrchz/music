@@ -393,10 +393,10 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       |
 
       \time 6/8
-      << { b8 c' d' f'4 ees'8 } \\ { g2. } >>
+      << { b8 c' d' \times 3/4 { f'4 ees' }} \\ { g2. } >>
       |
 
-      d'8 ees' aes' d''4 c''8
+      d'8 ees' aes' \times 3/4 { d''4 c'' }
       |
 
       bes'8 aes' ees' \times 3/4 { g'4. f'8 }
@@ -468,7 +468,7 @@ mgt = #(define-music-function () () #{ \mg \oneVoice #})
       >>
       |
 
-      bes'4 \times 2/3 { r8 bes bes' }
+      bes4 \times 2/3 { r8 bes bes' }
       b'4 ~ \times 2/3 { b'4 fis'8 }
       |
 
