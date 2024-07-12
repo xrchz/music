@@ -160,7 +160,7 @@
       | << { e2 s4 r2 a4 ~ } \\ { fis,2. b,2. } >>
       | << { a2 a4 gis'4. fis'8 e'4 } \\ { a,2. } >>
       | dis'2 ~ <dis' b>4 e'2 b4
-      | a2 gis4 << { r4. e'8 ~ < e' cis' gis'>4 } \\ { fis2. } >>
+      | a2 gis4 << { r4. cis'8 ~ < e' cis'>4 } \\ { fis2. } >>
       | << { r2 \clef treble a'4 gis'4. ais'8 b'4 } \\ { b2. e'2. } >>
       | <<
         { a'2. fis'2 r4 } \\
