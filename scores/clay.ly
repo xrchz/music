@@ -127,6 +127,25 @@
       | <<
         { e''2 gis''4 cis''2 dis''4 } \\
         { gis'2 b'4 b'2 <fis' ais'>4 } >>
+      | <<
+        { b'2 b'4 e''2 dis''4 } \\
+        { dis'2 <fis' ais'>4 gis'2 b'4 } >>
+      | <<
+        { cis''2 dis''4 b'2. } \\
+        { b'2 <fis' ais'>4 dis'4 e' fis' } >>
+      | <<
+        { e''2 dis''4 cis''2 b'4 } \\
+        { gis'2 fis'4 e'2 dis'4 } >>
+      | <<
+        { dis''2 cis''4 b'2. } \\
+        { e'4 gis' ais' dis'2. } >>
+      | <<
+        { e''2 dis''4 b'2. } \\
+        { fis'4 gis' ais' g'2. } >>
+      | <<
+        { e''2 dis''4 } \\
+        { g'2 fis'4 } >>
+
     }
     \new Staff {
       \clef bass
@@ -169,6 +188,20 @@
       | << { b'4 ~ b' b' ~ b' a' ~ a' } \\ { r4 b ~ b b ~ b b } >>
       | \clef bass c'4 b a gis ais bis
       | cis'4 dis' e' fis' fis ~ <fis e'>
+      | gis4 ais b cis' dis' e'
+      | fis'4 fis ~ <fis e'> fis gis ais
+      | <<
+        { b ~ b b ~ b b fis } \\
+        { r4 b,4 ~ b, b, ~ b, fis ~ } >>
+      | <<
+        { fis'4 ~ fis' fis' ~ fis' fis' ~ fis' } \\
+        { fis4 fis ~ fis fis ~ fis  fis ~ } >>
+      | <<
+        { e'4 ~ e' e' ~ e' fis' ~ fis' } \\
+        { fis4 fis ~ fis fis ~ fis  fis } >>
+      | <<
+        { fis'4 ~ fis' e' } \\
+        { fis4 fis ~ fis } >>
     }
   >>
 \layout{}
