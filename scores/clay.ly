@@ -131,7 +131,7 @@
         { b'2 b'4 e''2 dis''4 } \\
         { dis'2 <fis' ais'>4 gis'2 b'4 } >>
       | <<
-        { cis''2 dis''4 b'2. } \\
+        { cis''2 dis''4 b'2 b'4 } \\
         { b'2 <fis' ais'>4 dis'4 e' fis' } >>
       | <<
         { e''2 dis''4 cis''2 b'4 } \\
@@ -187,9 +187,9 @@
       | cis'4 dis' e' \clef treble fis' gis' ais'
       | << { b'4 ~ b' b' ~ b' a' ~ a' } \\ { r4 b ~ b b ~ b b } >>
       | \clef bass c'4 b a gis ais bis
-      | cis'4 dis' e' fis' fis ~ <fis e'>
+      | cis'4 dis' e' fis' ~ < fis' fis> ~ <fis e'>
       | gis4 ais b cis' dis' e'
-      | fis'4 fis ~ <fis e'> fis gis ais
+      | fis'4 ~ <fis' fis> ~ <fis e'> fis gis ais
       | <<
         { b ~ b b ~ b b fis } \\
         { r4 b,4 ~ b, b, ~ b, fis ~ } >>
