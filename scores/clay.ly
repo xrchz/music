@@ -141,10 +141,24 @@
         { e'4 gis' ais' dis'2. } >>
       | <<
         { e''2 dis''4 b'2. } \\
-        { fis'4 gis' ais' g'2. } >>
+        { fis'4 ~ <fis' gis'> ~ <fis' ais'> g'2. }
+      >>
+
+        % { fis'4 ~ <fis' gis'> ~ <fis' ais'> } >> < g' b'>2.
       | <<
-        { e''2 dis''4 } \\
-        { g'2 fis'4 } >>
+        { e''2 dis''4 gis'2 ais'4 } \\
+        { g'2 fis'4 <b dis'>2 <cis' e'>4 } >>
+      | <<
+        { b'2 ais'4 <fis' ais'>2 <e' gis'>4 } \\
+        { <dis' fis'>2. b2 cis'4 } >>
+      | <<
+        { <dis' fis'>2 fis'4 fis'2 gis'4 } \\
+        { cis'2 b4 ais2 b4 } >>
+      |
+        <cis' fis' ais'>2 <e' gis' b' cis''>4
+        <fis' ais' cis'' dis'' fis''>2
+        <gis ais cis' e'>4
+      |
 
     }
     \new Staff {
@@ -200,8 +214,11 @@
         { e'4 ~ e' e' ~ e' fis' ~ fis' } \\
         { fis4 fis ~ fis fis ~ fis  fis } >>
       | <<
-        { fis'4 ~ fis' e' } \\
-        { fis4 fis ~ fis } >>
+        { fis'4 ~ fis' e' fis2. ~ } \\
+        { fis4 fis ~ fis b,2 cis4 } >>
+      | << { fis2 b4 } \\ { dis2. } >> e2.
+      | b,2. fis,2 cis4
+      | fis2 cis'4 dis'2 <fis, e>4
     }
   >>
 \layout{}
