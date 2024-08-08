@@ -1,6 +1,7 @@
 \version "2.24.3"
 
 \header {
+  title = "Clay"
   composer = "Ramana Kumar"
   date = "2023"
   copyright = "Creative Commons Attribution-ShareAlike 4.0"
@@ -141,24 +142,31 @@
         { e'4 gis' ais' dis'2. } >>
       | <<
         { e''2 dis''4 b'2. } \\
-        { fis'4 ~ <fis' gis'> ~ <fis' ais'> g'2. }
-      >>
-
-        % { fis'4 ~ <fis' gis'> ~ <fis' ais'> } >> < g' b'>2.
+        { fis'4 ~ <fis' gis'> ~ <fis' ais'> g'2. } >>
       | <<
         { e''2 dis''4 gis'2 ais'4 } \\
         { g'2 fis'4 <b dis'>2 <cis' e'>4 } >>
       | <<
         { b'2 ais'4 <fis' ais'>2 <e' gis'>4 } \\
-        { <dis' fis'>2. b2 cis'4 } >>
+        { <dis' fis'>2. b } >>
       | <<
         { <dis' fis'>2 fis'4 fis'2 gis'4 } \\
         { cis'2 b4 ais2 b4 } >>
-      |
-        <cis' fis' ais'>2 <e' gis' b' cis''>4
-        <fis' ais' cis'' dis'' fis''>2
-        <gis ais cis' e'>4
-      |
+      | <cis' fis' ais'>2
+        <e' gis' b' cis''>4
+        <fis' ais' cis'' fis''>2
+        <gis b cis' e'>4
+      | <fis ais b dis'>2.
+        <a b dis' fis'>2
+        <a' c'' d'' gis''>4
+      | <cis'' e'' fis'' b''>2
+        <b' dis'' fis'' ais''>4
+        <b' cis'' e'' gis''>2
+        <ais' dis'' fis'' b''>4
+      | <gis' fis''>2.
+        <g' e''>2 ~ <g' cis''>4
+      | <fis' dis''>2 <dis' b'>4 <cis' b'>2 <e' ais'>4
+      | <e' gis' cis''>2. <dis' fis' b'>
 
     }
     \new Staff {
@@ -219,6 +227,12 @@
       | << { fis2 b4 } \\ { dis2. } >> e2.
       | b,2. fis,2 cis4
       | fis2 cis'4 dis'2 <fis, e>4
+      | << { b,2 cis4 dis2 \clef treble fis'4 } \\ { fis,1. } >>
+      | gis'2 ais'4 b'2 b4 ~
+      | < b b'>2 \clef bass b,4 ~ <b, b>2 e4
+      | b2 gis4 e2 fis4
+      | b2 b,4 ~ <b, b>2.
+      \bar "|."
     }
   >>
 \layout{}
