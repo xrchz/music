@@ -229,9 +229,9 @@
       | fis2 cis'4 dis'2 <fis, e>4
       | << { b,2 cis4 dis2 \clef treble fis'4 } \\ { fis,1. } >>
       | gis'2 ais'4 b'2 b4 ~
-      | < b b'>2 \clef bass b,4 ~ <b, b>2 e4
+      | < b b'>2 \clef bass b,4 ~ <b, b>2 ~ <e b>4
       | b2 gis4 e2 fis4
-      | b2 b,4 ~ <b, b>2.
+      | << { b2 ~ b4 b2. } \\ { r2 b,4 ~ b,2. } >>
       \bar "|."
     }
   >>
