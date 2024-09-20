@@ -1,4 +1,4 @@
-\version "2.18.0"
+\version "2.24.0"
 
 \header {
   title = "Play"
@@ -7,8 +7,6 @@
   copyright = "Creative Commons Attribution-ShareAlike 4.0"
   dedication = ""
 }
-
-#(set-default-paper-size "a4" 'landscape)
 
 #(ly:set-option 'point-and-click #f)
 
@@ -54,7 +52,7 @@
       |
 
       \time 6/4
-      \tempo \markup{ \concat { ( \note #"2." #UP " := " \note #"2" #UP ) } }
+      \tempo \markup{ \concat { ( \note {2.} #UP " := " \note {2} #UP ) } }
       \tuplet 3/2{bes'8 d'' bes'} ges'8*2/3^\markup{\italic{simile}} bes' ges' des' ges' des'
       bes des' bes ges bes ges f bes ges
       |
@@ -190,7 +188,7 @@
 
       des2 c b, bes,
       |
-      
+
       \clef treble
       des'' c'' b' bes'
       |
@@ -198,7 +196,7 @@
       \clef bass
       <cis' d'> b a aes
       |
-      
+
       <aes, ges> <bes, aes>
       <ees b> <ees c'>
       |
