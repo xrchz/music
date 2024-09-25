@@ -118,12 +118,13 @@
       b'16 gis' fis' d' b s s8 s4
       |
 
-      \time 7/4
-      r8 <a e' gis'>4 r8 <e' a' cis''> r <e' a' cis'' e''> r e''16 cis'' a' e' r8 <fis' fis''>4.
+      \time 8/4
+      r8 <a e' gis'>4 r8 <e' a' cis''>4 r8 <e' a' cis'' e''>4 r8 e''16 cis'' a' e' r8 <fis' fis''>4.
+      |
 
       \time 6/4
-      <gis' cis'' dis'' gis''>8 <gis' cis'' dis'' gis''> r4 <gis' cis'' dis'' gis''>4.
-      <dis' gis' dis''>4 <cis' g' a' cis''>4.
+      <gis' cis'' dis'' gis''>8 <gis' cis'' dis'' gis''> r4 <gis' cis'' dis'' gis''>
+      <dis' gis' dis''>4. <cis' g' a' cis''>
       |
 
       <b fis' gis' b'> <b e' b'>
@@ -150,14 +151,14 @@
       <a' b' dis'' gis''>8 <a' b' dis'' gis''> r4 <a' cis'' dis'' fis''>
       |
 
-      \time 7/4
-      r8 <b dis' gis'>4 r8 <dis' gis' b' cis''>8 r <gis' b' cis'' e''> r
+      \time 8/4
+      r8 <b dis' gis'>4 r8 <dis' gis' b' cis''>4 r8 <gis' b' cis'' e''>4 r8
       e''16 cis'' ais' g' r8 <fis' cis'' e'' fis''>4.
       |
 
       \time 6/4
-      <gis' b' dis'' gis''>8 <gis' b' dis'' gis''> r4 <gis' cis'' dis'' gis''>4.
-      <dis' gis' dis''>4 <cis' g' a' cis''>4.
+      <gis' b' dis'' gis''>8 <gis' b' dis'' gis''> r4 <gis' cis'' dis'' gis''>
+      <dis' gis' dis''>4. <cis' g' a' cis''>
       |
 
       <b fis' gis' b'>4. <b e' b'>
@@ -292,7 +293,8 @@
       r16 gis cis
       g,16 ~ g,4
       |
-      fis,4. fis4 cis' cis'4. c'8 b4.
+
+      fis,4. fis cis' cis' c'8 b4.
       |
       <b, a>8 <b, a> r b,4. f4 fis g
       |
@@ -303,7 +305,8 @@
       b, e fis gis cis b
       a a, ais, b,8 b, r b ~ <b dis' g'>4
       |
-      e,4. e4 b e8 ~ <e b>4 e8 ~ <e ais>4.
+
+      e,4. e b e8 ~ <e b>4 e8 ~ <e ais>4.
       |
       <a b>8 <a b> r b, ~ <b, a>4 f4 fis g
       |
