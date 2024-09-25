@@ -144,7 +144,7 @@
       |
 
       <a b dis' gis'> <d' fis' a' cis''>
-      <gis' b' cis'' e''> <g' a' cis'' eis''>
+      <gis' b' cis'' e''> <g' ais' cis'' eis''>
       |
 
       <fis' cis'' e'' fis''> <g' c'' dis'' g''>
