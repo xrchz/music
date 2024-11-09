@@ -37,8 +37,8 @@
       \time 4/4
       <dis' a' cis''>4 <gis' b'> <cis' gis' b'> <b fis' a'>
       \time 8/4 <<
-        { b'4 gis' ais' cis'' d'' dis'' dis'' gis'' } \\
-        { <d' fis'>4 e' <dis' gis'> g' <fis' ais'>2 <gis' bis'> }
+        { <fis' b'>4 <e' gis'> <gis' ais'> <g' cis''> d'' dis'' dis'' gis'' } \\
+        { d'2 dis' <fis' ais'> <gis' bis'> }
       >> |
     }
     \new Staff {
