@@ -9,6 +9,7 @@
   copyright = "Creative Commons Attribution-ShareAlike 4.0"
 }
 %#(set-default-paper-size "a4" 'landscape)
+#(ly:set-option 'point-and-click #f)
 
 \score {
   \context PianoStaff <<
@@ -84,7 +85,7 @@
       <<{f2 ges4 aes2 bes4}\\{des2. des2.}>> |
       <<{b2. des'2.}\\{r2 des4 ~ des2.}>> |
       <<{bes4\! ges des ges,2.}\\{}>> |
-      bes4 aes ees <<{des,2.}\\{s4 des'2}>> |
+      bes4 aes ees <<{r4 des'2}\\{des,2.}>> |
       ges4 des ees <<{fes2 ges4}\\{r4 ges,2}>> |
       b,,4 <f b>4 <f b> <<{ais2 f4}\\{r4 b,2}>> |
       fis4 b, fis, b,,2 cis'4 |
@@ -100,7 +101,7 @@
       <<{g2 f4}\\{<aes, ees>2.}>> <<{s4 aes s}\\{bes,2 r4}>> |
       ees,4 ees, ees, <bes, f>2 <bes, f>4 |
       <aes, d>2. <ges, ees>2 <ges, ees>4 |
-      <des, aes,>4 s4 aes4 <fis cis'>2 <gis dis'>4 |
+      <des, aes,>4 r4 aes4 <fis cis'>2 <gis dis'>4 |
       <a dis' a'>2 <b e' b'>4 <<{<cis' fis'>2 dis'4}\\{r4 b,2}>> |
       gis4 e b, e,2. |
       gis4 fis cis b,,2. |
