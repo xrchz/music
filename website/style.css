@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  background: mistyrose;
+  color: midnightblue;
+}
+ul {
+  list-style-type: none;
+  display: grid;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+li:hover {
+  background: oldlace;
+}
+li {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  column-gap: 1ex;
+}
+li > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: start;
+  column-gap: 1ex;
+}
+a, h2 > a {
+  text-decoration: none;
+}
+a.imslp, a.imslp:visited {
+  color: midnightblue;
+}
+a:hover {
+  text-decoration: underline;
+}
+a, a:visited {
+  color: royalblue;
+}
