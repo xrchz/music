@@ -26,10 +26,9 @@
         { e''2 fis'' cis'' dis'' } \\
         { b'4 a' a' d'' g' fis' fis' b' }
       >> |
-      <gis' cis'' e''>4 <fis' b' dis''> <eis' gis' cis''> <dis' fisis' b'> <<
-        { <fis' ais'>4 <eis' gis'> <eis' b'> <fis' ais'> } \\
-        { d'2 dis' }
-      >> |
+      <gis' b' e''>4 <fis' cis'' dis''> <eis' gis' cis''> <e' g' b'>
+      <fis' ais'>4 <eis' gis'> <eis' b'> <fis' ais'>
+      |
       <e' gis' cis''>4 <dis' fis' b'> <fis' b'> <e' ais'> <<
         { <dis' ais'>4 <fis' gis'> <fis' b'> <e' ais'> } \\
         { b2 cis' }
@@ -46,7 +45,7 @@
         <d c'>2 <cis b> <fis cis'> ~ <fis dis'>
       | <fis e'>1 <e e'>2 <d d'>
       | <g cis'>2 <fis d'> <e ais> <dis b>
-      | <cis b>2 <dis cis'> <eis ais> <fis b>
+      | <cis b>2 <dis cis'> <eis d'> <fis dis'>
       | <gis b>2 <fis cis'> <gis, fis> <ais, gis>
       | <b, a>1
       | <e b>2 <dis cis'> <gis dis'> <fis fis'>
