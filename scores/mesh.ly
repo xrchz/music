@@ -42,7 +42,14 @@
       <a' cis'' fis''>4 ~ <b' dis'' fis''> <gis' b' dis'' eis''> <a' b' dis'' gis''>
       <fis' c'' e'' a''> <gis' gis''> <b' dis'' gis''> <a' cis'' e'' fis''> |
       \time 4/4
-      <a' cis'' dis'' gis''>4 ~ <a' cis'' dis'' fis''> <gis' c'' dis''> <a' b' cis''>
+      <a' cis'' dis'' gis''>4 ~ <a' cis'' dis'' fis''> <gis' c'' dis''> <a' b' cis''> |
+      \time 8/4
+      <fis' gis' b'>4 <e' b' e''> <a' b' dis''> <fis' a' cis''> <e' gis' b'> <gis' gis''>
+      <gis' bis' dis'' gis''> ~ <fis' bis' dis'' fis''> |
+      <e' gis' bis' e''>4 ~ <b gis' b'> <c' c''> <d' d''>
+      <d' fis' a' d''> ~ <c' fis' a' c''> <b d' fis' b'> <a cis' e' a'> |
+      <b dis' fis' b'>4
+
     }
     \new Staff {
       \clef bass
@@ -54,8 +61,11 @@
       | <b, a>1
       | <e b>2 <dis cis'> <gis dis'> <fis fis'>
       | <e e'>4 <dis dis'> <cis cis'> <b, b>
-        <a, a> <gis, gis> <fis, fis>2
-      | b,4 ~ <b, a> ~ <b, a dis'>2
+        <a, e a> <gis, dis gis> <fis, cis fis>2
+      | << { r2 <a dis'> } \\ { b,4 ~ <b, a>2. } >>
+      | <e gis b>2 <fis cis' e'> <gis b> <b, b>4 ~ <b, a>
+      | <b, gis>4 ~ <c gis> d e <a, fis> ~ <a, gis> <g, a> ~ <g, g>
+      | <fis, fis>4
     }
   >>
 \layout{}
