@@ -34,13 +34,15 @@
         { b2 cis' }
       >> |
       \time 4/4
-      <dis' a' cis''>4 <gis' b'> <cis' gis' b'> <b fis' a'>
+      << { <a' cis''>4 <gis' b'> <gis' b'> <fis' a'> } \\
+         { dis'2 cis'4 b }
+      >> |
       \time 8/4 <<
         { <fis' b'>4 <e' gis'> <gis' ais'> <g' cis''> d'' dis'' dis'' gis'' } \\
         { d'2 dis' <fis' ais'> <gis' bis'> }
       >> |
       <a' cis'' fis''>4 ~ <b' dis'' fis''> <gis' b' dis'' eis''> <a' b' dis'' gis''>
-      <fis' c'' e'' a''> <gis' gis''> <b' dis'' gis''> <a' cis'' e'' fis''> |
+      <fis' c'' e'' a''> <gis' bis' e'' gis''> <b' dis'' gis''> <a' cis'' e'' fis''> |
       \time 4/4
       <a' cis'' dis'' gis''>4 ~ <a' cis'' dis'' fis''> <gis' c'' dis''> <a' b' cis''> |
       \time 8/4
