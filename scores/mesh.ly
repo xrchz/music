@@ -44,9 +44,9 @@
       <a' cis'' fis''>4 ~ <b' dis'' fis''> <gis' b' dis'' eis''> <a' b' dis'' gis''>
       <fis' c'' e'' a''> <gis' bis' e'' gis''> <b' dis'' gis''> <a' cis'' e'' fis''> |
       \time 4/4
-      <a' cis'' dis'' gis''>4 ~ <a' cis'' dis'' fis''> <gis' c'' dis''> <a' b' cis''> |
+      <a' b' dis'' gis''>4 ~ <a' b' dis'' fis''> <gis' c'' dis''> <a' b' cis''> |
       \time 8/4
-      <fis' gis' b'>4 <e' b' e''> <a' b' dis''> <fis' a' cis''> <e' gis' b'> <gis' gis''>
+      <fis' gis' b'>4 <e' b' e''> <a' b' dis''>4. <fis' a' cis''>8 <e' gis' b'>4 <gis' gis''>
       <gis' bis' dis'' gis''> ~ <fis' bis' dis'' fis''> |
       <e' gis' bis' e''>4 ~ <b gis' b'> <c' c''> <d' d''>
       <d' fis' a' d''> ~ <c' fis' a' c''> <b d' fis' b'> <a cis' e' a'> |
