@@ -50,8 +50,8 @@
       <gis' bis' dis'' gis''> ~ <fis' bis' dis'' fis''> |
       <e' gis' bis' e''>4 ~ <b gis' b'> <c' c''> <d' d''>
       <d' fis' a' d''> ~ <c' fis' a' c''> <b d' fis' b'> <a cis' e' a'> |
-      <b dis' fis' b'>4
-
+      <b dis' fis' b'>4 <fis fis'> <g b cis' g'> <a b dis' a'>
+      <a c' e' a'> ~ <g c' e' g'> <fis fis'> <e e'> |
     }
     \new Staff {
       \clef bass
@@ -67,7 +67,8 @@
       | << { r2 <a dis'> } \\ { b,4 ~ <b, a>2. } >>
       | <e gis b>2 <fis cis' e'> <gis b> <b, b>4 ~ <b, a>
       | <b, gis>4 ~ <c gis> d e <a, fis> ~ <a, gis> <g, a> ~ <g, g>
-      | <fis, fis>4
+      | <fis, fis>4 ~ <fis, e> ~ <e, e> ~ <fis, e> <g, fis> ~ <g, e> ~ <a, e> b,
+      |
     }
   >>
 \layout{}
