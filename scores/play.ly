@@ -165,7 +165,7 @@
       <g dis' g'> <ais cis' e' gis'>
       |
 
-      <a c' dis' gis'> <a c' dis' gis'>
+      <a c' dis' gis'> <a cis' e' fis'>
       <a c' f'> <dis' fis' a' cis''>
       |
 
