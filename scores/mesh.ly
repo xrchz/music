@@ -55,7 +55,14 @@
       <fis a dis' fis'>2 <d' fis' b' d''>
       <e' g' bes' e''> <d' f' bes' d''>4. <c' g' a' c''>8 |
       <d' fis' a' d''>2 <a cis' fis' a'> <d' e' g' bes'> <bes des' fes' a'>4. <c' g'>8 |
-      <bes des' f' aes'>
+      <bes des' f' aes'>4 <des' ees' g' bes'> <c' e' g' b'> <c' d' f' a'>
+      <bes des' f' aes'> <des' ees' g' bes'> <d' e' g' b'> <e' g' a' c''> |
+      <ees' ges' bes' des''>4 <ges' aes' c'' ees''> <e' g' b' c''> <d' f' a' bes'>
+      <ees' ges' aes' des''> <f' g' bes' ees''> <f' g' b' c''> <c' d' f' a'> |
+      <bes des' f' aes'>4 <des' ees' g' bes'> <c' e' g' b'> <d' e' f' a'>
+      <bes des' f' aes'> <des' ees' g' bes'> <d' e' g' b'> <e' g' a' c''> |
+      <ees' ges' bes' des''>4 <ges' aes' c'' ees''> <g' b' c'' e''> <aes' bes' des'' f''>
+      <ees' ges' aes' des''> <ges' aes' bes' ees''> <g' b' c'' fes''> <aes' bes' des'' ges''> |
     }
     \new Staff {
       \clef bass
@@ -74,7 +81,12 @@
       | <fis, fis>4 ~ <fis, e> ~ <e, e> ~ <fis, e> <g, fis> ~ <g, e> ~ <a, e> b,
       | c4 d e fis g a bes bes,
       | a4 a, bes, c d e f g
-      | aes
+      | \tuplet 3/2 2 { aes4 bes, bes a c d ees bes, f e a, fis
+      | aes,4 aes bes, g c f bes, bes aes g g, f
+      | aes,4 aes bes, d c b, c bes, f e d a
+      | aes4 ges bes } << { r4 bes } \\ { \tuplet 3/2 { a4 c des } } >>
+        \tuplet 3/2 2 { aes4 ges c' } << { r4 cis' } \\ { \tuplet 3/2 { b4 d dis } } >>
+      |
     }
   >>
 \layout{}
