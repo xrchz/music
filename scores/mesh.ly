@@ -63,6 +63,8 @@
       <bes des' f' aes'> <des' ees' g' bes'> <d' e' g' b'> <e' g' a' c''> |
       <ees' ges' bes' des''>4 <ges' aes' c'' ees''> <g' b' c'' e''> <aes' bes' des'' f''>
       <ees' ges' aes' des''> <ges' aes' bes' ees''> <g' b' c'' fes''> <aes' bes' des'' ges''> |
+      <fis' b' dis'' gis''>4\arpeggio ~ <gis' b' dis'' fis''> <a' c'' eis''> ~ <a' c'' dis''>
+      <fis' b' fis''> ~ <gis' b' eis''> <fis' ais' dis''> ~ <f' ais' d''> |
     }
     \new Staff {
       \clef bass
@@ -84,9 +86,9 @@
       | \tuplet 3/2 2 { aes4 bes, bes a c d ees bes, f e a, fis
       | aes,4 aes bes, g c f bes, bes aes g g, f
       | aes,4 aes bes, d c b, c bes, f e d a
-      | aes4 ges bes } << { r4 bes } \\ { \tuplet 3/2 { a4 c des } } >>
-        \tuplet 3/2 2 { aes4 ges c' } << { r4 cis' } \\ { \tuplet 3/2 { b4 d dis } } >>
-      |
+      | aes4 ges b } << { r4 bes } \\ { \tuplet 3/2 { a4 c des } } >>
+        \tuplet 3/2 2 { aes4 ges c' } << { r4 cis' ~ } \\ { \tuplet 3/2 { b4 d dis ~ } } >>
+      | << { cis'2 } \\ { dis2 } >> <gis fis'> <eis dis'> <ais, gis>
     }
   >>
 \layout{}
