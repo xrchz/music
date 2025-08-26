@@ -12,6 +12,7 @@
 
 \score {
   \new PianoStaff <<
+    \set PianoStaff.connectArpeggios = ##t
     \new Staff {
       \accidentalStyle PianoStaff.dodecaphonic
       \override PianoStaff.TimeSignature.style = #'numbered
@@ -63,9 +64,9 @@
       <bes des' f' aes'> <des' ees' g' bes'> <d' e' g' b'> <e' g' a' c''> |
       <ees' ges' bes' des''>4 <ges' aes' c'' ees''> <g' b' c'' e''> <aes' bes' des'' f''>
       <ees' ges' a' des''> <ges' aes' b' ees''> <g' a' c'' fes''> <aes' bes' des'' ges''> |
-      <fis' b' dis'' gis''>4\arpeggio ~ <gis' b' dis'' fis''> <a' c'' eis''> ~ <a' c'' dis''>
-      <gis' cis'' fis''> ~ <gis' b' eis''> <fis' ais' dis''> ~ <f' ais' d''> |
-      <fis' bis' e''>4 ~ <fis' ais' dis''> <dis' gis' cis''> ~ <e' gis' bis'>
+      <fis' b' dis'' gis''>4\arpeggio ~ <gis' b' dis'' fis''> <a' c'' eis''>4. ~ <a' c'' dis''>8
+      <gis' b' fis''>4 ~ <gis' b' eis''> <fis' ais' dis''> ~ <f' ais' d''> |
+      <fis' a' e''>4 ~ <fis' a' dis''> <dis' gis' cis''> ~ <e' gis' bis'>
       <fis' b' dis''> <eis' a' cis''> <e' g' b'> ~ <e' fis' ais'> |
     }
     \new Staff {
@@ -89,8 +90,8 @@
       | aes,4 aes bes, g c f bes, bes aes g g, f
       | aes,4 aes bes, d c b, c bes, f e d a
       | aes4 ges b } << { r4 bes } \\ { \tuplet 3/2 { a4 c des } } >>
-        \tuplet 3/2 2 { aes4 ges c' } << { r4 cis' ~ } \\ { \tuplet 3/2 { b4 d dis ~ } } >>
-      | << { cis'2 } \\ { dis2 } >> <gis fis'> <eis dis'> <ais, gis>
+        \tuplet 3/2 2 { aes4 ges c' } << { r4 cis' } \\ { \tuplet 3/2 { b4 d dis } } >>
+      | <cis' dis>2\arpeggio <gis fis'> <eis dis'> <ais, gis>
       | <dis cis'>4 ~ <e cis'> <gis, fis>2 <cis b> <fis cis'>4 ~ <fis d'>
     }
   >>
